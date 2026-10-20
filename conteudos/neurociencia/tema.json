@@ -1,0 +1,13 @@
+{
+  "id": "neurociencia",
+  "title": "Neurociência",
+  "summary": "Entenda o cérebro, o comportamento e o que nos torna quem somos.",
+  "intro": "Como o cérebro nos ajuda a perceber, aprender, lembrar e agir?",
+  "art": "brain",
+  "order": 0,
+  "start": [
+    "estrutura-do-neuronio",
+    "lobos-cerebrais",
+    "memoria-de-trabalho"
+  ]
+}

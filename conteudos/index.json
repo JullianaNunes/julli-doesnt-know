@@ -1,0 +1,209 @@
+{
+  "themes": [
+    {
+      "id": "neurociencia",
+      "title": "Neurociência",
+      "summary": "Entenda o cérebro, o comportamento e o que nos torna quem somos.",
+      "intro": "Como o cérebro nos ajuda a perceber, aprender, lembrar e agir?",
+      "art": "brain",
+      "order": 0,
+      "start": [
+        "estrutura-do-neuronio",
+        "lobos-cerebrais",
+        "memoria-de-trabalho"
+      ],
+      "subthemes": [
+        {
+          "id": "anatomia-do-cerebro",
+          "title": "Anatomia do cérebro",
+          "summary": "Conheça as estruturas do cérebro e como elas trabalham juntas.",
+          "art": "brain",
+          "note": "Cada estrutura participa de redes que conectam diferentes regiões.",
+          "order": 0
+        },
+        {
+          "id": "memoria-e-aprendizagem",
+          "title": "Memória e aprendizagem",
+          "summary": "Como aprendemos e por que algumas coisas ficam na memória?",
+          "art": "book",
+          "note": "Lembrar envolve diferentes processos e redes cerebrais.",
+          "order": 1
+        },
+        {
+          "id": "emocoes-e-comportamento",
+          "title": "Emoções e comportamento",
+          "summary": "Explore os processos envolvidos no que sentimos e fazemos.",
+          "art": "brain",
+          "note": "",
+          "order": 2
+        },
+        {
+          "id": "comunicacao-entre-neuronios",
+          "title": "Comunicação entre neurônios",
+          "summary": "Entenda como as células do sistema nervoso trocam sinais.",
+          "art": "neuron",
+          "note": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "filosofia",
+      "title": "Filosofia",
+      "summary": "Grandes ideias para pensar melhor o mundo e a vida.",
+      "intro": "Perguntas, conceitos e perspectivas para olhar a vida com mais atenção.",
+      "art": "book",
+      "order": 1,
+      "subthemes": [
+        {
+          "id": "pensadoras-e-pensadores",
+          "title": "Pensadoras e pensadores",
+          "summary": "Conheça as pessoas e as ideias que marcaram a filosofia.",
+          "art": "portrait",
+          "note": "",
+          "order": 0
+        },
+        {
+          "id": "existencialismo",
+          "title": "Existencialismo",
+          "summary": "Questões sobre liberdade, escolhas e existência.",
+          "art": "book",
+          "note": "",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "historia",
+      "title": "História",
+      "summary": "Contextos, pessoas e acontecimentos que ainda ecoam hoje.",
+      "intro": "Olhar para o passado também é fazer perguntas sobre o presente.",
+      "art": "history",
+      "order": 2,
+      "subthemes": [
+        {
+          "id": "revolucao-francesa",
+          "title": "Revolução Francesa",
+          "summary": "Sociedade, conflitos e transformações na França.",
+          "art": "history",
+          "note": "",
+          "order": 0
+        },
+        {
+          "id": "guerras",
+          "title": "Guerras",
+          "summary": "Contextos históricos e consequências dos conflitos.",
+          "art": "history",
+          "note": "",
+          "order": 1
+        },
+        {
+          "id": "biografias",
+          "title": "Biografias",
+          "summary": "Trajetórias que ajudam a entender outras épocas.",
+          "art": "portrait",
+          "note": "",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "tecnologia",
+      "title": "Tecnologia",
+      "summary": "Inovações, impactos e perguntas sobre o nosso tempo.",
+      "intro": "Ideias para entender a tecnologia que faz parte do nosso dia a dia.",
+      "art": "tech",
+      "order": 3,
+      "subthemes": [
+        {
+          "id": "desenvolvimento-de-software",
+          "title": "Desenvolvimento de software",
+          "summary": "Backend, frontend, APIs e as peças de um sistema.",
+          "art": "tech",
+          "note": "",
+          "order": 0
+        },
+        {
+          "id": "inteligencia-artificial",
+          "title": "Inteligência artificial",
+          "summary": "Redes neurais, modelos e aprendizagem de máquina.",
+          "art": "neuron",
+          "note": "",
+          "order": 1
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "memoria-de-trabalho",
+      "title": "Memória de trabalho",
+      "summary": "Como mantemos informações disponíveis e trabalhamos com elas.",
+      "date": "2026-10-14",
+      "instagram": "",
+      "art": "book",
+      "featured": true,
+      "related": [
+        "lobos-cerebrais"
+      ],
+      "theme": "neurociencia",
+      "subtheme": "memoria-e-aprendizagem",
+      "file": "conteudos/neurociencia/memoria-e-aprendizagem/memoria-de-trabalho.md",
+      "minutes": 1,
+      "search": "Memória de trabalho Como mantemos informações disponíveis e trabalhamos com elas. Neurociência Memória e aprendizagem \n## Informação disponível para usar\n\nA memória de trabalho permite manter informações temporariamente disponíveis e trabalhar com elas.\n\n## Um exemplo do dia a dia\n\nAo fazer uma conta de cabeça, você precisa manter os números em mente enquanto realiza a operação.\n\n## Redes que trabalham juntas\n\nA memória de trabalho envolve o córtex pré-frontal e outras áreas do córtex. Não é uma gaveta isolada no cérebro.\n\n## Para guardar no caderno\n\n> **Memória de curto prazo:** manter informação por pouco tempo.\n>\n> **Memória de trabalho:** manter e usar a informação durante uma tarefa.\n\n## Para aprofundar\n\n- Atenção e memória de trabalho.\n- Memória episódica e semântica.\n- Diferentes sistemas de memória.\n\n## Referências\n\n- [BrainFacts / Society for Neuroscience — Different Facets of Memory](https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory/2012/different-facets-of-memory)\n"
+    },
+    {
+      "id": "lobos-cerebrais",
+      "title": "Lobos cerebrais",
+      "summary": "Conheça os quatro lobos e algumas de suas funções.",
+      "date": "2026-10-14",
+      "instagram": "",
+      "art": "brain",
+      "featured": true,
+      "related": [
+        "estrutura-do-neuronio",
+        "cerebelo-e-tronco-encefalico",
+        "memoria-de-trabalho"
+      ],
+      "theme": "neurociencia",
+      "subtheme": "anatomia-do-cerebro",
+      "file": "conteudos/neurociencia/anatomia-do-cerebro/lobos-cerebrais.md",
+      "minutes": 1,
+      "search": "Lobos cerebrais Conheça os quatro lobos e algumas de suas funções. Neurociência Anatomia do cérebro \n## Um cérebro, muitas conexões\n\nOs lobos são grandes regiões do córtex cerebral. Eles têm especializações, mas participam de redes que trabalham juntas.\n\n## Os quatro lobos\n\n### Frontal\n\nFica na parte da frente. Participa do planejamento, das decisões e do controle de movimentos voluntários.\n\n### Parietal\n\nFica mais acima, atrás do frontal. Integra informações dos sentidos e participa da percepção espacial.\n\n### Temporal\n\nFica nas laterais. Participa da audição, da linguagem e da memória.\n\n### Occipital\n\nFica na parte posterior. Participa do processamento da visão.\n\n## Para guardar no caderno\n\n> **Frontal:** planejar e agir. **Parietal:** integrar sensações e espaço. **Temporal:** audição, linguagem e memória. **Occipital:** visão.\n>\n> Essas associações são um resumo. As funções dependem de redes, não de uma única região.\n\n## Para aprofundar\n\n- Hemisférios cerebrais e corpo caloso.\n- Giros e sulcos do córtex.\n- Funções executivas e córtex pré-frontal.\n\n## Referências\n\n- [BrainFacts / Society for Neuroscience — Identifying Major Brain Landmarks](https://www.brainfacts.org/brain-anatomy-and-function/anatomy/2022/major-brain-landmarks-110822)\n"
+    },
+    {
+      "id": "estrutura-do-neuronio",
+      "title": "Estrutura do neurônio",
+      "summary": "Conheça as partes de um neurônio e como elas participam da comunicação.",
+      "date": "2026-10-14",
+      "instagram": "",
+      "art": "neuron",
+      "featured": true,
+      "related": [
+        "lobos-cerebrais"
+      ],
+      "theme": "neurociencia",
+      "subtheme": "anatomia-do-cerebro",
+      "file": "conteudos/neurociencia/anatomia-do-cerebro/estrutura-do-neuronio.md",
+      "minutes": 1,
+      "search": "Estrutura do neurônio Conheça as partes de um neurônio e como elas participam da comunicação. Neurociência Anatomia do cérebro \n## O que é um neurônio?\n\nÉ uma célula do sistema nervoso especializada em receber e transmitir sinais.\n\n![Esquema simplificado de um neurônio: dendritos, corpo celular, axônio e terminações.](fotos/neuronio.svg)\n\n## As principais partes\n\n- **Dendritos:** prolongamentos que recebem muitos dos sinais de outras células.\n- **Corpo celular:** contém o núcleo e estruturas necessárias à manutenção da célula.\n- **Axônio:** prolongamento pelo qual o sinal pode se propagar.\n- **Terminações axônicas:** participam da comunicação com outras células.\n\n## Como a mensagem passa?\n\nEm muitas sinapses, a atividade elétrica do neurônio leva à liberação de neurotransmissores. Eles podem atuar na célula seguinte.\n\n## Para guardar no caderno\n\n> Os neurônios trabalham em redes. As células da glia também participam do funcionamento do sistema nervoso.\n\n## Para aprofundar\n\n- Sinapses químicas e elétricas.\n- Mielina e condução do sinal.\n- Células da glia.\n\n## Referências\n\n- [NICHD — What are the parts of the nervous system?](https://www.nichd.nih.gov/health/topics/neuro/conditioninfo/parts)\n"
+    },
+    {
+      "id": "cerebelo-e-tronco-encefalico",
+      "title": "Cerebelo e tronco encefálico",
+      "summary": "Estruturas, conexões e funções que ajudam nosso corpo a funcionar.",
+      "date": "2026-10-14",
+      "instagram": "",
+      "art": "brain",
+      "featured": false,
+      "related": [
+        "lobos-cerebrais"
+      ],
+      "theme": "neurociencia",
+      "subtheme": "anatomia-do-cerebro",
+      "file": "conteudos/neurociencia/anatomia-do-cerebro/cerebelo-e-tronco-encefalico.md",
+      "minutes": 1,
+      "search": "Cerebelo e tronco encefálico Estruturas, conexões e funções que ajudam nosso corpo a funcionar. Neurociência Anatomia do cérebro \n## Onde ficam?\n\nO cerebelo fica na parte posterior e inferior do encéfalo. O tronco encefálico conecta regiões superiores à medula espinal.\n\n## Cerebelo\n\nParticipa da coordenação dos movimentos e da aprendizagem de habilidades motoras.\n\n## Tronco encefálico\n\nÉ composto por mesencéfalo, ponte e bulbo. Participa de funções como respiração, controle cardiovascular e passagem de sinais.\n\n## Para guardar no caderno\n\n> O cerebelo ajuda a ajustar movimentos. O tronco encefálico conecta estruturas e participa de funções vitais.\n\n## Para aprofundar\n\n- Aprendizagem motora.\n- Conexões entre encéfalo e medula espinal.\n\n## Referências\n\n- [BrainFacts / Society for Neuroscience — Identifying Major Brain Landmarks](https://www.brainfacts.org/brain-anatomy-and-function/anatomy/2022/major-brain-landmarks-110822)\n"
+    }
+  ]
+}
