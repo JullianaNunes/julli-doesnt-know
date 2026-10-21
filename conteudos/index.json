@@ -130,36 +130,59 @@
           "art": "neuron",
           "note": "",
           "order": 1
+        },
+        {
+          "id": "engenharia-de-dados",
+          "title": "Engenharia de dados",
+          "summary": "Da origem ao consumo: organização, transformação e qualidade dos dados.",
+          "art": "tech",
+          "order": 3
         }
       ]
     }
   ],
   "articles": [
     {
-      "id": "memoria-de-trabalho",
-      "title": "Memória de trabalho",
-      "summary": "Como mantemos informações disponíveis e trabalhamos com elas.",
-      "date": "2026-10-14",
+      "id": "versalhes",
+      "title": "Versalhes",
+      "summary": "De pavilhão de caça a palco do poder: Luís XIV, a vida na corte e a ligação com a Revolução Francesa.",
+      "date": "2026-10-20",
       "instagram": "",
-      "art": "book",
+      "art": "history",
       "featured": true,
-      "related": [
-        "lobos-cerebrais"
-      ],
-      "theme": "neurociencia",
-      "subtheme": "memoria-e-aprendizagem",
-      "file": "conteudos/neurociencia/memoria-e-aprendizagem/memoria-de-trabalho.md",
-      "minutes": 1,
-      "search": "Memória de trabalho Como mantemos informações disponíveis e trabalhamos com elas. Neurociência Memória e aprendizagem \n## Informação disponível para usar\n\nA memória de trabalho permite manter informações temporariamente disponíveis e trabalhar com elas.\n\n## Um exemplo do dia a dia\n\nAo fazer uma conta de cabeça, você precisa manter os números em mente enquanto realiza a operação.\n\n## Redes que trabalham juntas\n\nA memória de trabalho envolve o córtex pré-frontal e outras áreas do córtex. Não é uma gaveta isolada no cérebro.\n\n## Para guardar no caderno\n\n> **Memória de curto prazo:** manter informação por pouco tempo.\n>\n> **Memória de trabalho:** manter e usar a informação durante uma tarefa.\n\n## Para aprofundar\n\n- Atenção e memória de trabalho.\n- Memória episódica e semântica.\n- Diferentes sistemas de memória.\n\n## Referências\n\n- [BrainFacts / Society for Neuroscience — Different Facets of Memory](https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory/2012/different-facets-of-memory)\n"
+      "featuredOrder": 2,
+      "related": [],
+      "theme": "historia",
+      "subtheme": "revolucao-francesa",
+      "file": "conteudos/historia/revolucao-francesa/versalhes.md",
+      "minutes": 3,
+      "search": "Versalhes De pavilhão de caça a palco do poder: Luís XIV, a vida na corte e a ligação com a Revolução Francesa. História Revolução Francesa \n## Muito além de um palácio bonito\n\nVersalhes fica perto de Paris e é conhecido pelos jardins, pelos salões e pela Galeria dos Espelhos. Mas sua importância vai além da arquitetura: o palácio também ajudava a organizar e exibir o poder da monarquia francesa.\n\nSua história começou com um pavilhão de caça de **Luís XIII**. Seu filho, **Luís XIV**, ampliou o conjunto e o transformou em uma residência monumental. Em **1682**, estabeleceu ali a corte e o governo.\n\n## Luís XIV, o Rei Sol\n\nLuís XIV viveu de 1638 a 1715 e ficou conhecido como **Rei Sol**. Seu reinado é associado ao absolutismo: a concentração da autoridade política na figura do monarca.\n\nA imagem do Sol reforçava a ideia de um rei no centro da vida política. Em Versalhes, arquitetura, arte, cerimônias e etiqueta ajudavam a representar essa centralidade.\n\n### Tradução mental\n\nImagine que o centro das decisões e das oportunidades de prestígio esteja organizado em torno de uma pessoa. Estar perto dela passa a ser muito valioso.\n\nEm Versalhes, a proximidade do rei podia significar acesso a favores, cargos e influência. A vida na corte mantinha parte da nobreza envolvida em regras, disputas de prestígio e dependência da atenção real.\n\nA comparação ajuda a entender o mecanismo, mas não significa que Luís XIV controlasse tudo sem conflitos ou limites.\n\n## Maria Antonieta: outra geração da monarquia\n\n**Maria Antonieta foi esposa de Luís XVI**, e não de Luís XIV. Essa distinção evita misturar períodos diferentes da história do palácio.\n\nEla se tornou uma figura muito associada ao luxo da corte e foi alvo de ataques políticos e campanhas de difamação. A imagem de uma rainha distante da população precisa ser lida nesse contexto.\n\nOs gastos da corte alimentavam críticas, mas não explicam sozinhos a crise francesa. Dívidas, guerras, desigualdades fiscais e dificuldades de abastecimento também compunham o cenário.\n\n## Versalhes e a Revolução Francesa\n\nEm 1789, Versalhes esteve no centro das tensões entre a monarquia e a população.\n\nNos dias **5 e 6 de outubro**, uma marcha, com forte participação de mulheres e motivada também pela escassez e pelo preço do pão, chegou ao palácio. A pressão levou Luís XVI e sua família a deixar Versalhes e ir para Paris.\n\nA saída marcou uma ruptura na vida da corte. Não foi, porém, o momento da execução dos monarcas: Luís XVI e Maria Antonieta foram guilhotinados em **1793**, em momentos diferentes.\n\n## Para guardar no caderno\n\n- **Luís XIII:** origem do pavilhão de caça.\n- **Luís XIV:** ampliação monumental; corte e governo em Versalhes a partir de 1682.\n- **Função política:** exibir o poder real e organizar a vida da nobreza em torno do monarca.\n- **Luís XVI e Maria Antonieta:** casal real que deixou o palácio em outubro de 1789.\n- **Revolução Francesa:** processo mais amplo, que não pode ser explicado apenas pelo luxo da corte.\n\n> Versalhes era uma residência e um instrumento de poder. Estudar o palácio é também estudar como a monarquia se representava e se relacionava com a nobreza.\n\n## Conexões para continuar estudando\n\nAbsolutismo, sociedade de ordens, privilégios fiscais e Revolução Francesa ajudam a entender o contexto do palácio.\n\nO filme **Maria Antonieta (2006), de Sofia Coppola**, que comentamos no post, pode despertar curiosidade sobre a personagem. É uma interpretação artística e estilizada, que deve ser acompanhada de fontes históricas.\n\n## Referências\n\n- [Château de Versailles — História do palácio](https://www.chateauversailles.fr/decouvrir/histoire)\n- [Château de Versailles — Luís XIV](https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv)\n- [Château de Versailles — Versalhes no centro da Revolução Francesa](https://en.chateauversailles.fr/discover/history/key-dates/versailles-heart-french-revolution)\n- [Château de Versailles — As jornadas de outubro de 1789](https://www.chateauversailles.fr/ressources-pedagogiques/reviser-avec-versailles/les-journees-octobre-1789-les-derniers-jours-famille)\n"
+    },
+    {
+      "id": "sor-sot-spec",
+      "title": "SoR, SoT e Spec",
+      "summary": "Da origem ao prato: uma analogia de cozinha para entender as camadas de dados e a arquitetura Medallion.",
+      "date": "2026-10-20",
+      "instagram": "",
+      "art": "tech",
+      "featured": true,
+      "featuredOrder": 1,
+      "related": [],
+      "theme": "tecnologia",
+      "subtheme": "engenharia-de-dados",
+      "file": "conteudos/tecnologia/engenharia-de-dados/sor-sot-spec.md",
+      "minutes": 3,
+      "search": "SoR, SoT e Spec Da origem ao prato: uma analogia de cozinha para entender as camadas de dados e a arquitetura Medallion. Tecnologia Engenharia de dados \n## Por que dividir os dados em camadas?\n\nUm dado que chega de um sistema nem sempre está pronto para virar uma análise. Pode haver datas em formatos diferentes, registros duplicados ou informações que precisam ser combinadas.\n\nOrganizar esse caminho em camadas ajuda a preservar a origem, acompanhar as transformações e preparar informações para cada uso.\n\n## Tradução mental: uma cozinha\n\nPense no preparo de uma refeição: primeiro chegam os ingredientes; depois você lava, corta e organiza; por fim, prepara um prato para quem vai comer.\n\nNo estudo que fizemos, usamos essa sequência para explicar SoR, SoT e Spec. Esses nomes e suas responsabilidades dependem da arquitetura de cada organização.\n\n### SoR: os ingredientes que chegam\n\nSoR costuma significar **System of Record**, o sistema de registro de referência para determinada informação. Na analogia, é a origem confiável dos ingredientes.\n\nEm uma plataforma de dados, uma camada chamada SoR pode armazenar cópias próximas ao formato da fonte e preservar seu histórico. Essa é uma convenção da plataforma: ser sistema de registro não significa, por definição, ser uma camada de dados brutos.\n\n### SoT: lavar, cortar e organizar\n\nNa convenção usada no nosso exemplo, SoT representa a etapa de transformação: limpar, validar, padronizar e integrar os dados. É o *mise en place*, a preparação dos ingredientes antes da receita.\n\nPor exemplo: converter datas para o mesmo formato, tratar duplicidades segundo uma regra e relacionar compras ao cadastro do cliente.\n\n**Atenção à sigla:** SoT também é usada como **Source of Truth**, ou fonte da verdade. “System of Transformation” não é uma expansão universal. Vale consultar o glossário da arquitetura em que você trabalha.\n\n### Spec: o prato para uma necessidade específica\n\nNo exemplo, Spec é a camada especializada para consumo. Os dados são organizados para atender uma análise, produto, relatório ou indicador.\n\nÉ como usar os ingredientes preparados para fazer um prato específico. Uma tabela com o total de compras por cliente e por mês pode ser um desses resultados.\n\n## E Bronze, Silver e Gold?\n\nA arquitetura **Medallion** descreve um refinamento progressivo dos dados. A comparação abaixo ajuda a entender a ideia da cozinha, mas não estabelece equivalência obrigatória com SoR, SoT e Spec.\n\n| Camada Medallion | Papel típico | Na cozinha |\n| --- | --- | --- |\n| Bronze | Ingestão e preservação de dados próximos à origem | Ingredientes recebidos |\n| Silver | Limpeza, validação, padronização e integração | Ingredientes preparados |\n| Gold | Modelagem e agregações orientadas ao negócio | Prato pronto para uma finalidade |\n\n## Um exemplo com compras\n\n- **Bronze:** registros de compras como chegaram dos sistemas, com metadados de ingestão.\n- **Silver:** compras validadas, datas padronizadas e identificadores de clientes relacionados.\n- **Gold:** valor total de compras por cliente e por mês, pronto para um relatório.\n\nNem toda tabela Gold é apenas uma soma. Ela pode conter modelos dimensionais e dados enriquecidos para diferentes usos de negócio.\n\n## Para guardar no caderno\n\n> A lógica da cozinha é: receber, preparar e servir. Medallion chama essas etapas de Bronze, Silver e Gold. SoR, SoT e Spec dependem das definições adotadas pela organização; a semelhança na analogia não torna os termos sinônimos.\n\n## Teste sua compreensão\n\nSe chegam dois registros da mesma compra, em qual etapa você investigaria a duplicidade? Explique também por que preservar o registro original ajuda a conferir o tratamento.\n\n## Referências\n\n- [Databricks — Arquitetura Medallion](https://docs.databricks.com/aws/pt/lakehouse/medallion)\n- [Databricks — Data warehousing architecture](https://docs.databricks.com/aws/en/sql/get-started/data-warehousing-concepts)\n\nA referência Medallion fundamenta Bronze, Silver e Gold. SoR/SoT/Spec e a analogia foram retomados do nosso estudo; o significado local dessas siglas deve ser confirmado na documentação de cada organização.\n"
     },
     {
       "id": "lobos-cerebrais",
       "title": "Lobos cerebrais",
-      "summary": "Conheça os quatro lobos e algumas de suas funções.",
-      "date": "2026-10-14",
+      "summary": "Frontal, parietal, temporal e occipital: onde ficam, o que fazem e como trabalham juntos.",
+      "date": "2026-10-20",
       "instagram": "",
       "art": "brain",
       "featured": true,
+      "featuredOrder": 3,
       "related": [
         "estrutura-do-neuronio",
         "cerebelo-e-tronco-encefalico",
@@ -168,8 +191,25 @@
       "theme": "neurociencia",
       "subtheme": "anatomia-do-cerebro",
       "file": "conteudos/neurociencia/anatomia-do-cerebro/lobos-cerebrais.md",
+      "minutes": 4,
+      "search": "Lobos cerebrais Frontal, parietal, temporal e occipital: onde ficam, o que fazem e como trabalham juntos. Neurociência Anatomia do cérebro \n## Um cérebro, muitas conexões\n\nO cérebro possui dois hemisférios, direito e esquerdo, que trocam informações por conexões como o **corpo caloso**. Em cada hemisfério, podemos identificar grandes regiões chamadas **lobos**.\n\nNeste estudo, vamos conhecer os quatro lobos mais visíveis na superfície: frontal, parietal, temporal e occipital. Há outras divisões anatômicas, como a ínsula, que fica mais profundamente.\n\nOs lobos possuem especializações, mas trabalham em redes. Uma atividade do cotidiano costuma envolver várias regiões ao mesmo tempo.\n\n## Giros e sulcos: as dobras do córtex\n\nO **córtex cerebral** é a camada de tecido nervoso que recobre a superfície dos hemisférios. Suas dobras aumentam a área que cabe dentro do crânio.\n\n- **Giros:** as partes elevadas das dobras.\n- **Sulcos:** as depressões entre os giros.\n- **Sulco central:** um marco que separa os lobos frontal e parietal.\n\nPerto dele ficam o **giro pré-central**, no frontal, associado ao controle motor voluntário, e o **giro pós-central**, no parietal, associado ao processamento de sensações do corpo. Por isso, ao falar dessa divisão, o nome é sulco central, não “giro central”.\n\n## Os quatro lobos\n\n### Frontal: planejar e agir\n\nFica na parte da frente, atrás da testa. Participa de movimentos voluntários, produção da fala e funções como planejamento, tomada de decisões e controle de impulsos.\n\nO **córtex pré-frontal** é uma parte do lobo frontal, especialmente importante para as funções executivas. Ele não é o lobo frontal inteiro.\n\n**Exemplo:** organizar as etapas de um estudo e resistir à vontade de olhar o celular envolve redes das quais o pré-frontal participa.\n\n### Parietal: sentir e se localizar\n\nFica mais acima e atrás do frontal. Participa do processamento de sensações como toque e da integração de informações que ajudam a perceber o corpo e o espaço.\n\n**Exemplo:** perceber onde sua mão está e ajustar sua posição para alcançar um objeto depende da integração de informações sensoriais e motoras.\n\n### Temporal: ouvir, compreender e lembrar\n\nFica nas laterais, aproximadamente na região das têmporas. Participa da audição, da compreensão da linguagem e da memória.\n\nEstruturas do temporal medial, como o **hipocampo**, são importantes para formar novas memórias de fatos e acontecimentos. Isso não significa que todas as memórias fiquem guardadas apenas ali.\n\n**Exemplo:** acompanhar uma conversa e depois recordar o que foi discutido mobiliza redes que incluem regiões temporais.\n\n### Occipital: processar a visão\n\nFica na parte de trás. Contém áreas essenciais para processar informações visuais.\n\n**Exemplo:** quando você lê, o occipital participa da análise visual; reconhecer palavras e compreender a frase exige também outras regiões.\n\n## Tradução mental: uma equipe\n\nImagine uma equipe com especialidades: algumas pessoas ajudam a planejar, outras a organizar informações sensoriais, outras a lidar com sons e memórias, e outras a analisar imagens.\n\nEssa equipe precisa conversar para realizar uma tarefa. O mesmo vale para os lobos: as associações ajudam a estudar, mas não são caixas independentes com uma única função.\n\n## O cérebro fica pronto aos 25 anos?\n\nA maturação de circuitos cerebrais, incluindo os pré-frontais, continua ao longo da juventude e pode se estender pelos vinte e poucos anos.\n\n**25 anos não é uma data exata em que o cérebro termina de se desenvolver para todas as pessoas.** Diferentes processos seguem ritmos diferentes, e o cérebro continua mudando com experiências e aprendizagem ao longo da vida.\n\n## Para guardar no caderno\n\n| Lobo | Localização aproximada | Algumas funções |\n| --- | --- | --- |\n| Frontal | Frente, atrás da testa | Planejamento, controle de impulsos e movimentos |\n| Parietal | Parte superior, atrás do frontal | Sensações corporais e percepção espacial |\n| Temporal | Laterais, perto das têmporas | Audição, linguagem e memória |\n| Occipital | Parte posterior | Processamento visual |\n\n> Os lobos existem nos dois hemisférios e trabalham em redes. Localização ajuda a estudar a anatomia; uma função complexa costuma depender de várias regiões.\n\n## Teste sua compreensão\n\nAo assistir a uma aula e fazer anotações, por que não usamos apenas o lobo occipital? Tente explicar com suas palavras como visão, audição, memória e planejamento entram nessa tarefa.\n\n## Referências\n\n- [BrainFacts / Society for Neuroscience — Identifying Major Brain Landmarks](https://www.brainfacts.org/brain-anatomy-and-function/anatomy/2022/major-brain-landmarks-110822)\n- [BrainFacts / Society for Neuroscience — Mapping the Brain](https://www.brainfacts.org/Brain-Anatomy-and-Function/Anatomy/2012/Mapping-the-Brain)\n- [National Institute of Mental Health — The Teen Brain: 7 Things to Know](https://www.nimh.nih.gov/health/publications/the-teen-brain-7-things-to-know)\n"
+    },
+    {
+      "id": "memoria-de-trabalho",
+      "title": "Memória de trabalho",
+      "summary": "Como mantemos informações disponíveis e trabalhamos com elas.",
+      "date": "2026-10-14",
+      "instagram": "",
+      "art": "book",
+      "featured": false,
+      "related": [
+        "lobos-cerebrais"
+      ],
+      "theme": "neurociencia",
+      "subtheme": "memoria-e-aprendizagem",
+      "file": "conteudos/neurociencia/memoria-e-aprendizagem/memoria-de-trabalho.md",
       "minutes": 1,
-      "search": "Lobos cerebrais Conheça os quatro lobos e algumas de suas funções. Neurociência Anatomia do cérebro \n## Um cérebro, muitas conexões\n\nOs lobos são grandes regiões do córtex cerebral. Eles têm especializações, mas participam de redes que trabalham juntas.\n\n## Os quatro lobos\n\n### Frontal\n\nFica na parte da frente. Participa do planejamento, das decisões e do controle de movimentos voluntários.\n\n### Parietal\n\nFica mais acima, atrás do frontal. Integra informações dos sentidos e participa da percepção espacial.\n\n### Temporal\n\nFica nas laterais. Participa da audição, da linguagem e da memória.\n\n### Occipital\n\nFica na parte posterior. Participa do processamento da visão.\n\n## Para guardar no caderno\n\n> **Frontal:** planejar e agir. **Parietal:** integrar sensações e espaço. **Temporal:** audição, linguagem e memória. **Occipital:** visão.\n>\n> Essas associações são um resumo. As funções dependem de redes, não de uma única região.\n\n## Para aprofundar\n\n- Hemisférios cerebrais e corpo caloso.\n- Giros e sulcos do córtex.\n- Funções executivas e córtex pré-frontal.\n\n## Referências\n\n- [BrainFacts / Society for Neuroscience — Identifying Major Brain Landmarks](https://www.brainfacts.org/brain-anatomy-and-function/anatomy/2022/major-brain-landmarks-110822)\n"
+      "search": "Memória de trabalho Como mantemos informações disponíveis e trabalhamos com elas. Neurociência Memória e aprendizagem \n## Informação disponível para usar\n\nA memória de trabalho permite manter informações temporariamente disponíveis e trabalhar com elas.\n\n## Um exemplo do dia a dia\n\nAo fazer uma conta de cabeça, você precisa manter os números em mente enquanto realiza a operação.\n\n## Redes que trabalham juntas\n\nA memória de trabalho envolve o córtex pré-frontal e outras áreas do córtex. Não é uma gaveta isolada no cérebro.\n\n## Para guardar no caderno\n\n> **Memória de curto prazo:** manter informação por pouco tempo.\n>\n> **Memória de trabalho:** manter e usar a informação durante uma tarefa.\n\n## Para aprofundar\n\n- Atenção e memória de trabalho.\n- Memória episódica e semântica.\n- Diferentes sistemas de memória.\n\n## Referências\n\n- [BrainFacts / Society for Neuroscience — Different Facets of Memory](https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory/2012/different-facets-of-memory)\n\n"
     },
     {
       "id": "estrutura-do-neuronio",
@@ -178,7 +218,7 @@
       "date": "2026-10-14",
       "instagram": "",
       "art": "neuron",
-      "featured": true,
+      "featured": false,
       "related": [
         "lobos-cerebrais"
       ],
@@ -186,7 +226,7 @@
       "subtheme": "anatomia-do-cerebro",
       "file": "conteudos/neurociencia/anatomia-do-cerebro/estrutura-do-neuronio.md",
       "minutes": 1,
-      "search": "Estrutura do neurônio Conheça as partes de um neurônio e como elas participam da comunicação. Neurociência Anatomia do cérebro \n## O que é um neurônio?\n\nÉ uma célula do sistema nervoso especializada em receber e transmitir sinais.\n\n![Esquema simplificado de um neurônio: dendritos, corpo celular, axônio e terminações.](fotos/neuronio.svg)\n\n## As principais partes\n\n- **Dendritos:** prolongamentos que recebem muitos dos sinais de outras células.\n- **Corpo celular:** contém o núcleo e estruturas necessárias à manutenção da célula.\n- **Axônio:** prolongamento pelo qual o sinal pode se propagar.\n- **Terminações axônicas:** participam da comunicação com outras células.\n\n## Como a mensagem passa?\n\nEm muitas sinapses, a atividade elétrica do neurônio leva à liberação de neurotransmissores. Eles podem atuar na célula seguinte.\n\n## Para guardar no caderno\n\n> Os neurônios trabalham em redes. As células da glia também participam do funcionamento do sistema nervoso.\n\n## Para aprofundar\n\n- Sinapses químicas e elétricas.\n- Mielina e condução do sinal.\n- Células da glia.\n\n## Referências\n\n- [NICHD — What are the parts of the nervous system?](https://www.nichd.nih.gov/health/topics/neuro/conditioninfo/parts)\n"
+      "search": "Estrutura do neurônio Conheça as partes de um neurônio e como elas participam da comunicação. Neurociência Anatomia do cérebro \n## O que é um neurônio?\n\nÉ uma célula do sistema nervoso especializada em receber e transmitir sinais.\n\n![Esquema simplificado de um neurônio: dendritos, corpo celular, axônio e terminações.](fotos/neuronio.svg)\n\n## As principais partes\n\n- **Dendritos:** prolongamentos que recebem muitos dos sinais de outras células.\n- **Corpo celular:** contém o núcleo e estruturas necessárias à manutenção da célula.\n- **Axônio:** prolongamento pelo qual o sinal pode se propagar.\n- **Terminações axônicas:** participam da comunicação com outras células.\n\n## Como a mensagem passa?\n\nEm muitas sinapses, a atividade elétrica do neurônio leva à liberação de neurotransmissores. Eles podem atuar na célula seguinte.\n\n## Para guardar no caderno\n\n> Os neurônios trabalham em redes. As células da glia também participam do funcionamento do sistema nervoso.\n\n## Para aprofundar\n\n- Sinapses químicas e elétricas.\n- Mielina e condução do sinal.\n- Células da glia.\n\n## Referências\n\n- [NICHD — What are the parts of the nervous system?](https://www.nichd.nih.gov/health/topics/neuro/conditioninfo/parts)\n\n"
     },
     {
       "id": "cerebelo-e-tronco-encefalico",
@@ -203,7 +243,7 @@
       "subtheme": "anatomia-do-cerebro",
       "file": "conteudos/neurociencia/anatomia-do-cerebro/cerebelo-e-tronco-encefalico.md",
       "minutes": 1,
-      "search": "Cerebelo e tronco encefálico Estruturas, conexões e funções que ajudam nosso corpo a funcionar. Neurociência Anatomia do cérebro \n## Onde ficam?\n\nO cerebelo fica na parte posterior e inferior do encéfalo. O tronco encefálico conecta regiões superiores à medula espinal.\n\n## Cerebelo\n\nParticipa da coordenação dos movimentos e da aprendizagem de habilidades motoras.\n\n## Tronco encefálico\n\nÉ composto por mesencéfalo, ponte e bulbo. Participa de funções como respiração, controle cardiovascular e passagem de sinais.\n\n## Para guardar no caderno\n\n> O cerebelo ajuda a ajustar movimentos. O tronco encefálico conecta estruturas e participa de funções vitais.\n\n## Para aprofundar\n\n- Aprendizagem motora.\n- Conexões entre encéfalo e medula espinal.\n\n## Referências\n\n- [BrainFacts / Society for Neuroscience — Identifying Major Brain Landmarks](https://www.brainfacts.org/brain-anatomy-and-function/anatomy/2022/major-brain-landmarks-110822)\n"
+      "search": "Cerebelo e tronco encefálico Estruturas, conexões e funções que ajudam nosso corpo a funcionar. Neurociência Anatomia do cérebro \n## Onde ficam?\n\nO cerebelo fica na parte posterior e inferior do encéfalo. O tronco encefálico conecta regiões superiores à medula espinal.\n\n## Cerebelo\n\nParticipa da coordenação dos movimentos e da aprendizagem de habilidades motoras.\n\n## Tronco encefálico\n\nÉ composto por mesencéfalo, ponte e bulbo. Participa de funções como respiração, controle cardiovascular e passagem de sinais.\n\n## Para guardar no caderno\n\n> O cerebelo ajuda a ajustar movimentos. O tronco encefálico conecta estruturas e participa de funções vitais.\n\n## Para aprofundar\n\n- Aprendizagem motora.\n- Conexões entre encéfalo e medula espinal.\n\n## Referências\n\n- [BrainFacts / Society for Neuroscience — Identifying Major Brain Landmarks](https://www.brainfacts.org/brain-anatomy-and-function/anatomy/2022/major-brain-landmarks-110822)\n\n"
     }
   ]
 }

@@ -6,7 +6,7 @@
   "date": "2026-10-14",
   "instagram": "",
   "art": "book",
-  "featured": true,
+  "featured": false,
   "related": [
     "lobos-cerebrais"
   ]
@@ -40,3 +40,4 @@ A memória de trabalho envolve o córtex pré-frontal e outras áreas do córtex
 ## Referências
 
 - [BrainFacts / Society for Neuroscience — Different Facets of Memory](https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory/2012/different-facets-of-memory)
+

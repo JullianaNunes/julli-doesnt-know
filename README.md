@@ -12,7 +12,7 @@ Biblioteca de estudos em HTML, CSS e JavaScript, pronta para GitHub Pages. Bord�
 - Layout responsivo, navegação por teclado e opção de movimento reduzido.
 - Índice gerado automaticamente no workflow do GitHub, sem backend nem npm.
 
-Inclui quatro **conteúdos iniciais de exemplo**, baseados nos assuntos estudados: lobos cerebrais, cerebelo/tronco, neurônio e memória de trabalho. Os textos podem ser substituídos pelos roteiros finais. Filosofia, História e Tecnologia estão organizados, mas ainda sem artigos. Os URLs específicos dos posts não foram fornecidos: o botão do Instagram aparece quando `instagram` estiver preenchido com um link real de post/reel.
+O carrossel “Do Instagram para o caderno” destaca **SoR, SoT e Spec**, **Versalhes** e **Lobos cerebrais**, nessa ordem. Os artigos reúnem explicações, resumo para o caderno e referências. Os estudos de neurônio, cerebelo/tronco e memória de trabalho continuam disponíveis nos temas e na busca. Os URLs específicos dos posts ficam vazios até você preencher o campo `instagram` no Markdown; o botão aparece automaticamente com um link real de post/reel.
 
 ## Abrir no computador
 
@@ -69,6 +69,7 @@ Se estiver usando o servidor local, execute `python3 scripts/build_index.py` dep
 | `image` | Capa relativa ao Markdown, por exemplo `fotos/capa.png`; vazio usa o desenho padrão |
 | `art` | Desenho padrão: `brain`, `book`, `history`, `tech`, `neuron` ou `portrait` |
 | `featured` | `true` para aparecer no carrossel inicial; `false` para não destacar |
+| `featuredOrder` | Ordem dos destaques (1, 2, 3…); independente da data do artigo |
 | `related` | Lista de IDs existentes, por exemplo `["lobos-cerebrais"]` |
 
 Para usar uma imagem da pasta do tema: `![Legenda](../fotos/imagem.png)`. Para um link interno: `[Ler outro estudo](#/conteudo/lobos-cerebrais)`. Você também pode configurar `related` para gerar os cards de conexão. Imagens do tema são armazenadas na pasta compartilhada, mas os doodles padrão das páginas permanecem em `art.js`.
@@ -110,3 +111,4 @@ As fontes web são opcionais; se o Google Fonts estiver indisponível, o site us
 ## Próximas personalizações
 
 Substitua os exemplos pelos roteiros completos e preencha os links dos posts. As cores estão nas variáveis no início de `assets/styles.css`. Para alterar sua apresentação, edite a função `about` em `assets/app.js` e o texto de abertura da função `home`.
+
