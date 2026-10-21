@@ -76,4 +76,4 @@ O filme **Maria Antonieta (2006), de Sofia Coppola**, que comentamos no post, po
 ## Conexões no Obsidian
 
 - [[História]] — mapa da área deste estudo.
-- [[Do Instagram para o caderno]] — os três estudos reunidos para continuar a leitura.
+- [[Conteúdos do Instagram]] — os três estudos reunidos para continuar a leitura.
