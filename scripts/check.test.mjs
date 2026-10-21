@@ -41,13 +41,27 @@ test('Application smoke: four page levels, search, not-found and subdirectory pa
  globalThis.matchMedia=()=>({matches:true});
  globalThis.fetch=async url=>{try{return new Response(await readFile(fileURLToPath(url)));}catch{return new Response('missing',{status:404});}};
  const {route}=await import('../assets/app.js');const main=elements.get('#main');
- assert.ok(main.innerHTML.includes('Uma coisa me'));assert.ok(main.innerHTML.includes('Do Instagram para o caderno'));
+ assert.ok(main.innerHTML.includes('Que a curiosidade'));assert.ok(main.innerHTML.includes('Do Instagram para o caderno'));
+ const catalog=JSON.parse(await readFile(new URL('../conteudos/index.json',import.meta.url)));
+ const featured=catalog.articles.filter(a=>a.featured).sort((a,b)=>a.featuredOrder-b.featuredOrder);
+ assert.deepEqual(featured.map(a=>a.id),['sor-sot-spec','versalhes','lobos-cerebrais']);
+ assert.ok(featured.every(a=>a.instagram===''));
+ const carousel=main.innerHTML.split('aria-label="Conteúdos em destaque">')[1].split('</section>')[0];
+ assert.ok(carousel.indexOf('SoR, SoT e Spec')<carousel.indexOf('Versalhes'));
+ assert.ok(carousel.indexOf('Versalhes')<carousel.indexOf('Lobos cerebrais'));
+ for(const id of ['sor-sot-spec','versalhes']){
+   location.hash='#/conteudo/'+id;await route();
+   assert.ok(main.innerHTML.includes('Para guardar no caderno'));
+   assert.ok(main.innerHTML.includes('Referências'));
+   assert.ok(!main.innerHTML.includes('não foi encontrada'));
+ }
  location.hash='#/tema/neurociencia';await route();assert.ok(main.innerHTML.includes('Explore os subtemas'));
  location.hash='#/subtema/neurociencia/anatomia-do-cerebro';await route();assert.ok(main.innerHTML.includes('Páginas deste subtema'));
  location.hash='#/conteudo/lobos-cerebrais';await route();assert.ok(main.innerHTML.includes('Os quatro lobos'));assert.ok(main.innerHTML.includes('Nesta página'));assert.ok(!main.innerHTML.includes('Ver o vídeo no Instagram'));
  location.hash='#/busca/memoria';await route();assert.ok(main.innerHTML.includes('Memória de trabalho'));assert.ok(!main.innerHTML.includes('Ainda não encontramos'));
  location.hash='#/busca/zzzznaoexiste';await route();assert.ok(main.innerHTML.includes('Ainda não encontramos'));
- location.hash='#/tema/historia';await route();assert.ok(main.innerHTML.includes('Novas páginas vêm por aí'));
+ location.hash='#/tema/historia';await route();assert.ok(main.innerHTML.includes('Versalhes'));
  location.hash='#/conteudo/ausente';await route();assert.ok(main.innerHTML.includes('não foi encontrada'));
  location.hash='#/sobre';await route();assert.ok(main.innerHTML.includes('Oi, eu sou a Julli'));
 });
+

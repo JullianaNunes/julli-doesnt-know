@@ -6,7 +6,7 @@
   "date": "2026-10-14",
   "instagram": "",
   "art": "neuron",
-  "featured": true,
+  "featured": false,
   "related": [
     "lobos-cerebrais"
   ]
@@ -43,3 +43,4 @@ Em muitas sinapses, a atividade elétrica do neurônio leva à liberação de ne
 ## Referências
 
 - [NICHD — What are the parts of the nervous system?](https://www.nichd.nih.gov/health/topics/neuro/conditioninfo/parts)
+
