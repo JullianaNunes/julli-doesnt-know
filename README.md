@@ -12,7 +12,7 @@ Biblioteca de estudos em HTML, CSS e JavaScript, pronta para GitHub Pages. Bord�
 - Layout responsivo, navegação por teclado e opção de movimento reduzido.
 - Índice gerado automaticamente no workflow do GitHub, sem backend nem npm.
 
-O carrossel “Do Instagram para o caderno” destaca **SoR, SoT e Spec**, **Versalhes** e **Lobos cerebrais**, nessa ordem. Os artigos reúnem explicações, resumo para o caderno e referências. Os estudos de neurônio, cerebelo/tronco e memória de trabalho continuam disponíveis nos temas e na busca. Os URLs específicos dos posts ficam vazios até você preencher o campo `instagram` no Markdown; o botão aparece automaticamente com um link real de post/reel.
+O carrossel “Conteúdos do Instagram” destaca **SoR, SoT e Spec**, **Versalhes** e **Lobos cerebrais**, nessa ordem. Os artigos reúnem explicações, resumo para o caderno e referências. Os estudos de neurônio, cerebelo/tronco e memória de trabalho continuam disponíveis nos temas e na busca. Os URLs específicos dos posts ficam vazios até você preencher o campo `instagram` no Markdown; o botão aparece automaticamente com um link real de post/reel.
 
 ## Abrir no computador
 

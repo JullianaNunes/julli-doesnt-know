@@ -4,7 +4,7 @@
   "title": "SoR, SoT e Spec",
   "summary": "Da origem ao prato: uma analogia de cozinha para entender as camadas de dados e a arquitetura Medallion.",
   "date": "2026-10-20",
-  "instagram": "",
+  "instagram": "https://www.instagram.com/reel/Dept9rNxjDT/?psln=NHJuamwweDJ3bnIy",
   "art": "tech",
   "featured": true,
   "featuredOrder": 1,
