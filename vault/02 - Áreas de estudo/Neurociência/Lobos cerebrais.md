@@ -98,4 +98,4 @@ Ao assistir a uma aula e fazer anotações, por que não usamos apenas o lobo oc
 ## Conexões no Obsidian
 
 - [[Neurociência]] — mapa da área deste estudo.
-- [[Do Instagram para o caderno]] — os três estudos reunidos para continuar a leitura.
+- [[Conteúdos do Instagram]] — os três estudos reunidos para continuar a leitura.

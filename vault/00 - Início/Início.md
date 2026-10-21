@@ -26,4 +26,4 @@ Bem-vinda ao seu espaço de estudos.
 
 ## Estudos do Instagram
 
-- [[Do Instagram para o caderno]] — SoR, SoT e Spec; Versalhes; lobos cerebrais.
+- [[Conteúdos do Instagram]] — SoR, SoT e Spec; Versalhes; lobos cerebrais.

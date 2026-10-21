@@ -5,7 +5,7 @@ tags:
   - instagram
 publicar: false
 ---
-# Do Instagram para o caderno
+# Conteúdos do Instagram
 
 Estudos publicados ou preparados para o perfil Julli doesn’t know, reunidos para aprofundar a leitura no Obsidian.
 

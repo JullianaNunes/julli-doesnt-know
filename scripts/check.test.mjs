@@ -41,7 +41,7 @@ test('Application smoke: four page levels, search, not-found and subdirectory pa
  globalThis.matchMedia=()=>({matches:true});
  globalThis.fetch=async url=>{try{return new Response(await readFile(fileURLToPath(url)));}catch{return new Response('missing',{status:404});}};
  const {route}=await import('../assets/app.js');const main=elements.get('#main');
- assert.ok(main.innerHTML.includes('Que a curiosidade'));assert.ok(main.innerHTML.includes('Do Instagram para o caderno'));
+ assert.ok(main.innerHTML.includes('Que a curiosidade'));assert.ok(main.innerHTML.includes('Conteúdos do Instagram'));
  const catalog=JSON.parse(await readFile(new URL('../conteudos/index.json',import.meta.url)));
  const featured=catalog.articles.filter(a=>a.featured).sort((a,b)=>a.featuredOrder-b.featuredOrder);
  assert.deepEqual(featured.map(a=>a.id),['sor-sot-spec','versalhes','lobos-cerebrais']);

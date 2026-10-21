@@ -82,4 +82,4 @@ A referência Medallion fundamenta Bronze, Silver e Gold. SoR/SoT/Spec e a analo
 ## Conexões no Obsidian
 
 - [[Tecnologia]] — mapa da área deste estudo.
-- [[Do Instagram para o caderno]] — os três estudos reunidos para continuar a leitura.
+- [[Conteúdos do Instagram]] — os três estudos reunidos para continuar a leitura.

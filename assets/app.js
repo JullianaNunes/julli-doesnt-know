@@ -1,29 +1,269 @@
-import {escapeHTML as e, renderMarkdown, safeURL} from './markdown.js';
-import {art} from './art.js';
-const main=document.querySelector('#main'), siteBase=new URL('../',import.meta.url);let data,renderId=0;
-const href=(...parts)=>'#/'+parts.map(encodeURIComponent).join('/');
-const articleHref=a=>href('conteudo',a.id);
-const articlesFor=(theme,sub)=>data.articles.filter(a=>a.theme===theme&&(!sub||a.subtheme===sub));
-const topic=a=>data.themes.find(t=>t.id===a.theme);
-const subtype=a=>topic(a)?.subthemes.find(s=>s.id===a.subtheme);
-const fmt=d=>new Intl.DateTimeFormat('pt-BR',{day:'2-digit',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(d+'T12:00:00Z'));
-function external(url,label,cls='text-link'){const valid=safeURL(url,siteBase);return valid?`<a class="${cls}" href="${e(valid)}" target="_blank" rel="noopener noreferrer">${e(label)} ↗</a>`:'';}
-function illustration(a){return a.image?`<img src="${e(new URL(a.image,siteBase))}" alt="${e(a.title)}" loading="lazy">`:art(a.art||topic(a)?.art);}
-function card(a){return `<article class="card"><a class="card-art" href="${articleHref(a)}" aria-label="Ler ${e(a.title)}">${illustration(a)}</a><span class="eyebrow">${e(topic(a)?.title)}</span><h3><a href="${articleHref(a)}">${e(a.title)}</a></h3><p>${e(a.summary)}</p><div class="card-links"><a class="button" href="${articleHref(a)}">Ler conteúdo <span aria-hidden="true">→</span></a>${external(a.instagram,'Ver no Instagram')}</div></article>`;}
-function themeCard(t){return `<a class="card theme-card" href="${href('tema',t.id)}">${art(t.art)}<h3>${e(t.title)}</h3><p>${e(t.summary)}</p><span class="arrow" aria-hidden="true">→</span></a>`;}
-function row(a){return `<article class="article-row"><div>${art(a.art||topic(a)?.art)}</div><div><span class="eyebrow">${e(subtype(a)?.title)} · ${a.minutes} min de leitura</span><h3><a href="${articleHref(a)}">${e(a.title)}</a></h3><p>${e(a.summary)}</p></div><a href="${articleHref(a)}" class="text-link">Ler conteúdo →</a></article>`;}
-function crumbs(parts){return `<nav class="breadcrumb" aria-label="Caminho da página"><a href="#/">Início</a>${parts.map(([label,url])=>`<span aria-hidden="true">›</span>${url?`<a href="${url}">${e(label)}</a>`:`<span aria-current="page">${e(label)}</span>`}`).join('')}</nav>`;}
-function empty(title='Novas páginas vêm por aí.',text='Este espaço já está preparado para receber os próximos estudos.'){return `<div class="empty"><h2>${e(title)}</h2><p>${e(text)}</p><a class="text-link" href="#/temas">Explorar outros temas →</a></div>`;}
-function home(){return `<section class="hero"><div><span class="eyebrow">Um caderno aberto à curiosidade</span><h1>Que a curiosidade<br>sempre me alimente.</h1><p class="intro">Um espaço para reunir o que estudo e compartilho. Explicações, imagens e referências para continuar explorando.</p><a class="button" href="#/temas">Explorar os temas <span aria-hidden="true">→</span></a></div><div class="hero-art"><img src="assets/hero.png" alt="Livro aberto com um cérebro e estrelas desenhados à mão" fetchpriority="high"><!--<p class="handwritten">mais curiosidade, por favor ✧</p>--></div></section><section class="section"><div class="section-heading"><h2>Do Instagram para o caderno</h2><div class="arrows"><button class="round" data-slide="-1" aria-label="Conteúdos anteriores">←</button><button class="round" data-slide="1" aria-label="Próximos conteúdos">→</button></div></div><div class="carousel" aria-label="Conteúdos em destaque">${data.articles.filter(a=>a.featured).sort((a,b)=>(a.featuredOrder??Infinity)-(b.featuredOrder??Infinity)).map(card).join('')||data.articles.slice(0,3).map(card).join('')}</div></section><section class="section"><div class="section-heading"><h2>Por onde você quer começar?</h2><span class="eyebrow">Quatro caminhos, muitas possibilidades.</span></div><div class="grid themes-grid">${data.themes.map(themeCard).join('')}</div></section><section class="section"><div class="section-heading"><h2>Últimas páginas do caderno</h2><a class="text-link" href="#/busca">Ver todas as páginas →</a></div><div class="grid latest-grid">${data.articles.slice(0,3).map(a=>`<article class="latest-item"><span class="eyebrow">${e(topic(a)?.title)} · ${e(fmt(a.date))}</span><h3><a href="${articleHref(a)}">${e(a.title)}</a></h3><p>${e(a.summary)}</p><a class="text-link" href="${articleHref(a)}">Ler mais →</a></article>`).join('')}</div></section>`;}
-function themes(){return `${crumbs([['Temas']])}<section class="page-hero"><div><span class="eyebrow">Por onde começar?</span><h1>Temas do caderno</h1><p>Escolha uma área e siga sua curiosidade.</p></div>${art('book')}</section><section class="section"><div class="grid themes-grid">${data.themes.map(themeCard).join('')}</div></section>`;}
-function themePage(t){const items=articlesFor(t.id);return `${crumbs([[t.title]])}<section class="page-hero"><div><span class="eyebrow">Tema de estudo</span><h1>${e(t.title)}</h1><p>${e(t.intro)}</p></div>${art(t.art)}</section><section class="section"><div class="section-heading"><h2>Explore os subtemas</h2><span class="eyebrow">Diferentes ângulos para entender o tema</span></div><div class="grid two-grid">${t.subthemes.map(s=>`<a class="card sub-card" href="${href('subtema',t.id,s.id)}"><div><h3>${e(s.title)}</h3><p>${e(s.summary)}</p><span class="count">${articlesFor(t.id,s.id).length} conteúdos · explorar →</span></div>${art(s.art||t.art)}</a>`).join('')}</div></section>${t.start?.length?`<section class="section"><div class="section-heading"><h2>Comece por aqui</h2><span class="eyebrow">Um percurso para começar seus estudos</span></div><div class="grid path-grid">${t.start.map(id=>data.articles.find(a=>a.id===id)).filter(Boolean).map((a,i)=>`<a class="path-item" href="${articleHref(a)}"><span class="number">${i+1}</span><h3>${e(a.title)}</h3><p>${e(a.summary)}</p></a>`).join('')}</div></section>`:''}<section class="section"><h2>Conteúdos deste tema</h2>${items.length?`<div class="pills"><button class="pill" data-filter="" aria-pressed="true">Todos</button>${t.subthemes.map(s=>`<button class="pill" data-filter="${e(s.id)}" aria-pressed="false">${e(s.title)}</button>`).join('')}</div><div id="article-list">${items.map(row).join('')}</div>`:empty()}</section>`;}
-function subPage(t,s){const items=articlesFor(t.id,s.id);return `${crumbs([[t.title,href('tema',t.id)],[s.title]])}<section class="page-hero"><div><span class="eyebrow">Subtema</span><h1>${e(s.title)}</h1><p>${e(s.summary)}</p></div>${art(s.art||t.art)}</section>${s.note?`<aside class="note"><h3>Antes de começar</h3><p>${e(s.note)}</p></aside>`:''}<section class="section"><div class="section-heading"><h2>Páginas deste subtema</h2><span class="eyebrow">Explicações para explorar no seu ritmo</span></div>${items.length?`<div class="grid two-grid">${items.map(card).join('')}</div>`:empty()}</section>`;}
-async function articlePage(a,id){const t=topic(a),s=subtype(a),response=await fetch(new URL(a.file,siteBase));if(!response.ok)throw new Error('Não foi possível abrir este arquivo Markdown.');const markdown=await response.text();if(id!==renderId)return null;const rendered=renderMarkdown(markdown,new URL(a.file,siteBase).href), related=(a.related||[]).map(k=>data.articles.find(x=>x.id===k)).filter(Boolean);return `${crumbs([[t.title,href('tema',t.id)],[s.title,href('subtema',t.id,s.id)],[a.title]])}<div class="article-layout"><details class="toc" ${matchMedia('(min-width:601px)').matches?'open':''}><summary>Nesta página</summary>${rendered.headings.filter(h=>h.level===2).map(h=>`<a href="#/${['conteudo',encodeURIComponent(a.id)].join('/')}" data-section="${e(h.id)}">${e(h.text)}</a>`).join('')}${related.length?'<a href="#" data-section="conexoes">Que a curiosidade sempre me alimente</a>':''}</details><div><header class="article-top"><span class="eyebrow">${e(s.title)} · ${a.minutes} min de leitura</span><h1>${e(a.title)}</h1><p>${e(a.summary)}</p>${external(a.instagram,'Ver o vídeo no Instagram','button secondary')}<p class="share-note">Atualizado em ${e(fmt(a.date))}</p></header><article class="prose">${rendered.html}</article>${related.length?`<section class="related" id="conexoes"><h2>Que a curiosidade sempre me alimente</h2><div class="grid two-grid">${related.map(x=>`<a class="card theme-card" href="${articleHref(x)}"><h3>${e(x.title)}</h3><p>${e(x.summary)}</p><span class="arrow">→</span></a>`).join('')}</div></section>`:''}<a class="next-link" href="${href('subtema',t.id,s.id)}">← Voltar para ${e(s.title)}</a></div></div>`;}
-function searchPage(query){const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(), terms=norm(query).split(/\s+/).filter(Boolean),items=data.articles.filter(a=>terms.every(term=>norm(a.search).includes(term)));return `${crumbs([['Busca']])}<section class="page-hero"><div><span class="eyebrow">Siga sua curiosidade</span><h1>${query?'Busca no caderno':'Todas as páginas'}</h1><p>${query?`Resultados para “${e(query)}”`:'Os estudos reunidos até aqui.'}</p></div>${art('book')}</section><section class="section"><span class="eyebrow">${items.length} ${items.length===1?'conteúdo encontrado':'conteúdos encontrados'}</span>${items.length?items.map(row).join(''):empty('Ainda não encontramos esse assunto.','Tente outra palavra ou explore os temas do caderno.')}</section>`;}
-function about(){return `${crumbs([['Sobre']])}<section class="about"><span class="eyebrow">Julli doesn’t know</span><h1>Um estudo leva a outro.</h1><p>Oi, eu sou a Julli! Este é o meu caderno aberto de estudos: um lugar para reunir os assuntos que despertam minha curiosidade e os conteúdos que compartilho no Instagram.</p><p>Aqui, neurociência, filosofia, história e tecnologia se encontram em explicações simples, imagens e referências. Você pode começar por um tema, seguir um percurso de leitura ou buscar uma pergunta.</p><p>O caderno cresce conforme eu estudo. As páginas são sínteses para aprender e continuar explorando; as referências mostram de onde vêm as informações.</p>${external('https://www.instagram.com/jullidoesntknow/','Acompanhar no Instagram','button')}</section>`;}
-export async function route(){const id=++renderId;let parts;try{parts=(location.hash.slice(2)||'').split('/').map(decodeURIComponent);}catch{parts=['404'];}const [type,key,sub]=parts;main.innerHTML='<p class="loading" role="status">Abrindo o caderno…</p>';try{let html,title='Caderno de estudos';if(!type)html=home();else if(type==='temas'){html=themes();title='Temas';}else if(type==='sobre'){html=about();title='Sobre';}else if(type==='busca'){html=searchPage(key||'');title='Busca';document.querySelector('#search').value=key||'';}else if(type==='tema'){const t=data.themes.find(t=>t.id===key);if(t){html=themePage(t);title=t.title;}}else if(type==='subtema'){const t=data.themes.find(t=>t.id===key),s=t?.subthemes.find(s=>s.id===sub);if(s){html=subPage(t,s);title=s.title;}}else if(type==='conteudo'){const a=data.articles.find(a=>a.id===key);if(a){html=await articlePage(a,id);title=a.title;}}if(id!==renderId)return;main.innerHTML=html||empty('Esta página não foi encontrada.','Use a busca ou volte aos temas para continuar.');document.title=`${title} · Julli doesn’t know`;document.querySelectorAll('[data-nav]').forEach(a=>{const active=a.dataset.nav===(type==='sobre'?'about':type?'themes':'home');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});bindPage(type,key);window.scrollTo({top:0,behavior:'instant'});main.focus({preventScroll:true});}catch(err){if(id===renderId)main.innerHTML=empty('Não conseguimos abrir esta página.',`${err.message} Tente recarregar o site.`);}}
-function zoom(img){const d=document.querySelector('#image-dialog');d.querySelector('img').src=img.src;d.querySelector('img').alt=img.alt;d.querySelector('p').textContent=img.alt;d.showModal();}
-function bindPage(type,key){main.querySelectorAll('[data-slide]').forEach(b=>b.addEventListener('click',()=>{const c=main.querySelector('.carousel');c.scrollBy({left:Number(b.dataset.slide)*c.clientWidth*.85,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});}));main.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{main.querySelectorAll('[data-filter]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));const items=articlesFor(key,b.dataset.filter);main.querySelector('#article-list').innerHTML=items.length?items.map(row).join(''):empty();}));main.querySelectorAll('[data-section]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();document.getElementById(a.dataset.section)?.scrollIntoView();}));main.querySelectorAll('[data-zoom]').forEach(img=>{img.addEventListener('click',()=>zoom(img));img.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();zoom(img);}});});}
-document.querySelector('.search').addEventListener('submit',ev=>{ev.preventDefault();location.hash=href('busca',document.querySelector('#search').value.trim());});document.querySelector('.close-image').addEventListener('click',()=>document.querySelector('#image-dialog').close());document.querySelector('#image-dialog').addEventListener('click',ev=>{if(ev.target===ev.currentTarget)ev.currentTarget.close();});window.addEventListener('hashchange',()=>{if(data)route();});
-try{const response=await fetch(new URL('conteudos/index.json',siteBase));if(!response.ok)throw new Error('Índice indisponível');data=await response.json();await route();}catch{main.innerHTML=empty('O caderno não carregou.','Abra o projeto por um servidor local ou pelo GitHub Pages e tente novamente.');}
-
+import { escapeHTML as e, renderMarkdown, safeURL } from "./markdown.js";
+import { art } from "./art.js";
+const main = document.querySelector("#main"),
+  siteBase = new URL("../", import.meta.url);
+let data,
+  renderId = 0;
+const href = (...parts) => "#/" + parts.map(encodeURIComponent).join("/");
+const articleHref = (a) => href("conteudo", a.id);
+const articlesFor = (theme, sub) =>
+  data.articles.filter(
+    (a) => a.theme === theme && (!sub || a.subtheme === sub),
+  );
+const topic = (a) => data.themes.find((t) => t.id === a.theme);
+const subtype = (a) => topic(a)?.subthemes.find((s) => s.id === a.subtheme);
+const fmt = (d) =>
+  new Intl.DateTimeFormat("pt-BR", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(new Date(d + "T12:00:00Z"));
+function external(url, label, cls = "text-link") {
+  const valid = safeURL(url, siteBase);
+  return valid
+    ? `<a class="${cls}" href="${e(valid)}" target="_blank" rel="noopener noreferrer">${e(label)} ↗</a>`
+    : "";
+}
+function illustration(a) {
+  return a.image
+    ? `<img src="${e(new URL(a.image, siteBase))}" alt="${e(a.title)}" loading="lazy">`
+    : art(a.art || topic(a)?.art);
+}
+function card(a) {
+  return `<article class="card"><a class="card-art" href="${articleHref(a)}" aria-label="Ler ${e(a.title)}">${illustration(a)}</a><span class="eyebrow">${e(topic(a)?.title)}</span><h3><a href="${articleHref(a)}">${e(a.title)}</a></h3><p>${e(a.summary)}</p><div class="card-links"><a class="button" href="${articleHref(a)}">Ler conteúdo <span aria-hidden="true">→</span></a>${external(a.instagram, "Ver no Instagram")}</div></article>`;
+}
+function themeCard(t) {
+  return `<a class="card theme-card" href="${href("tema", t.id)}">${art(t.art)}<h3>${e(t.title)}</h3><p>${e(t.summary)}</p><span class="arrow" aria-hidden="true">→</span></a>`;
+}
+function row(a) {
+  return `<article class="article-row"><div>${art(a.art || topic(a)?.art)}</div><div><span class="eyebrow">${e(subtype(a)?.title)} · ${a.minutes} min de leitura</span><h3><a href="${articleHref(a)}">${e(a.title)}</a></h3><p>${e(a.summary)}</p></div><a href="${articleHref(a)}" class="text-link">Ler conteúdo →</a></article>`;
+}
+function crumbs(parts) {
+  return `<nav class="breadcrumb" aria-label="Caminho da página"><a href="#/">Início</a>${parts.map(([label, url]) => `<span aria-hidden="true">›</span>${url ? `<a href="${url}">${e(label)}</a>` : `<span aria-current="page">${e(label)}</span>`}`).join("")}</nav>`;
+}
+function empty(
+  title = "Novas páginas vêm por aí.",
+  text = "Este espaço já está preparado para receber os próximos estudos.",
+) {
+  return `<div class="empty"><h2>${e(title)}</h2><p>${e(text)}</p><a class="text-link" href="#/temas">Explorar outros temas →</a></div>`;
+}
+function home() {
+  return `<section class="hero"><div><!--<span class="eyebrow">Um caderno aberto à curiosidade</span>--><h1>Que a curiosidade<br>sempre me alimente</h1><p class="intro">Um espaço para reunir o que estudo e compartilho. Explicações, imagens e referências para continuar explorando.</p><a class="button" href="#/temas">Explorar os temas <span aria-hidden="true">→</span></a></div><div class="hero-art"><img src="assets/hero.png" alt="Livro aberto com um cérebro e estrelas desenhados à mão" fetchpriority="high"><!--<p class="handwritten">mais curiosidade, por favor ✧</p>--></div></section><section class="section"><div class="section-heading"><h2>Conteúdos do Instagram</h2><div class="arrows"><button class="round" data-slide="-1" aria-label="Conteúdos anteriores">←</button><button class="round" data-slide="1" aria-label="Próximos conteúdos">→</button></div></div><div class="carousel" aria-label="Conteúdos em destaque">${
+    data.articles
+      .filter((a) => a.featured)
+      .sort(
+        (a, b) => (a.featuredOrder ?? Infinity) - (b.featuredOrder ?? Infinity),
+      )
+      .map(card)
+      .join("") || data.articles.slice(0, 3).map(card).join("")
+  }</div></section><section class="section"><div class="section-heading"><h2>Por onde você quer começar?</h2><span class="eyebrow">Quatro caminhos, muitas possibilidades.</span></div><div class="grid themes-grid">${data.themes.map(themeCard).join("")}</div></section><section class="section"><div class="section-heading"><h2>Últimas páginas do caderno</h2><a class="text-link" href="#/busca">Ver todas as páginas →</a></div><div class="grid latest-grid">${data.articles
+    .slice(0, 3)
+    .map(
+      (a) =>
+        `<article class="latest-item"><span class="eyebrow">${e(topic(a)?.title)} · ${e(fmt(a.date))}</span><h3><a href="${articleHref(a)}">${e(a.title)}</a></h3><p>${e(a.summary)}</p><a class="text-link" href="${articleHref(a)}">Ler mais →</a></article>`,
+    )
+    .join("")}</div></section>`;
+}
+function themes() {
+  return `${crumbs([["Temas"]])}<section class="page-hero"><div><span class="eyebrow">Por onde começar?</span><h1>Temas do caderno</h1><p>Escolha uma área e siga sua curiosidade.</p></div>${art("book")}</section><section class="section"><div class="grid themes-grid">${data.themes.map(themeCard).join("")}</div></section>`;
+}
+function themePage(t) {
+  const items = articlesFor(t.id);
+  return `${crumbs([[t.title]])}<section class="page-hero"><div><span class="eyebrow">Tema de estudo</span><h1>${e(t.title)}</h1><p>${e(t.intro)}</p></div>${art(t.art)}</section><section class="section"><div class="section-heading"><h2>Explore os subtemas</h2><span class="eyebrow">Diferentes ângulos para entender o tema</span></div><div class="grid two-grid">${t.subthemes.map((s) => `<a class="card sub-card" href="${href("subtema", t.id, s.id)}"><div><h3>${e(s.title)}</h3><p>${e(s.summary)}</p><span class="count">${articlesFor(t.id, s.id).length} conteúdos · explorar →</span></div>${art(s.art || t.art)}</a>`).join("")}</div></section>${
+    t.start?.length
+      ? `<section class="section"><div class="section-heading"><h2>Comece por aqui</h2><span class="eyebrow">Um percurso para começar seus estudos</span></div><div class="grid path-grid">${t.start
+          .map((id) => data.articles.find((a) => a.id === id))
+          .filter(Boolean)
+          .map(
+            (a, i) =>
+              `<a class="path-item" href="${articleHref(a)}"><span class="number">${i + 1}</span><h3>${e(a.title)}</h3><p>${e(a.summary)}</p></a>`,
+          )
+          .join("")}</div></section>`
+      : ""
+  }<section class="section"><h2>Conteúdos deste tema</h2>${items.length ? `<div class="pills"><button class="pill" data-filter="" aria-pressed="true">Todos</button>${t.subthemes.map((s) => `<button class="pill" data-filter="${e(s.id)}" aria-pressed="false">${e(s.title)}</button>`).join("")}</div><div id="article-list">${items.map(row).join("")}</div>` : empty()}</section>`;
+}
+function subPage(t, s) {
+  const items = articlesFor(t.id, s.id);
+  return `${crumbs([[t.title, href("tema", t.id)], [s.title]])}<section class="page-hero"><div><span class="eyebrow">Subtema</span><h1>${e(s.title)}</h1><p>${e(s.summary)}</p></div>${art(s.art || t.art)}</section>${s.note ? `<aside class="note"><h3>Antes de começar</h3><p>${e(s.note)}</p></aside>` : ""}<section class="section"><div class="section-heading"><h2>Páginas deste subtema</h2><span class="eyebrow">Explicações para explorar no seu ritmo</span></div>${items.length ? `<div class="grid two-grid">${items.map(card).join("")}</div>` : empty()}</section>`;
+}
+async function articlePage(a, id) {
+  const t = topic(a),
+    s = subtype(a),
+    response = await fetch(new URL(a.file, siteBase));
+  if (!response.ok)
+    throw new Error("Não foi possível abrir este arquivo Markdown.");
+  const markdown = await response.text();
+  if (id !== renderId) return null;
+  const rendered = renderMarkdown(markdown, new URL(a.file, siteBase).href),
+    related = (a.related || [])
+      .map((k) => data.articles.find((x) => x.id === k))
+      .filter(Boolean);
+  return `${crumbs([[t.title, href("tema", t.id)], [s.title, href("subtema", t.id, s.id)], [a.title]])}<div class="article-layout"><details class="toc" ${matchMedia("(min-width:601px)").matches ? "open" : ""}><summary>Nesta página</summary>${rendered.headings
+    .filter((h) => h.level === 2)
+    .map(
+      (h) =>
+        `<a href="#/${["conteudo", encodeURIComponent(a.id)].join("/")}" data-section="${e(h.id)}">${e(h.text)}</a>`,
+    )
+    .join(
+      "",
+    )}${related.length ? '<a href="#" data-section="conexoes">Que a curiosidade sempre me alimente</a>' : ""}</details><div><header class="article-top"><span class="eyebrow">${e(s.title)} · ${a.minutes} min de leitura</span><h1>${e(a.title)}</h1><p>${e(a.summary)}</p>${external(a.instagram, "Ver o vídeo no Instagram", "button secondary")}<p class="share-note">Atualizado em ${e(fmt(a.date))}</p></header><article class="prose">${rendered.html}</article>${related.length ? `<section class="related" id="conexoes"><h2>Que a curiosidade sempre me alimente</h2><div class="grid two-grid">${related.map((x) => `<a class="card theme-card" href="${articleHref(x)}"><h3>${e(x.title)}</h3><p>${e(x.summary)}</p><span class="arrow">→</span></a>`).join("")}</div></section>` : ""}<a class="next-link" href="${href("subtema", t.id, s.id)}">← Voltar para ${e(s.title)}</a></div></div>`;
+}
+function searchPage(query) {
+  const norm = (s) =>
+      s
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase(),
+    terms = norm(query).split(/\s+/).filter(Boolean),
+    items = data.articles.filter((a) =>
+      terms.every((term) => norm(a.search).includes(term)),
+    );
+  return `${crumbs([["Busca"]])}<section class="page-hero"><div><span class="eyebrow">Siga sua curiosidade</span><h1>${query ? "Busca no caderno" : "Todas as páginas"}</h1><p>${query ? `Resultados para “${e(query)}”` : "Os estudos reunidos até aqui."}</p></div>${art("book")}</section><section class="section"><span class="eyebrow">${items.length} ${items.length === 1 ? "conteúdo encontrado" : "conteúdos encontrados"}</span>${items.length ? items.map(row).join("") : empty("Ainda não encontramos esse assunto.", "Tente outra palavra ou explore os temas do caderno.")}</section>`;
+}
+function about() {
+  return `${crumbs([["Sobre"]])}<section class="about"><span class="eyebrow">Julli doesn’t know</span><h1>Oi, eu sou a Julli!</h1><p> Este é o meu caderno aberto de estudos: um lugar para reunir os assuntos que despertam minha curiosidade e os conteúdos que compartilho no Instagram.</p><p>Aqui, neurociência, filosofia, história e tecnologia se encontram em explicações simples, imagens e referências. Você pode começar por um tema, seguir um percurso de leitura ou buscar uma pergunta.</p><p>O caderno cresce conforme eu estudo. As páginas são sínteses para aprender e continuar explorando; as referências mostram de onde vêm as informações.</p>${external("https://www.instagram.com/jullidoesntknow/", "Acompanhar no Instagram", "button")}</section>`;
+}
+export async function route() {
+  const id = ++renderId;
+  let parts;
+  try {
+    parts = (location.hash.slice(2) || "").split("/").map(decodeURIComponent);
+  } catch {
+    parts = ["404"];
+  }
+  const [type, key, sub] = parts;
+  main.innerHTML = '<p class="loading" role="status">Abrindo o caderno…</p>';
+  try {
+    let html,
+      title = "Caderno de estudos";
+    if (!type) html = home();
+    else if (type === "temas") {
+      html = themes();
+      title = "Temas";
+    } else if (type === "sobre") {
+      html = about();
+      title = "Sobre";
+    } else if (type === "busca") {
+      html = searchPage(key || "");
+      title = "Busca";
+      document.querySelector("#search").value = key || "";
+    } else if (type === "tema") {
+      const t = data.themes.find((t) => t.id === key);
+      if (t) {
+        html = themePage(t);
+        title = t.title;
+      }
+    } else if (type === "subtema") {
+      const t = data.themes.find((t) => t.id === key),
+        s = t?.subthemes.find((s) => s.id === sub);
+      if (s) {
+        html = subPage(t, s);
+        title = s.title;
+      }
+    } else if (type === "conteudo") {
+      const a = data.articles.find((a) => a.id === key);
+      if (a) {
+        html = await articlePage(a, id);
+        title = a.title;
+      }
+    }
+    if (id !== renderId) return;
+    main.innerHTML =
+      html ||
+      empty(
+        "Esta página não foi encontrada.",
+        "Use a busca ou volte aos temas para continuar.",
+      );
+    document.title = `${title} · Julli doesn’t know`;
+    document.querySelectorAll("[data-nav]").forEach((a) => {
+      const active =
+        a.dataset.nav ===
+        (type === "sobre" ? "about" : type ? "themes" : "home");
+      a.classList.toggle("active", active);
+      if (active) a.setAttribute("aria-current", "page");
+      else a.removeAttribute("aria-current");
+    });
+    bindPage(type, key);
+    window.scrollTo({ top: 0, behavior: "instant" });
+    main.focus({ preventScroll: true });
+  } catch (err) {
+    if (id === renderId)
+      main.innerHTML = empty(
+        "Não conseguimos abrir esta página.",
+        `${err.message} Tente recarregar o site.`,
+      );
+  }
+}
+function zoom(img) {
+  const d = document.querySelector("#image-dialog");
+  d.querySelector("img").src = img.src;
+  d.querySelector("img").alt = img.alt;
+  d.querySelector("p").textContent = img.alt;
+  d.showModal();
+}
+function bindPage(type, key) {
+  main.querySelectorAll("[data-slide]").forEach((b) =>
+    b.addEventListener("click", () => {
+      const c = main.querySelector(".carousel");
+      c.scrollBy({
+        left: Number(b.dataset.slide) * c.clientWidth * 0.85,
+        behavior: matchMedia("(prefers-reduced-motion:reduce)").matches
+          ? "instant"
+          : "smooth",
+      });
+    }),
+  );
+  main.querySelectorAll("[data-filter]").forEach((b) =>
+    b.addEventListener("click", () => {
+      main
+        .querySelectorAll("[data-filter]")
+        .forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      const items = articlesFor(key, b.dataset.filter);
+      main.querySelector("#article-list").innerHTML = items.length
+        ? items.map(row).join("")
+        : empty();
+    }),
+  );
+  main.querySelectorAll("[data-section]").forEach((a) =>
+    a.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      document.getElementById(a.dataset.section)?.scrollIntoView();
+    }),
+  );
+  main.querySelectorAll("[data-zoom]").forEach((img) => {
+    img.addEventListener("click", () => zoom(img));
+    img.addEventListener("keydown", (ev) => {
+      if (ev.key === "Enter" || ev.key === " ") {
+        ev.preventDefault();
+        zoom(img);
+      }
+    });
+  });
+}
+document.querySelector(".search").addEventListener("submit", (ev) => {
+  ev.preventDefault();
+  location.hash = href("busca", document.querySelector("#search").value.trim());
+});
+document
+  .querySelector(".close-image")
+  .addEventListener("click", () =>
+    document.querySelector("#image-dialog").close(),
+  );
+document.querySelector("#image-dialog").addEventListener("click", (ev) => {
+  if (ev.target === ev.currentTarget) ev.currentTarget.close();
+});
+window.addEventListener("hashchange", () => {
+  if (data) route();
+});
+try {
+  const response = await fetch(new URL("conteudos/index.json", siteBase));
+  if (!response.ok) throw new Error("Índice indisponível");
+  data = await response.json();
+  await route();
+} catch {
+  main.innerHTML = empty(
+    "O caderno não carregou.",
+    "Abra o projeto por um servidor local ou pelo GitHub Pages e tente novamente.",
+  );
+}
