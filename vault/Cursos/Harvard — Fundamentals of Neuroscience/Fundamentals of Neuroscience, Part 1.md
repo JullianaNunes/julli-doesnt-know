@@ -5,7 +5,23 @@
 
 ---
 
+
+
+**Summary in English**
+
+This course explores how individual neurons generate electrical signals. Understanding a single neuron's membrane and ion movements provides a foundation for understanding communication throughout the nervous system.
+
+**In simple words:** before studying how the brain works as a network, we study how one nerve cell produces electrical signals.
+
 ## Lesson 1: The Resting Potential [O Potencial de Repouso]
+
+
+
+**Summary in English**
+
+The resting potential is the voltage across a neuron's membrane when it is not actively signaling. This lesson connects basic electricity, ion movement, and membrane properties to explain how that voltage arises.
+
+**Key question:** how can a cell maintain a voltage difference between its inside and outside?
 
 ### Introduction to Lesson 1: The Resting Potential
 We begin out study of the nervous system focusing on a single neuron. As we will see, electricity is the fundamental method by which neuros can communicate with one another, and thus *[assim]* an understanding of the electrical properties of the neuron is vital in order to understand the nervous system.
@@ -15,7 +31,19 @@ Deviations from this 'resting potential' are how electrical signaling in neurons
 
 For this reason, it is crucially important to understand what this resting potential is, how it is established, and how to calculate it ourselves.
 
+
+
+**Summary in English**
+
+A resting neuron still has a membrane voltage. Electrical signals involve changes in this voltage, so the resting potential is the starting point for understanding neuronal signaling. “At rest” does not mean that ions stop moving or that the cell stops using energy.
+
 #### Lesson 1 Highlights
+
+
+
+**Summary in English**
+
+The lesson builds a sequence of ideas: bioelectricity → voltage → membrane potential → diffusion and electrostatic forces → electrochemical equilibrium. Together, these concepts explain why ion movement can produce a stable voltage across a membrane.
 
 ##### The History of Bioelectricity
 In your daily life, you likely interact with electricity in many forms. For example, both lightning storms and static cling *[grudar]* in a clothes dryer are a result of static electricity. Electronic devices are charged by electric currents. Just like these non-living examples, living things obey *[obedecer]*  the laws of physics that govern electricity.
@@ -32,6 +60,19 @@ Alessandro Volta, um físico e contemporâneo de Galvani, repetiu o experimento 
 Volta, que era rival de Galvani, criou o termo galvanismo para se referir aos fenômenos elétricos em criaturas vivas
 > "Galvani's voltaic pile" (ou pilha voltaica de Galvani) refere-se a uma confusão histórica comum entre dois grandes cientistas italianos: Luigi Galvani e Alessandro Volta.
 
+
+
+
+**Summary in English**
+
+- Luigi Galvani studied how electrical stimulation could make a frog's muscles contract, linking electricity to nerve and muscle function.
+- Alessandro Volta questioned Galvani's explanation and developed the voltaic pile, an early battery announced in 1800.
+- Their disagreement helped establish the study of bioelectricity: electrical phenomena in living organisms.
+- Modern neuroscience explains neuronal electrical signals through the movement of charged ions across cell membranes.
+
+**Historical clarification:** the voltaic pile was Volta's invention. Galvani published his major account of animal electricity in 1791; the famous frog experiments are commonly associated with the 1780s.
+
+**Further reading:** [Galvani's original 1791 publication — Smithsonian Libraries](https://library.si.edu/digital-library/book/aloysiigalvanid00galv).
 
 ##### Voltage
 
@@ -100,6 +141,22 @@ In neuroscience, the voltage across a membrane is measured relative to: **The ou
 
 ---
 
+
+
+**Summary in English**
+
+- **Electrostatic force:** opposite charges attract; like charges repel.
+- **Electrical potential:** electrical potential energy per unit charge at a point.
+- **Voltage:** the difference in electrical potential between two points, measured in volts (V). One millivolt (mV) is 0.001 V.
+- **Current:** the rate at which electric charge flows. A voltage can exist even when no current flows.
+- The membrane's lipid bilayer restricts ion movement. Channels provide selective pathways; pumps transport ions using energy.
+- Membrane voltage is measured as **Vₘ = Vinside − Voutside**. The outside is the reference, defined as 0 mV.
+- If the inside is 50 mV below the outside, **Vₘ = −50 mV**.
+
+**In simple words:** voltage describes an electrical difference; current describes moving charge. The direction an ion moves depends on both its charge and its concentration gradient.
+
+**Example:** an inside recording of −60 mV relative to an outside reference of 0 mV gives a membrane potential of −60 mV.
+
 ##### Introducing the Resting Potential
 
 Neurons are *able [capazes]* to send signals *through [por meio]* the use of electricity, and we see that neurons themselves are electrically charged. 
@@ -153,6 +210,33 @@ As identified in the video, which of the following ions are important for settin
 
 ---
 
+
+
+**Summary in English**
+
+- A typical neuron has **dendrites**, a **cell body (soma)** containing the nucleus, and an **axon**. Its membrane surrounds these structures.
+- **Membrane potential** is the voltage across the cell membrane at any moment. **Resting potential** is its baseline value when the neuron is not actively signaling.
+- A common teaching example is **−70 mV**, meaning that the inside is 70 mV more negative than the outside. The exact value varies among neurons.
+- Important ions include **K⁺, Na⁺, Cl⁻, and Ca²⁺**. Their concentrations and the membrane's permeability determine how they affect voltage.
+- K⁺ permeability is especially important at rest. Ion pumps maintain the concentration differences that make signaling possible.
+- A membrane behaves partly like a capacitor: it separates small amounts of opposite charge on its two sides.
+
+**Precision note:** a negative membrane potential does not mean that the entire cell interior carries a large net negative charge. Most of the fluid on either side remains approximately electrically neutral; a tiny separation of charge near the membrane is enough to create the voltage.
+
+**In simple words:** the membrane separates two salty solutions. Unequal ion concentrations and selective pathways for ions allow a voltage difference to develop.
+
+![Introducing_the_Resting_Potential_001 — simplified neuron showing dendrites, soma, nucleus, axon, and axon terminals](images/Introducing_the_Resting_Potential_001.png)
+
+*Simplified neuron anatomy; not to scale.*
+
+![Introducing_the_Resting_Potential_002 — measuring minus 70 millivolts inside a neuron relative to an outside reference of zero millivolts](images/Introducing_the_Resting_Potential_002.png)
+
+*The outside reference is assigned 0 mV; it does not mean the outside solution contains no ions or charges.*
+
+**Membrane vs. resting potential — remember:** every resting potential is a membrane potential, but a membrane potential measured during a signal is not a resting potential.
+
+**Further reading:** [Electrical signals of nerve cells](https://www.ncbi.nlm.nih.gov/books/NBK11053/) and [the ionic basis of the resting membrane potential](https://www.ncbi.nlm.nih.gov/books/NBK10931/).
+
 ##### Diffusion and Electrostatics [Difusão e Eletrostática]
 
 Both inside and outside of the neuron, ions and other particles exist in an aqueous solution and are able to move around. 
@@ -191,4 +275,40 @@ At rest, the inside of a neuron is said to be more negative relative to the outs
 
 ---
 
+
+
+**Summary in English**
+
+- **Diffusion** results from random thermal motion. Its net effect is movement from higher to lower concentration when a pathway is available.
+- **Electrostatic forces** attract opposite charges and repel like charges.
+- For K⁺, a higher concentration inside favors outward diffusion. A negative interior electrically attracts K⁺ inward.
+- These two influences can oppose one another. Together they form the ion's **electrochemical driving force**.
+- Ions need a permeable pathway, such as an open channel, to cross the lipid membrane.
+- At equal concentrations, particles keep moving randomly even though diffusion produces no net movement in either direction.
+
+**Example from the notes:** with 150 mM K⁺ inside and 10 mM outside, diffusion favors K⁺ leaving the cell. Considering the electrical effect alone, a negative interior favors K⁺ entering.
+
+![Diffusion_and_Electrostatics_001 — potassium concentration gradient favors outward movement while a negative interior attracts potassium inward](images/Diffusion_and_Electrostatics_001.png)
+
+*The arrows show separate influences on K⁺, not the final net flow. They are schematic and do not represent measured force magnitudes.*
+
+**Further reading:** [How ionic movements produce electrical signals](https://www.ncbi.nlm.nih.gov/books/NBK11054/).
+
 ##### Potentials and Equilibrium (PAREI AQUI)
+
+**Summary in English — introductory preview**
+
+*No lesson notes have been added under this heading yet. This is a short conceptual preview, not a summary of a completed video.*
+
+An ion reaches **electrochemical equilibrium** when its concentration gradient and electrical influence balance. Its **equilibrium potential** is the membrane voltage at which it has no net passive movement through available channels.
+
+For a membrane permeable only to K⁺, outward diffusion can leave a small excess of negative charge inside. This increasingly attracts K⁺ inward until the two influences balance.
+
+**Remember:** no net movement does not mean no movement. At equilibrium, ions can still cross in both directions at equal average rates.
+
+![Potentials_and_Equilibrium_001 — potassium moves in both directions at equal average rates at its equilibrium potential](images/Potentials_and_Equilibrium_001.png)
+
+*Idealized K⁺-only model. A living resting neuron is a maintained steady state involving several ions and energy-consuming pumps; its resting potential is not necessarily equal to any single ion's equilibrium potential.*
+
+**Further reading:** [The forces that create membrane potentials](https://www.ncbi.nlm.nih.gov/books/NBK11102/).
+
