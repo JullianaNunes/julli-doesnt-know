@@ -294,7 +294,7 @@ At rest, the inside of a neuron is said to be more negative relative to the outs
 
 **Further reading:** [How ionic movements produce electrical signals](https://www.ncbi.nlm.nih.gov/books/NBK11054/).
 
-##### Potentials and Equilibrium (PAREI AQUI)
+##### Potentials and Equilibrium
 
 **Summary in English — introductory preview**
 
@@ -312,3 +312,199 @@ For a membrane permeable only to K⁺, outward diffusion can leave a small exces
 
 **Further reading:** [The forces that create membrane potentials](https://www.ncbi.nlm.nih.gov/books/NBK11102/).
 
+
+---
+
+**Introduction**
+Ion movement through membrane channels is guided by diffusive and electrostatic forces, and the movement of these ions can change the membrane potential. Here we will consider the movement of a single ion: K+. We will investigate how an equilibrium can be reached when one ion is allowed to flow across the membrane. By the end of this activity, you should understand:
+
+How would the membrane potential change if K+ ions are allowed to flow out of the cell, or into the cell?
+How are diffusive and electrostatic forces related to each other?
+When is equilibrium reached for the flow of charged ions?
+
+---
+
+- **Notas do vídeo em Português**
+Vamos pensar no esquema básico de membrana, temos a parte intracelular e extracelular.
+
+Nosso voltímetro possui um eletrodo terra fora da célula, e a outra ponta está na parte intracelular do neurônio, medindo a diferença de voltagem entre esses dois pontos. 
+
+Suponha que coloquemos um excesso de íons negativos no interior da célula, de modo que haja uma diferença de potencial de 60mV através da membrana. Então, como estamos referenciando nossa medição ao ponto fora da célula, diríamos que há um potencial de membrana de -60mV.
+
+Em repouso, a maioria das células do corpo humana na verdade possui um potencial de membrana negativa, variando de -5 a -100mV. Em neurônios, esse potencial de repouso é geralmente de -40 a -90 mV.
+
+Cada lado da membrana é basicamente **eletroneutro**. Isso significa que, em cada lado, basicamente não há carga líquida. Isso ocorre porque, na solução em massa, para cada carga positiva, existe uma carga negativa para equilibrá-la.
+
+Sempre terá a mistura ambiente de cargas positivas e negativas.
+
+No entanto, o potencial de membrana vem de um pequno desequilíbrio que se acumula muito próximo à membrana. Esse desequilíbrio de cargas gera um campo elétrico através da membrana que resulta em um **potencial elétrico**. (No mundinho de física e eletrônica, essa configuração é basicamente um capacitor.)
+
+![Potentials_and_Equilibrium_002](images/Potentials_and_Equilibrium_002.png)
+
+A membrana da imagem é uma **bicamada lipídica** sem aberturas, portaanto, os íons não podem atravessá-la.
+
+Se tivermos uma concentração igual de potássio em ambos os lados da membrana. O que veremos em nosso voltímetro?
+---
+
+- **Question 1**
+If we measure Em right now, it will be: **0mV**
+
+Now let's think about what happens when we have an imbalance of ion concentrations. We'll focus on one particular ion - **potassium**. Let’s introduce a concentration imbalance and increase the number of potassium ions inside the cell relative to the number outside the cell, just like in an actual neuron, as shown in the figure below. 
+
+We will keep the intracellular and extracellular fluids electroneutral by making sure that there's an appropriate number of matching negative ions on both sides of the membrane. 
+
+![Potentials_and_Equilibrium_003](images/Potentials_and_Equilibrium_003.png)
+
+We still have an impermeable membrane - the only thing that we've changed was to alter the relative potassium concentrations.
+
+- **Question 2**
+The concentration of potassium ions is 5 mM outside and 100 mM inside, but the membrane is impermeable to these ions. We will keep the intracellular and extracellular fluids electroneutral by making sure that there's an appropriate number of matching negative ions (depicted as ‘A-’ above) on both sides of the membrane.
+
+If we measure Em in this new situation, it will be: **0Mv - Again, both sides of the membrane are electroneutral, and, more importantly, the membrane is currently impermeable to K+ ions. So, the membrane potential is still 0 mV.**
+
+
+What happens if we add a channel to the membrane? Specifically, let’s add a potassium channel (purple), as shown in the figure below.
+
+![Potentials_and_Equilibrium_004](images/Potentials_and_Equilibrium_004.png)
+
+Channels are passages through which ions can travel. Think about what happens to the potassium ions now that we've added a potassium channel. 
+
+- **Question 3**
+If we have 100 millimolar potassium inside of the cell and 5 millimolar potassium outside, which direction do you think potassium ions will flow after we add the potassium channel? **It will move out of the cell.** *[Por que o interior está com a carga mais pesada?]*
+
+- **Question 4**
+By now, you may have already predicted that this migration of positively charged ions would create an electric field. Let's see how well you understand this idea.
+
+As K+ ions move across the membrane out of the cell, what will the membrane potential become? **A negative voltage** *[Isso acontece porque a carga interior é negativa?]*
+
+---
+
+- **Notas do vídeo (02) em português**
+Anteriormente, éramos eletro neutros para começar com o íon negativo para corresponder a todos os íons positivos em ambos os lados da membrana.
+
+Quando você remove íons positivos de dentro, vocês fica com um excesso de negativos. Enquanto isso, a solução eletroneutra do lado de fora ganhou cargas positivas do potássio (então teremos um excesso de carga positiva). > Ou seja, o interior será mais negativo em relação ao exterior. Como a convenção é definir a voltagem extracelular como nosso valor zero (ponto de referência), o potencial de membrana seria negativo.
+
+---
+
+- **Question 5**
+Given what you know so far, what do you predict will happen to the intracellular and extracellular K+ concentrations at equilibrium? **[K+]in is greater than [K+]out (most of the K+ ions stay inside the cell)**
+
+---
+
+- **Notas do vídeo (03) em português**
+
+Uma pequena quantidade se difunde, mas a concentração é ainda maior por dentro. Isso acontece porque estamos lidando com íons carregados. Se tivéssemos apenas partículas sem carga fluino, eles se difundiriam na mesma concentração em ambos os lados da membrana.
+
+A razão pela qual isso não acontece com o potássio é que temos uma força adicional em que pensar: **a força eletrostática**. À medida que começamos a mover mais potássio ao longo do gradiente de concentração de dentro para fora, aquela carga positiva líquida adicional cria uma força eletrostática que repele cargas positivas adicionais de se difundir *(diferentes se atraem, iguais se repelem)*.
+
+Vamos pensar sobre o que realmente leva para criar um potencial de membrana de 80mV negativos, o que é o potencial de equilíbrio do potássio. 
+
+---
+
+- **How many move?**
+
+How many K+ ions need to move in order to reach an equilibrium? **1 in 100 (??)**
+
+---
+
+- **Notas do vídeo (04) em português**
+
+Movendo apenas um em cada 100.000 íons através da membrana é suficiente para criar um potencial de membrana negativo de 80mV. 
+
+Em células e neurônios reais, existem trilhões de íons dentro da célula. Então, mesmo movendo uma em cada 100.000 íons ainda significa que estamos movendo milhões de íons para fora para criar esse equilíbrio.
+
+![Potentials_and_Equilibrium_005](images/Potentials_and_Equilibrium_005.png)
+
+A principal coisa a entender é que a forçaa eletrostática para mover apenas uma pequena fração de partículas carregadas para o outro lado da membrana é suficiente para equilibrar a difusão de um grande número de partículas. > Isso dá uma noção de quão mais forte é a força eletrostática em comparação com a difusão.
+
+Além disso, isso significa que mesmo que os íons se movam através da membrana para gerar potenciais de membrana, tão poucos íons precisam se mover para que as concentrações dentro e fora sejam efetivamente inalterado.
+
+Apenas uma pequena proporção de íons se move em relação ao número total de íons. Podemos, portanto, basicamente *ignorar* os íons que se movem através da membrana quando falamos sobre concentrações intracelulares e extracelulares.
+
+---
+
+- **Question 6**
+What would happen to the K+ ions when more negative ions are added extracellularly? **More K+ flows out**
+
+
+- **Question 7**
+Consider a neuron in which the Cl- concentration inside of the cell is 15 mM and outside of the cell is 140 mM.
+
+Once the ions flow and reach an equilibrium, approximately what will be the concentration of Cl- inside of the cell? **15mM - Only a tiny fraction of Cl⁻ ions needs to enter the neuron to create an electrical force that balances the concentration gradient. At *electrochemical equilibrium*, the concentrations remain nearly unchanged—they do not become equal inside and outside.**
+
+---
+
+Can you see now how this concentration gradient is kind of like a little engine that drives the electrical potential? 
+
+Exactly how many ions are on both sides doesn't quite matter, it's the relative concentration gradient that determines the equilibrium potential. You can check your understanding of this idea using the questions that follow.
+
+We can formalize this relationship with something called the **Nernst equation**. We'll return to the Nernst equation in greater detail soon. 
+
+In short, it allows us to calculate the potential across a membrane given the concentrations of a particular ion inside and outside the cell.
+
+In the previous example, when we had a membrane that was only permeable to potassium, the equilibrium membrane potential of the cell can be calculated based on the concentration of potassium inside and outside the cell. However, neurons have many ions that contribute to the resting potential so we can't determine the membrane potential of an actual cell just by looking at potassium.
+
+---
+
+##### The Nernst Potential
+
+- **Introduction**
+Now that you have an understanding of what forces affect ion flow and how the flow of ions can lead to changes in the membrane potential, we can utilize a formal equation. 
+
+This equation is the **Nernst Potential**, which calculates the membrane potential at which the diffusion and electrostatic forces for an ion balance out, given particular concentrations inside and outside of the cell. This equation is very powerful in helping us to summarize the behavior of an ion given certain conditions. By the end of this lesson, you should be able to answer the following questions:
+
+1. How do temperature and valence affect the Nernst Potential?
+
+2. Do the absolute or the relative concentrations of ions matter in determining the Nernst Potential? How do changes to the intracellular and extracellular concentrations of K+ affect its Nernst Potential?
+
+3. What is "driving force," and how do we calculate it?
+
+You may find it helpful to refer to the course [formula sheet](https://courses.edx.org/assets/courseware/v1/71475402bce93432b9b909b9180885c1/asset-v1:HarvardX+MCB80.1x+2T2023+type@asset+block/Ref_Sheet_ln_def.pdf) to solve some of the problems on this and the following pages.
+
+---
+
+- **Notas do vídeo em  português**
+Revisão de tudo que vimos:
+
+    - Sabemos que temos alguns íons muito importantes dentro e fora da célula. Uma membrana de bicamada lipídica e alguns canais de vazamento seletivos de íons.
+
+    - Sabemos que quando medimos o potencial de repouso num neurônio, estamos medindo em gradiente elétrico, ou a diferença em energia potencial entre o interior e o exterior da célula.
+
+
+    - Sabemos que um gradiente elétrico se força através da membrana devido ao vazemento de íons diminuindo seu gradiente de concentração.
+
+    - Sabemos que o fluido dentro e fora da célula é basicamente eletro neutro, e que apenas um número muito pequeno de íons, como potássio se movendo através da membrana, pode causar grandes mudanças no potencial através da membrana.
+
+    - E o mais importante, sabemos que um equilíbrio é alcançado quando o gradiente de concentração e gradiente elétrico são iguais e opostos.
+
+Podemos calcular qual seria o potencial elétrico usando a **equação de Nernst**. Este potencial de equilíbrio nos diz em que membrana forças elétricas potenciais e difuão exatamente equilibrar um ao outro.
+
+Vejamos os diferentes componentes da equção de Nernst:
+
+[Nernst_Potential_01](images/Nernst_Potential_01.png)
+
+- A variável **E**, no lado esquerdo da equação, é a variável dependente que estamos resolvendo. Essa variável pode ter outros nomes, que vamos ver ao longo do curso. Existem três termos que podem se referir à veriável **E**: Potencial de Nernst, potencial de reversão e potencial de equilíbrio.
+Quando resolvemos a equação de Nernst para um determinado íon e sua concentração dentro e fora da célula, estamos resolvendo para o ponto em que a força eletrostática se equilibra examente a **força difusional**. 
+Ao resolver a equação de Nernst, chegamos a este ponto de equilíbrio, que é chamado de **potencial de Nernst**. Ele é alcançado quando o sistema está em equilíbrio. Então as vezes você ouvirá isso ser chamado de **potencial de equilíbrio**.
+O **potencial de reversão** é o ponto em que o fluxo líquido de íons muda de direção. Geralmente nos referimos a potenciais de reversão quando falamos sobre canais iônicos.
+
+> Pra não confundir: 
+> Potencial de membrana é o potencial elétrico medido através da membrana.
+> Potencial de repouso é apenas o potencial da membrana medido para célular que está em repouso. Para um neurônio, o potencial de repouso está próximo do potencial de Nernst de potássio.
+> O potencial de repouso é composto pelo fluxo de múltiplos íons, bem como o trabalho das bombas de íons ativos.
+> Enquanto, o potencial de Nernst é apenas o equilíbrio passivo para um único íon. 
+
+Voltando para a equação...
+
+O potencial de Nernst é igual ao gás universal, constante (**R**) vezes a temperatura absoluta medida em graus Kelvin (**T**), dividida pela valência do íon (**z**) vezes a constante de Faraday (**F**), tudo multiplicado pelo logaritmo natural (**ln**) da concentração do íon fora da célula ou a concentração do íon dentro da célula.
+
+---
+
+- **Question 1**
+What will happen to Eion if we move from 37˚C to 4˚C? **Eion will decrease by 10%.**
+
+[Nernst_Potential_02](images/Nernst_Potential_02.png)
+
+--
+
+(PAREI NO SEGUNDO VIDEO)
