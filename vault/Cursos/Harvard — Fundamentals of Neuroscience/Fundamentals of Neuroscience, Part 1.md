@@ -463,7 +463,7 @@ You may find it helpful to refer to the course [formula sheet](https://courses.e
 
 ---
 
-- **Notas do vídeo em  português**
+- **Notas do vídeo 1 em  português**
 Revisão de tudo que vimos:
 
     - Sabemos que temos alguns íons muito importantes dentro e fora da célula. Uma membrana de bicamada lipídica e alguns canais de vazamento seletivos de íons.
@@ -507,4 +507,100 @@ What will happen to Eion if we move from 37˚C to 4˚C? **Eion will decrease by 
 
 --
 
-(PAREI NO SEGUNDO VIDEO)
+- **Notas do vídeo 2 em  português**
+
+O fato de que o potencial do neurônio não muda significamente acima da faixa normal de temperaturas, significa que não temos uma mudanças significativa nas medidas de um neurônio. Da mesma forma, o potencial de repouso nos seus neurônios não muda muito, mesmo se você estiver com febre alta.
+
+O potencial do neurônio também é inversamente proporcional à valência do íon, **z**.
+
+[Nernst_Potential_03](images/Nernst_Potential_03.png)
+
+Valência, neste caso, pode ser pensada com a carga líquida do íon e solução. Por exemplo:
+    - O **sódio** e o **potássio** são **mais um**.
+    - O **cloreto** é **menos um**.
+    - O **cálcio** é **mais dois**.
+
+[Nernst_Potential_04](images/Nernst_Potential_04.png)
+
+---
+
+- **Question 2**
+Given that ENa is +60 mV, if Cl- has about the same concentrations inside and outside the cell as Na+, what is ECl? **-60mV > Since we're assuming that the concentrations of Na+ and Cl- are approximately the same both inside and outside of the neuron in this case, we know enough information to determine ECl. The only difference is that Cl- has a valence of z = -1 (instead of Na+’s z = +1), and so ECl is - 60 mV.**
+
+---
+
+In real life the actual chloride concentrations inside and outside of a neuron are a little different from that of sodium. Chloride actually has a Nernst potential very close to that of the resting potential (about -70 mV) - *file this fact away in your mind for later.*
+
+Let’s finally think about how the Nernst potential depends on the concentrations of an ion inside and outside of a cell. 
+
+Let’s use some actual values for calculating the Nernst potential in our interactive simulation below for the potassium concentrations. The interactive shows the concentrations of K+ inside and outside the cell, and the voltmeter indicates the current Nernst potential for K+. 
+
+Let’s now do an experiment: in the interactive, investigate how changing the concentrations of an ion, here K+, affect its Nernst potential. Specifically, try to find at least two ways to create a Nernst potential of -50 mV for different sets of concentrations of K+ inside and outside of the cell. When you are finished, feel free to explore further or move on.
+
+---
+
+- **Notas do vídeo 3 em  português**
+
+A concentração relativa entre o interior e o exterior que importa, e não os valores absolutos.
+
+Isso decorre da equação, pporque este termo é a razão entre a concentração exterior e a concentração interior, o que elimina qualquer dependência da concentração absoluta
+
+[Nernst_Potential_05](images/Nernst_Potential_05.png)
+
+Por exemplo, nos neurônios de uma lula, a concentração extracelular de potássio é de 20 milimolares e a concentração intracelular é de 400 milimolares. É quatro vezes superior à de um ser humano. 
+Para de sódio, a concentração é de 12 milimolares no interior e 440mM no exterior. Mais uma vez, cerca de três vezes superior à dos neurônios humanos. 
+Essa diferença deve ser provavelmente por conta das lulas viverem em águas salgadas do oceano. Mas se substituírem os valores da lula na equação de Nernst, os potencias dde Nernst do potássio e do sódio são notavelmente semelhantes aos de um neurônio humano, apesar da grande diferença no ambiente.
+
+[Nernst_Potential_06](images/Nernst_Potential_06.png)
+
+A tabela abaixo mostra as concentrações fisiológicas de diferentes ions e os respectivos potenciais de Nerns a 37 graus Celsius.
+
+Repare que o cálcio tem uma concentração extra celular relativamente baixa (2mM), mas um potencial de Nernst elevado (+123mV).
+
+[Nernst_Potential_07](images/Nernst_Potential_07.png)
+
+A razão entre as concentrações intracelular e extracelular do ion que importa.
+
+O cálcio é usado numa grande variedade de vias de sinalização dentro da célula, e por isso, é rigorosamente regulado, razão pela qual a concentração intracelular é tão baixa.
+
+Força motriz (driving force?) > de forma simples, a força motriz é uma medida de quão forte u, determinado íon está sendo emputtado através da membrana > mais formalmente, é a diferença entre o potencial global da membrana em um determinado momento e o potencial de Nernst para um determinado íon de interesse.
+
+[Nernst_Potential_08](images/Nernst_Potential_08.png)
+
+A força com que o ferro está sendo empurrado é diretamente proporcional a quão longe o potencial de membrana atual está do Nernst equilíbrio para esse íon.
+
+Exemplo do cálcio:
+
+[Nernst_Potential_09](images/Nernst_Potential_09.png)
+
+Um neurônio em repouso tem um potencial de membrana de cerca de -70mV. 
+O cálcio (Ca+) tem um potencial de Nernst positivo muito elevado, em torno de +120mV, enquanto o potássio (K+) tem um Nernst potencial de -80mV.
+Assim, a força motriz do cálcio é de -200mV (seta vermelha), enquanto o do potássio é de apenas certa de 10mV (seta azul).
+
+Isso significa que o cálcio realmente quer descer em seu gradiente de concentração e entre a celula. Quer aproximar-se do equilíbrio, que em repouso é vastamente diferente do potencial de membrana. Assim, os íons de cálcio entram rapidamente se receberem uma abertura que eles podem passar na membrana.
+Esses íons de cálcio positivos estão tentando tornar o interior da célula mais positivo, para trazer o potencial de membrana mais próximo de +120mV
+
+---
+
+- **Question 3**
+
+Let's now consider the scenario in the video, and assume we have channels for both Na+ and K+ ions. Assume the current membrane potential is -70 mV. How will these different ions flow? **Na+ flows into the cell while K+ flows out**
+
+
+- **Question 4**
+
+Which of the following will affect the Nernst potential of K+? Select all that apply. **The concentrations of K+ inside and outside the cell. AND The temperature**
+
+
+- **Question 5**
+
+The Nernst potential for the ion K+ for a certain neuron is -80 mV. If the ion Mg2+ is present at the same intracellular and extracellular concentrations as K+, what is the Nernst potential for Mg2+? (Enter your answer in mV, but do not include the units.) **-40mV**
+
+
+- **Question 6**
+Let’s now consider the behavior of the negative ion Cl- (chloride) in the context of a normal neuron. The concentration of Cl- is 15 mM inside of the cell and 140 mM outside of the cell. The equilibrium potential of Cl- in this neuron would be
+**Negative. Cl- is more concentrated outside of the cell, and so it will tend to move to the inside of the cell. Eventually, the diffusive force will be balanced out by an electrostatic force pulling Cl- ions back out of the cell (since the outside will become more positive). At this balancing point, Cl- ions will have moved into the neuron and cause the membrane potential to be more negative. This value can also be calculated, as we will see soon, using the Nernst Equation.**
+
+---
+
+##### Nernst Potential Problem Solving (PAREI AQUI)
