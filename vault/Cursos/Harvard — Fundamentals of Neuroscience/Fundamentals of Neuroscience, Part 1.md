@@ -603,4 +603,184 @@ Let’s now consider the behavior of the negative ion Cl- (chloride) in the cont
 
 ---
 
-##### Nernst Potential Problem Solving (PAREI AQUI)
+##### Nernst Potential Problem Solving 
+
+The Nernst potential represents an equilibrium point for a single ion, specifically the membrane potential at which the diffusion and electrostatic forces acting on this ion are balanced.
+
+ In this section we will familiarize ourselves with the Nernst equation further, both in understanding what it means theoretically as well as using it to solve problems related to ion movement across the membrane. 
+
+By the end of this lesson, you should be able to:
+
+1. Comfortably calculate the Nernst potential.
+2. Predict how an ion will move across the membrane given its Nernst potential.
+
+- **Different "Potentials"**
+
+Let’s begin by making sure certain terms are clear:
+
+1. The **membrane potential** is a general term used to describe the voltage across the membrane at any time.
+
+2. The **Nernst potential** is the membrane potential at which, given certain conditions (i.e. a given temperature and concentration gradient), a single ion is at an equilibrium.
+
+3. The **resting potential**, which we will expand upon later, represents a stable membrane potential that is determined by the flow of multiple ions. When we say a neuron is ‘at rest’, we mean that it is currently at its resting potential.
+
+4. We will begin using the terms **‘depolarization’** and **‘hyperpolarization’**:
+    - A depolarization is a positive change in the membrane potential (i.e., a change to a less negative membrane potential).
+    - A hyperpolarization is a negative change in the membrane potential (i.e., a change to a more negative membrane potential).
+
+- **Ion Concentrations**
+
+As you saw in the previous lessons, a membrane potential is established by the flow of ions across the membrane due to concentration gradients. 
+
+When ions with a particular charge *build up [acumulam]* on one side of the membrane, this leads to a charge separation that underlies the membrane potential. 
+
+So, *to gain a deeper [para obter uma compreensão mais profunda]* understanding of the Nernst potential, let’s consider more closely how the concentration of an ion can affect the Nernst potential. 
+
+Note that the following can also be explained by simply plugging numbers into the Nernst equation and seeing how the answer differs.
+
+Let’s look at three different scenarios:
+
+1. The concentration of K+ inside is 100 mM and K+ outside is 10 mM.
+2. The concentration of K+ inside is 10 mM and K+ outside is 100 mM.
+3. The concentration of K+ inside is 100 mM and K+ outside is 40 mM.
+
+- **Scenario 1: The concentration of K+ inside is 100 mM and K+ outside is 10 mM**
+
+This scenario should be very familiar, as these concentrations are close to normal physiological concentrations. Recall that the Nernst potential represents an equilibrium point where two forces are balanced: diffusion and electrostatic force.
+
+In this scenario, diffusion will push K+ out of the cell. This will lead to a *buildup [acúmulo]* of positive charge outside the cell and negative inside, and so electrostatic force will push K+ back into the cell.
+
+We know that the Nernst potential will be negative because a buildup of negative charge inside the cell and positive outside (which creates the electrostatic force) was needed to balance the force of diffusion. 
+
+Remember, membrane potential is measured using the outside as the reference point.
+
+-**Scenario 2: The concentration of K+ inside is 10 mM and K+ outside is 100 mM**
+
+This is the reverse of Scenario 1.
+
+Now, diffusion will move K+ into the cell, and the *counteracting electrostatic [eletrostática de oposição]* force will begin to push K+ back out of the cell as positive charge builds up inside the cell (and negative outside). 
+
+Given our qualitative understanding, we know that the Nernst potential in this case will be positive.
+
+- **Scenario 3: The concentration of K+ inside is 100 mM and K+ outside is 40 mM**
+
+This scenario demonstrates the effect of changing concentrations.
+
+Again, we know diffusion will move K+ out of the cell and electrostatic force will move K+ back into the cell.
+
+However, here the concentration gradient is smaller, and so the corresponding force of diffusion is weaker. 
+
+This means that the electrostatic force needed to *counteract [contrabalançar]* diffusion will also be *weaker [fraca]*. In other words, a smaller buildup of positive charge outside the cell (and negative inside) will result in an equilibrium. 
+
+Given this understanding, we can conclude that the Nernst potential will be less negative than in Scenario 1.
+
+- **Direction of Ion Flow**
+
+Now we’ve seen exactly how the concentration of an ion inside and outside of the cell can affect its Nernst potential. It’s important *to emphasize [ressaltar]* again that this represents an equilibrium point for the ion being considered. 
+
+When ions are flowing across the membrane, they are always trying *to reach [alcançar]* equilibrium. This means that we can use our knowledge of the Nernst potential to predict the movement of an ion using the following rule:
+
+**Ions will always flow in a direction that brings the current membrane potential closer to that ion’s own Nernst potential.**
+
+Let’s consider 3 scenarios where we know the Nernst potential of K+ is -80 mV.
+
+1. The membrane potential is -40 mV.
+2. The membrane potential is -80 mV.
+3. The membrane potential is -120 mV. 
+
+In **Scenario 1**, the membrane potential is currently more positive than potassium’s Nernst potential (since -40 > -80). We know that K+ wants to reach an equilibrium, so it will flow in a direction that makes -40 mV more negative and thus closer to -80 mV. To do so, K+ will move out of the cell, creating a buildup of negative charge inside the cell that makes the membrane potential more negative.
+
+In **Scenario 2**, the membrane potential is exactly equal to the Nernst potential of K+. Therefore, K+ is at an equilibrium and it will not *net [líquido]* flow in any direction.
+
+In **Scenario 3**, the membrane potential is currently more negative than potassium’s Nernst potential. Again, we know that K+ wants to reach an equilibrium, so it will flow in a direction that makes -120 mV more positive and thus closer to -80 mV. To do so, K+ will move into the cell, creating a buildup of positive charge inside the cell that makes the membrane potential more positive.
+
+- **An Example Calculation**
+
+Now that we have built more of an intuition for how concentration affects the Nernst potential of an ion and what this potential represents, let’s finally return to calculating the Nernst potential. 
+
+The Nernst potential is affected by a few different variables -- most importantly, the concentration of the ion inside and outside of the cell, and also the temperature and valence of the ion.  
+
+Let's go through an example scenario: the concentration of K+ outside of a neuron is 10 mM and inside of the neuron is 150 mM, and assume the temperature is 37 degrees Celsius. 
+
+The Nernst equation is: 
+
+[Nernst_Potential_Problem_Solving_01](images/Nernst_Potential_Problem_Solving_01.png)
+
+**T** is in Kelvin, so here T = 37 + 273°C = 310 Kelvin.
+
+**z** is the valence of the ion, which for K+ is '+1' (for Cl- it is ‘-1’, for Ca2+ it is ‘+2’, etc.).
+
+**[ion]out** is 10 mM, as specified above.
+
+**[ion]in** is 150 mM, as specified above.
+
+**R** and **F** are constants, where R = 8.314 J/K*mol and F = 96,485 C/mol, where C = coulombs.
+
+We can put all of this together to calculate the Nernst potential for K+:
+
+[Nernst_Potential_Problem_Solving_02](images/Nernst_Potential_Problem_Solving_02.png)
+
+The Nernst equation will give an answer in Volts, which can be converted to millivolts by multiplying the answer by 1000. So, for K+ in the above scenario, the Nernst potential would be -72.34 mV. You can practice doing the calculation for yourself in the problems below.
+
+- **Question 1**
+
+In a laboratory, scientists often study neurons in isolation, outside of a living creature, in a dish. In this setting, one can have a good deal of control over the local ionic environment in which the cell exists, because we can control the makeup of the solution – the 'medium' – in the dish. This situation is a bit like replacing the extracellular fluid that the cell would normally be bathed in with some other fluid.
+
+There are a variety of different kinds of media that scientists use for different purposes. Let’s consider a few standard ones, including Dulbecco’s Modified Eagle’s Medium (DMEM) and depolarization medium.
+
+The table below lists the ionic concentrations for these media. The intracellular column lists the concentrations inside a particular neuron. All concentrations below are in mM (millimolar).
+
+[Nernst_Potential_Problem_Solving_02](images/Nernst_Potential_Problem_Solving_02.png)
+
+Based on this chart, what is the Nernst potential for K+ for the cell, bathed in DMEM at 37°C? **-87mV**
+
+Fiz a conta mas acho que fiz errado. Corrigir:
+R . T > 8314 . 37 = 307618
+z . F > 1 . 96485 =  96485
+307618/96485 = 3,18824
+
+ion in = 140
+ion out = 55? 
+55/140 = 0,3928
+
+3,18824 ln 0,3928 = 0,4554
+
+
+
+- **Question 2**
+
+What is the Nernst potential for Cl- in DMEM at 37°C? **-61mV**
+
+
+- **Question 3**
+
+What is Nernst potential for K+ in the "depolarization" medium at 37°C? **-25mV**
+
+- **Question 4**
+
+When the neurons are bathed in DMEM at 37°C, which ion experiences the smallest driving force if we apply a voltage of -100 mV across the membrane?
+
+**Resposta:**
+The Nernst Potential is determined by the equation
+
+In this case, we have T = 37°C = 310K, and thus RT/F = 26.7 mV. The internal ionic concentrations remain the same, but the external ionic concentration will be different based on whether it is in DMEM or the depolarization media.
+
+Plugging in values, we can fill out this table
+
+[Nernst_Potential_Problem_Solving_04](images/Nernst_Potential_Problem_Solving_04.png)
+
+The driving force is defined as Vm - Eion (the difference between the current membrane potential and that ion's Nernst potential). K+ has a Nernst potential closest to -100 mV in DMEM, and so it experiences the smallest driving force.
+
+
+- **Question 5**
+
+Which direction would the net flux be in for that ion? **Extracellular to intracellular.If we apply a voltage of -100 mV and the Nernst potential of K+ is about -87 mV, K+ will move into the cell. Ions will move in a direction that brings the current membrane potential closer to its Nernst potential. So, since a voltage of -100 mV is more negative than the Nernst potential of K+, K+ ions will move into the cell to make the membrane potential more positive and thus closer to -87 mV.**
+
+
+- **Question 6**
+
+The membrane potential for a neuron is currently -30 mV, and the Nernst potential for Cl- for this neuron is -60 mV. If Cl- ions are allowed to flow through the membrane, in which direction will they flow? **Into the cell. The best way to think about this is that ions will flow in whatever direction brings the current membrane potential closer to their own equilibrium potential. So, here, the neuron is at -30 mV and the Nernst potential of Cl- is -60mV. Thus, Cl- will tend to flow into the neuron to make the inside more negative and thus have a membrane potential closer to -60 mV.**
+
+---
+
+##### The GHK Equation (Parei aqui)
