@@ -1173,3 +1173,11 @@ dialog p {
         transform: none !important
     }
 }
+/* Biblioteca: entrada editorial e desenho SVG, sem emojis decorativos. */
+.library-teaser{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(210px,.65fr);align-items:center;gap:38px;padding:34px 42px;background:var(--rose);border:1px solid var(--line);border-radius:8px}
+.library-teaser h2{font-size:clamp(35px,4.4vw,57px);font-style:italic;margin:14px 0 18px}
+.library-teaser p{max-width:540px;color:var(--text)}
+.library-teaser .text-link{font-weight:600}
+.library-teaser-art{display:flex;align-items:center;justify-content:center}
+.library-illustration{width:min(100%,270px);height:auto;display:block}
+@media(max-width:650px){.library-teaser{grid-template-columns:1fr;padding:27px 24px;gap:12px}.library-teaser-art{justify-content:flex-end}.library-illustration{width:190px}.library-teaser h2{font-size:40px}}

@@ -17,6 +17,8 @@ jobs:
       - uses: actions/checkout@v6
       - name: Gerar índice e preparar site
         run: python3 scripts/build_index.py --dist
+      - name: Incluir apresentação do PDI no site publicado
+        run: mkdir -p dist/pdi && cp pdi/index.html dist/pdi/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
