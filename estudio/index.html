@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f1e8">
+  <meta name="description" content="Crie roteiros, takes, legendas e planos de edição no Estúdio Julli doesn’t know.">
+  <title>Estúdio de conteúdo · Julli doesn’t know</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="studio.css">
+  <script type="module" src="studio.mjs"></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="side">
+      <a class="brand" href="./">julli <i>doesn’t know</i> <span aria-hidden="true">✧</span></a>
+      <nav aria-label="Navegação do estúdio">
+        <a href="#novo" aria-current="page"><span aria-hidden="true">●</span> Novo conteúdo</a>
+        <a href="#salvos"><span aria-hidden="true">◆</span> Roteiros salvos</a>
+        <a href="../"><span aria-hidden="true">↗</span> Caderno de estudos</a>
+      </nav>
+    </aside>
+    <main>
+      <section id="novo">
+        <header class="heading">
+          <div><p class="eyebrow">Estúdio de conteúdo</p><h1>Novo <i>conteúdo</i></h1></div>
+          <button type="button" class="quiet" id="example">Carregar exemplo</button>
+        </header>
+        <form id="compose">
+          <div class="idea card">
+            <label for="brief" class="eyebrow">Minha ideia</label>
+            <textarea id="brief" rows="2" required maxlength="3000" placeholder="Ex.: por que eu estranho as decisões da minha versão adolescente?"></textarea>
+            <button type="submit" class="primary">Gerar roteiro</button>
+          </div>
+          <fieldset>
+            <legend class="eyebrow">Escolha o formato</legend>
+            <div class="formats">
+              <label class="format vlog"><input type="radio" name="format" value="vlog"><span class="swatch">▶ &nbsp; Cenas e voz em off</span><strong>Vlog</strong><small>Um fio condutor para o dia</small></label>
+              <label class="format carousel"><input type="radio" name="format" value="carrossel"><span class="swatch">01 &nbsp; Slide a slide</span><strong>Carrossel</strong><small>Uma ideia por página</small></label>
+              <label class="format reels"><input type="radio" name="format" value="reels" checked><span class="swatch">▶ &nbsp; Fala e cortes</span><strong>Reels</strong><small>Uma pergunta em vídeo</small></label>
+            </div>
+          </fieldset>
+        </form>
+        <div class="feedback" role="status" id="status"></div>
+        <div id="empty" class="card empty">
+          <h2>Seu roteiro aparece aqui</h2>
+          <p>Escreva uma ideia e escolha o formato para montar um primeiro rascunho.</p>
+        </div>
+        <section id="result" aria-label="Plano de conteúdo" hidden>
+          <header class="result-heading">
+            <div><p class="eyebrow" id="result-meta"></p><h2 id="result-title"></h2></div>
+            <div class="actions"><button id="copy" class="quiet">Copiar plano</button><button id="save" class="quiet">Salvar</button></div>
+          </header>
+          <div class="output">
+            <section class="card production">
+              <h3 class="eyebrow" id="script-label">Roteiro e cortes</h3>
+              <div id="timeline" aria-hidden="true"></div>
+              <ol id="script"></ol>
+              <div class="caption"><h3 class="eyebrow">Legenda para publicar</h3><p id="caption"></p></div>
+              <h3 class="eyebrow" id="takes-label">Takes pra gravar</h3>
+              <ul id="takes"></ul>
+            </section>
+            <section class="card editing">
+              <h3 class="eyebrow">Edição no seu estilo</h3>
+              <div class="palette" aria-label="Paleta bordô, creme, rosé e verde"><span></span><span></span><span></span><span></span><span></span></div>
+              <dl id="editing"></dl>
+            </section>
+          </div>
+        </section>
+        <details class="chat card">
+          <summary>Desenvolver a ideia com a skill</summary>
+          <p>Copie o pedido e abra o ChatGPT para criar uma versão sob medida. Cole a resposta aqui para ver o plano no painel.</p>
+          <button id="open-chat" class="quiet" type="button">Copiar pedido e abrir o ChatGPT ↗</button>
+          <label for="reply" class="eyebrow">Resposta do ChatGPT</label>
+          <textarea id="reply" rows="3" maxlength="40000" placeholder="Cole aqui a resposta em JSON"></textarea>
+          <button id="import" class="quiet" type="button">Importar plano</button>
+          <p id="chat-status" role="status"></p>
+          <textarea id="chat-prompt" aria-label="Pedido para o ChatGPT" readonly hidden></textarea>
+        </details>
+      </section>
+      <section id="salvos" hidden>
+        <header class="heading"><div><p class="eyebrow">Estúdio de conteúdo</p><h1>Roteiros <i>salvos</i></h1></div></header>
+        <p>Disponíveis neste navegador.</p>
+        <ul id="saved"></ul>
+      </section>
+    </main>
+  </div>
+  <noscript>Ative o JavaScript para usar o estúdio.</noscript>
+</body>
+</html>

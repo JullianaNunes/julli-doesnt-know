@@ -76,7 +76,7 @@ def package():
     out=ROOT/'dist'
     if out.exists(): shutil.rmtree(out)
     out.mkdir()
-    for name in ('index.html','assets','conteudos','.nojekyll'):
+    for name in ('index.html','assets','conteudos','estudio','aprendizados','.nojekyll'):
         src=ROOT/name
         if src.is_dir(): shutil.copytree(src,out/name)
         else: shutil.copy2(src,out/name)
