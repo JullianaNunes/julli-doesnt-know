@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6c253a">
+  <meta name="description" content="Organize o que aprende e acompanhe o que colocou em prática.">
+  <title>Banco de aprendizados · Julli doesn’t know</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="dashboard.css">
+  <script type="module" src="dashboard.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <div class="layout">
+    <aside class="sidebar">
+      <a class="brand" href="../">julli<br> doesn’t<br> know <span aria-hidden="true">✧</span></a>
+      <nav aria-label="Navegação do banco de aprendizados">
+        <a href="#temas" aria-current="page">Por tema</a>
+        <a href="#fontes">Todas as fontes</a>
+        <a href="#revisao">Revisão semanal</a>
+      </nav>
+      <a class="back" href="../">← Caderno de estudos</a>
+    </aside>
+    <main id="main" tabindex="-1">
+      <header class="page-heading">
+        <h1 id="page-title">Banco de <em>aprendizados</em></h1>
+        <button class="primary" id="add" type="button">+ Novo aprendizado</button>
+      </header>
+
+      <section aria-label="Progresso geral" class="metrics">
+        <div><strong id="count">0</strong><span>Registros</span></div>
+        <div><strong id="theme-count">0</strong><span>Temas com registros</span></div>
+        <div><strong id="applied-count">0</strong><span>Já aplicados</span></div>
+        <div><strong id="rate">0%</strong><span>Taxa de aplicação</span></div>
+      </section>
+      <p id="status" class="status" role="status"></p>
+
+      <section id="themes-view" aria-label="Por tema">
+        <p id="empty-message" class="hint">Use <strong>+ Novo aprendizado</strong> para registrar sua primeira ideia.</p>
+        <div id="themes" class="themes"></div>
+        <footer class="review-strip">
+          <div><h2>Revisão semanal</h2><p id="week-summary"></p></div>
+          <a class="secondary" href="#revisao">Revisar semana</a>
+        </footer>
+      </section>
+
+      <section id="sources-view" aria-labelledby="sources-title" hidden>
+        <h2 id="sources-title">Todas as fontes</h2>
+        <label class="search" for="source-search">Buscar por fonte
+          <input id="source-search" type="search" placeholder="Ex.: nome do livro, artigo ou curso">
+        </label>
+        <div id="sources" class="sources"></div>
+      </section>
+
+      <section id="review-view" aria-labelledby="review-title" hidden>
+        <div class="review-heading">
+          <div><h2 id="review-title">Revisão semanal</h2><p id="period" aria-live="polite"></p></div>
+          <div class="week-nav">
+            <button id="previous-week" class="secondary" type="button">Semana anterior</button>
+            <button id="next-week" class="secondary" type="button">Próxima semana</button>
+          </div>
+        </div>
+        <div class="review-grid">
+          <section class="card" aria-labelledby="new-title">
+            <h3 id="new-title">Registros da semana <span id="weekly-new-count" class="count"></span></h3>
+            <ul id="weekly-new" class="records"></ul>
+          </section>
+          <section class="card" aria-labelledby="applied-title">
+            <h3 id="applied-title">Aplicados na semana <span id="weekly-applied-count" class="count"></span></h3>
+            <ul id="weekly-applied" class="records"></ul>
+          </section>
+        </div>
+        <form id="review-form" class="review-form card">
+          <h3>O que quero colocar em prática?</h3>
+          <label for="next-idea">Aprendizado para testar na próxima semana</label>
+          <select id="next-idea"></select>
+          <label for="review-notes">Notas da semana</label>
+          <textarea id="review-notes" rows="3" maxlength="2000" placeholder="O que funcionou? O que quero tentar de outro jeito?"></textarea>
+          <button class="primary" type="submit">Salvar revisão</button>
+          <p id="review-status" class="status" role="status"></p>
+        </form>
+      </section>
+
+      <footer class="local-note">Seus registros e revisões ficam salvos neste navegador.</footer>
+    </main>
+  </div>
+
+  <dialog id="editor" aria-labelledby="editor-title">
+    <form id="record-form">
+      <header class="editor-heading">
+        <h2 id="editor-title">Novo aprendizado</h2>
+        <button class="close" id="close-editor" type="button" aria-label="Fechar formulário">×</button>
+      </header>
+      <label for="theme">Tema</label>
+      <input id="theme" list="theme-options" maxlength="80" placeholder="Escolher ou criar tema" required autofocus>
+      <datalist id="theme-options"></datalist>
+      <label for="source">Fonte</label>
+      <input id="source" maxlength="500" placeholder="Nome ou link" required>
+      <label for="idea">Ideia</label>
+      <textarea id="idea" rows="4" maxlength="1000" required></textarea>
+      <label for="application">Como aplicar</label>
+      <textarea id="application" rows="4" maxlength="1000" required></textarea>
+      <button class="primary" type="submit">Salvar registro</button>
+      <p id="editor-status" class="status" role="alert"></p>
+    </form>
+  </dialog>
+  <noscript>Ative o JavaScript para registrar seus aprendizados.</noscript>
+</body>
+</html>
