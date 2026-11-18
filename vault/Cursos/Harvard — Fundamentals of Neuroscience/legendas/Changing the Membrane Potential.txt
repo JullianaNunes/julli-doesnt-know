@@ -1,0 +1,27 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Até agora, falamos sobre o potencial de repouso da membrana.
+E agora você deve ter alguma intuição sobre por que isso existe
+e como calcular sua magnitude a partir das concentrações e permeabilidades de íons.
+Se você ainda está um pouco confuso sobre por que há
+uma voltagem através da membrana em repouso, você
+talvez você queira voltar e revisar a seção anterior.
+Tudo o que falamos até agora é em termos de estados estacionários.
+Basicamente, o que acontece se você deixar o sistema funcionar, em princípio, para sempre,
+até que tudo se estabeleça em um estado onde não haja nenhuma mudança líquida?
+Agora, a função do sistema nervoso é enviar sinais -
+sinais dos sentidos, sinais que dizem aos nossos músculos para se moverem.
+Até agora, você provavelmente também adivinhou que iremos
+estar enviando esses sinais e neurônios transitoriamente
+alterando o potencial de membrana.
+A existência de um potencial de repouso prepara o sistema para a ação.
+Mas um mecanismo de sinalização não seria muito útil se nunca mudasse.
+Falaremos sobre os mecanismos ativos que
+nos permite alterar o potencial de membrana
+e como estes dão origem à sinalização neuronal na próxima seção.
+Mas antes de chegarmos lá, precisamos abordar
+algumas das propriedades passivas da membrana que
+governar a rapidez com que o potencial da membrana é capaz de mudar.
+Já apresentamos as partes sobre as quais falaremos--
+a membrana, o fluido intracelular e extracelular,
+íons e canais.
+Mas agora, iremos além de como eles se comportam no estado estacionário
+e veja como eles se comportam ao longo do tempo.

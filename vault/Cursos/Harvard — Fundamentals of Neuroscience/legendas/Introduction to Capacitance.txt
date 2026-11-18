@@ -1,0 +1,51 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: OK.
+Agora vamos falar sobre capacitância.
+Então sabemos que em uma célula temos duas regiões condutoras de fluido separadas
+por uma membrana isolante com uma voltagem em ambos os lados da membrana.
+Se você teve alguma exposição à física ou eletrônica,
+você talvez reconheça que esse arranjo é basicamente um capacitor.
+Em circuitos elétricos, um capacitor é um elemento de circuito
+que pode armazenar carga elétrica e geralmente consiste
+de dois condutores separados por uma região isolante chamada dielétrico.
+Quando a tensão é aplicada a um capacitor em um circuito eletrônico,
+cargas se alinham nas duas placas opostas
+através do isolador, opondo-se à tensão aplicada.
+Este acúmulo de carga continua até que as placas estejam efetivamente saturadas,
+ponto em que a tensão no capacitor
+é igual à tensão aplicada.
+Quando aplicamos uma tensão em um degrau, vemos um perfil de carga característico.
+O ponto chave para nossos propósitos é que o armazenamento
+de carga em placas opostas retarda a mudança na tensão
+através dos terminais do capacitor.
+Se voltarmos à tensão original, o capacitor
+descarrega lentamente, voltando à tensão original.
+Novamente, o capacitor está retardando a mudança.
+Basicamente, você pode pensar no capacitor como um buffer de mudanças de tensão.
+Se você está acostumado a pensar em eletrônica,
+então este deve ser um conceito bastante familiar.
+Se não estiver, não tema.
+O conceito de capacitância é bastante simples,
+e muitos sistemas físicos familiares mostram comportamento análogo.
+Por exemplo, uma analogia particularmente familiar é aquecer algo.
+Se pegarmos numa placa de metal e a aquecermos com este maçarico,
+ele não salta instantaneamente para a temperatura do maçarico.
+Em vez disso, a curva de aquecimento é basicamente
+a mesma forma que a curva de carga do capacitor.
+Quando retiramos o calor, vemos que a placa
+não retorna à temperatura ambiente imediatamente
+mas em vez disso esfria lentamente, basicamente seguindo a mesma curva
+como a curva de descarga do capacitor.
+Obviamente, o aquecimento da placa metálica não tem nada a ver com carga,
+e a função do capacitor não tem nada a ver com calor.
+Mas as semelhanças entre esses dois processos
+tem uma conexão física razoavelmente profunda
+ao nível das equações diferenciais que regem o seu comportamento.
+Ah, sim, e nossa analogia anterior com a água também funciona aqui.
+Neste caso, o capacitor é como uma mangueira flexível ou balão no sistema.
+A ponta flexível pode inchar, fazendo com que a pressão da água aumente lentamente
+até que o sistema esteja totalmente inflado.
+Quando interrompemos o fluxo de água, o balão inflado
+pode liberar água, fazendo com que a pressão da água diminua menos rapidamente.
+É um pouco complicado medir, mas as curvas de carga e descarga
+para a pressão da água se parece com a tensão do capacitor
+curvas de carga e descarga.

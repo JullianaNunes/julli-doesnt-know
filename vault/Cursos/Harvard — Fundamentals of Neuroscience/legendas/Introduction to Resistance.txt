@@ -1,0 +1,57 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Você provavelmente já percebeu
+que há uma forte conexão entre as propriedades dos neurônios
+sobre os quais falamos até agora e a terminologia e teoria da eletrônica.
+Por exemplo, já falamos sobre uma conexão com a eletrônica.
+Vimos como os gradientes de concentração e as membranas semipermeáveis
+dão origem a um potencial de membrana, que operacionalmente, se não mecanicamente,
+comporta-se como uma bateria na medida em que gera
+uma voltagem através da membrana.
+Existem duas ideias adicionais importantes da eletrônica
+que têm analogias diretas no neurônio e que
+são essenciais para a compreensão da função dos neurônios -
+resistência e capacitância.
+Vamos começar com resistência.
+Resistência é basicamente o que parece,
+uma quantidade que descreve o quanto um condutor se opõe ao fluxo de carga
+através dele.
+O fluxo de carga através de um condutor, aliás, é chamado de corrente.
+E geralmente é representado por uma letra maiúscula I.
+A resistência é bastante intuitiva.
+Na eletrônica, se tivermos um fio grosso, é mais fácil para a corrente
+fluir do que se tivéssemos um fio pequeno, já que há mais área de seção transversal
+para que a carga flua.
+Dizemos que o fio grande tem uma resistência menor
+e o fio fino tem maior resistência.
+A condutância é o inverso da resistência.
+Portanto, o fio grande tem maior condutância e o fio fino
+tem uma condutância menor.
+Diferentes materiais também são condutores diferentes.
+O cobre, por exemplo, tem uma resistência muito menor do que, digamos, a água salgada.
+Na eletrônica também temos componentes com resistência específica calibrada
+valores chamados, talvez sem imaginação, de resistores.
+Abra um dispositivo eletrônico e você verá que eles estão cheios deles.
+A unidade fundamental de resistência é o ohm.
+A unidade de condutância é o ohm recíproco, também conhecido como siemens.
+No neurônio, já encontramos uma variedade de resistências importantes.
+Cada tipo de canal iônico, por exemplo, possui uma resistência associada.
+Quanto mais permeável for um canal aos íons, menor será sua resistência.
+Da mesma forma, quanto mais canais houver em um determinado patch
+da membrana, menor será a resistência.
+Normalmente, quando falamos sobre resistência nas membranas neuronais,
+nós os medimos em ohms por milímetro quadrado.
+Outra quantidade resistiva importante é a resistência
+através do citoplasma da célula.
+Isto se tornará importante quando começarmos a falar sobre propagação de sinal mais tarde.
+neste módulo.
+Grosso modo, quanto mais salgado for o citoplasma, menor será sua resistência.
+E quanto mais largo for o tubo pelo qual a corrente deve fluir, menor será a resistência.
+Esta analogia com o tubo é bastante adequada.
+Na verdade, muitas vezes é útil pensar sobre o fluxo da corrente
+como o fluxo da água.
+Neste cenário, a tensão seria a energia potencial
+da gravidade de um reservatório elevado de água manifestado como pressão da água.
+E a resistência seria representada como o diâmetro da mangueira.
+Mangueiras maiores permitem que a água flua com mais facilidade, e mangueiras mais finas com menos facilidade.
+Da mesma forma, uma analogia com a densidade do canal iônico,
+se tivermos uma barreira com muitos buracos,
+apresenta menos resistência ao fluxo de água do que uma barreira com poucos furos.

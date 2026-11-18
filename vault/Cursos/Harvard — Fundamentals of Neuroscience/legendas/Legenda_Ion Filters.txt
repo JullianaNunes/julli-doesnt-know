@@ -1,0 +1,59 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Como essa seletividade iônica é tão importante,
+vale a pena fazer um pequeno desvio para falar sobre como na Terra a natureza
+alcança um canal que pode deixar o potássio passar,
+mas que bloqueia o sódio.
+Agora é fácil imaginar como você criaria um canal que bloqueia,
+digamos, todos os íons carregados positivamente.
+Por exemplo, se colocarmos uma carga positiva em algum lugar do poro,
+poderíamos contar com a repulsão eletrostática para manter as cargas positivas afastadas.
+Mas não é isso que precisamos fazer aqui.
+Tanto o potássio quanto o sódio têm carga positiva.
+Portanto, precisamos classificá-los de alguma forma com base em seu tamanho.
+É aqui que as coisas começam a ficar malucas.
+Essas coisas são minúsculas, absurdamente minúsculas.
+O raio iônico do sódio é de apenas 116 picômetros.
+Isso é cerca de um décimo de um bilionésimo de metro.
+Um íon de potássio tem apenas 152 picômetros.
+Portanto, a diferença entre eles é de cerca de um vigésimo de bilionésimo de metro.
+E precisamos classificá-los.
+A solução é sutil e bem legal.
+Você se lembra de como ele disse que cargas positivas e negativas se atraem?
+Bem, se tivermos um íon carregado positivamente se difundindo na água,
+não viaja sozinho.
+Veja, a água, H2O, embora neutra, tem uma polaridade.
+O bit de oxigênio tende a ser mais negativo,
+e os hidrogênios tendem a ser um pouco mais positivos.
+Então, quando temos um cátion em solução, as moléculas de água
+ficam mais felizes quando apontam suas extremidades negativas para o cátion
+e seu positivo acaba.
+O resultado é uma espécie de concha de moléculas de água envolvendo o cátion.
+Chamamos esse shell de shell de solvatação.
+Tudo a nível molecular tem a ver com a condução para a energia mais baixa
+configuração e a camada de solvatação para um cátion específico
+está em sua configuração de energia mais baixa em um espaçamento muito particular onde
+as interações entre as extremidades negativas do oxigênio
+e o cátion e a interferência e interações eletrostáticas
+entre as moléculas de água apenas se equilibram.
+É um espaçamento característico para um íon potássio, que
+tem um tamanho específico e é uma configuração diferente
+para um íon sódio, que tem um tamanho ligeiramente diferente.
+Em solução, as moléculas de água são livres para se situarem
+em qualquer lugar, então essas camadas de solvatação simplesmente se formam, e pronto.
+Mas a natureza descobriu um truque muito inteligente para aproveitar este fenómeno
+para construir canais iônicos seletivos.
+Veja bem, o canal, que é feito de proteína,
+possui um mecanismo especial na frente de seu poro denominado filtro de seletividade.
+Esta máquina molecular existe para fazer uma coisa:
+simular o espaçamento da camada de solvatação
+em uma configuração fixa para seu íon de interesse.
+Portanto, a proteína inclui aminoácidos cuidadosamente colocados
+em sua estrutura que reproduzem um espaçamento e carga do natural
+camada de solvatação ocorrendo.
+O resultado é que, embora o potássio possa felizmente
+existem no espaço da camada de solvatação simulada
+e pode se difundir através do espaçamento
+é um pouco diferente para o sódio, tornando-o energeticamente desfavorável para ele
+até mesmo passar pelo poro.
+É como uma luva cuidadosamente costurada
+feito para caber na mão de apenas uma pessoa.
+Coisas verdadeiramente incríveis.

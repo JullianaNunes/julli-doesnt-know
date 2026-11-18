@@ -783,4 +783,226 @@ The membrane potential for a neuron is currently -30 mV, and the Nernst potentia
 
 ---
 
-##### The GHK Equation (Parei aqui)
+##### The GHK Equation
+
+**Introduction**
+
+So far we have mainly considered the movement of just one ion. In a resting neuron, there are many different ions present inside and outside of the cell that can travel through the membrane. Specifically, each ion is trying to flow such that it reaches its own equilibrium. 
+
+There is a **steady state ("estado estacionário")** when the ion flows are counterbalanced, and the resting potential of the cell is an example of a steady state. We can calculate this resting potential for a cell using the GHK equation. Let's take a step back and review a key concept before getting into the details.
+
+That key concept is the difference between an ‘equilibrium’ and a ‘steady state.’ When we considered the flow of a single ion, we found that there is a particular potential, the Nernst potential, where that ion will be at an equilibrium; this means that the net flow of this individual ion into and out of the neuron will be equal and opposite, and so there is no net flow of the ion in either direction.
+
+In a resting neuron, there are many ions that can flow across the membrane, and each ion will try to reach its own equilibrium simultaneously. Given the concentration gradients of the different ions and their ‘permeabilities’, which will be explained in this lesson, there will exist a balancing point at which the membrane potential will be stable. At this balancing point, no single ion will be at its own equilibrium, but the total net flow of all charges into and out of the cell will be equal and opposite. Since no particular ion is at an equilibrium, we instead call this balancing point a steady state. The resting potential is an example of a steady state.
+
+The GHK equation shows that the two most important factors in determining the resting potential of a neuron are: 
+1. the concentrations of particular ions inside and outside of the membrane 
+2. the permeabilities of these ions. 
+
+**Question 1**
+
+As we've seen, scientists often study neurons in isolation, outside of a living creature, in a dish. In this setting, one can have a good deal of control over the local ionic environment in which the cell exists, because we can control the makeup of the solution – the 'medium' – in the dish. This situation is a bit like replacing the extracellular fluid that the cell would normally be bathed in with some other fluid.
+
+There are a variety of different kinds of media that scientists use for different purposes. Let’s take another look at neurons in Dulbecco’s Modified Eagle’s Medium (DMEM) and depolarization medium.
+
+The table below lists the ionic concentrations for these media. The intracellular column lists the concentrations inside a particular neuron. All concentrations below are in mM (millimolar).
+
+Ion
+
+Intracellular
+
+DMEM
+
+“depolarization medium”
+
+K+
+
+140
+
+5.3
+
+55
+
+Na+
+
+10
+
+154
+
+105
+
+Cl-
+
+12
+
+119
+
+119
+
+Ca2+
+
+0.0001
+
+1.8
+
+1.8
+
+If we assume relative ion permeabilities of 100, 4, and 10 for K+, Na+, and Cl-, respectively, what would the resting potential of the cell be when the cell is bathed in DMEM at 37°C? (assume Ca2+ permeability is neglible)
+
+**−66 mV is the correct choice.**
+Using the Goldman–Hodgkin–Katz equation at 37 °C, with DMEM as the extracellular solution and negligible Ca²⁺ permeability:
+\[
+V_m = 26.7\,\text{mV}\,\ln\!\left(
+\frac{100(5.3)+4(154)+10(12)}
+     {100(140)+4(10)+10(119)}
+\right)
+= 26.7\,\text{mV}\,\ln\!\left(\frac{1266}{15230}\right)
+\approx -66.4\,\text{mV}.
+\]
+Chloride goes in the opposite order from K⁺ and Na⁺ because it is negatively charged. Its intracellular concentration (12 mM) goes in the numerator, and its extracellular concentration (119 mM) goes in the denominator.
+
+
+**Question 2**
+1 point possible (graded)
+
+What would the resting potential of the cell be when it is bathed in depolarization medium at 37°C?
+
+**−25 mV is the correct choice.**
+
+Using the same Goldman–Hodgkin–Katz equation at 37 °C with the depolarization medium concentrations:
+\[
+V_m = 26.7\,\mathrm{mV}\,\ln\!\left(
+\frac{100(55)+4(105)+10(12)}
+     {100(140)+4(10)+10(119)}
+\right)
+= 26.7\,\mathrm{mV}\,\ln\!\left(\frac{6040}{15230}\right)
+\approx -24.7\,\mathrm{mV}.
+\]
+The higher extracellular K⁺ concentration makes the membrane potential less negative than in DMEM, shifting it from about −66 mV to −25 mV.
+
+
+**Question 3**
+1 point possible (graded)
+Hypokalemia and hyponatremia are the medical terms referring to low levels of potassium and sodium in the extracellular fluid, respectively. The former occurs in various conditions, including overmedication with certain antibiotics, while the latter has many causes including diseases of the kidney. Let's explore what effect, if any, each of these conditions would have on the membrane potential of a neuron.
+
+
+What would happen to the resting potential if there were a lower than normal extracellular K+ concentration?
+**Hyperpolarization**. Lowering extracellular K⁺ makes the resting membrane potential more negative. You can see this in the Goldman–Hodgkin–Katz equation: extracellular K⁺ is in the numerator, so lowering it decreases the ratio and makes its logarithm more negative.
+
+
+**Question 4**
+0.0/1.0 point (graded)
+What would happen to the resting potential if there were a lower than normal extracellular Na+ concentration?
+**Hyperpolarization**. With lower Na+ outside the neuron, its Nernst potential will be more negative, thus causing the resting potential to be more negative.
+
+
+**Question 5**
+1 point possible (graded)
+Which would have a greater impact on the resting potential: lowering the extracellular Na+ concentration by 2 mM, or lowering extracellular K+ concentration by 2 mM?
+**K⁺** would have the greater impact. In the Goldman–Hodgkin–Katz equation, extracellular K⁺ is weighted by its relative permeability of 100, while extracellular Na⁺ is weighted by 4. A 2 mM drop therefore reduces the numerator by 200 for K⁺ versus 8 for Na⁺. Both changes make the resting potential more negative, but lowering K⁺ causes more hyperpolarization.
+
+
+**Question 6**
+1 point possible (graded)
+
+Cells in the electric eel's electric organ have a larger-than-normal membrane potential, sitting at roughly -150 mV. How might a cell achieve a more negative resting potential? Indicate all that apply.
+
+- **Lower extracellular K⁺ concentration**
+- **Higher intracellular K⁺ concentration**
+In the Goldman–Hodgkin–Katz equation, extracellular K⁺ contributes to the numerator and intracellular K⁺ to the denominator. Either change decreases the ratio, making the resting membrane potential more negative.
+
+
+**Question 7**
+0.0/1.0 point (graded)
+
+True or false?: Larger neurons must expend more energy at rest.
+
+**True**. Larger neurons would have a greater surface area over which leakage channels can dissipate the resting potential, so in order to maintain that, more sodium-potassium pumps are needed to maintain the resting potential.
+
+
+**Question 8**
+1 point possible (graded)
+A fictional neuron is permeable to two ions: Li+ and Mg2+. The table below describes the conditions for this neuron, which has a resting potential of -30 mV.
+
+
+Ion
+
+Nernst Potential
+
+Permeability
+
+Li+
+
+-50 mV
+
+100
+
+Mg2+
+
++20 mV
+
+10
+
+If the permeability of Mg2+ ions is tripled, how will this affect the resting potential?
+
+**The resting potential will be more positive.**
+
+At −30 mV, Mg²⁺ tends to flow into the cell because its Nernst potential is +20 mV. Tripling Mg²⁺ permeability increases that inward flow of positive charge, shifting the resting potential toward +20 mV.
+
+
+---
+
+##### Ion Filters
+
+So far we’ve been talking about how different ions, such as K+ and Na+, move across the membrane. They do so by passing through ion channels, many of which are selective for particular ions. But how can an ion channel differentiate between two extremely small ions? The video will address two key questions:
+
+1. What is a ‘solvation shell’?
+2. How are Na+ ions excluded from K+ selective ion channels?
+
+[Legenda do video em Português](legendas/Legenda_Ion%20Filters.txt)
+
+
+**Question 1**
+The selective potassium leakage channel keeps out sodium on the basis of the difference between potassium and sodium's _______.
+**Sizes**. K⁺ and Na⁺ both have a +1 charge. The channel’s selectivity filter is shaped to stabilize K⁺ after it sheds its surrounding water molecules. Na⁺ is smaller, so it cannot make the same contacts with the filter.
+
+
+**Question 2**
+True or False: Bromide ions (Br-) are very similar in size to K+ ions. So, Br- ions should be able to flow through K+ leak channels.
+**False**. Br⁻ may be similar in size to K⁺, but it has the opposite charge. The K⁺ channel’s selectivity filter uses partially negative oxygen atoms to stabilize positively charged K⁺ as it passes through. Those interactions do not favor Br⁻.
+
+--- 
+
+##### The Sodium/Potassium Pump
+
+So far we’ve been discussing the importance of ion concentration gradients across the membrane of a neuron. These gradients are important because they cause ions to flow in particular directions across the membrane and establish an electrical potential. As is hopefully evident, the maintenance of these concentration gradients is very important for neuronal function. Here we will discuss a particular pump, called the Na+/K+ pump, that is very important to neurons. By the end of this video, you should be able to answer:
+
+1. What is the role of the Na+/K+ pump in neurons?
+2. What would happen to a neuron if the Na+/K+ pump were damaged?
+
+[Legenda do video em Português](legendas/The%20Sodium%20Potassium%20Pump.txt)
+[Vídeo](videos/The%20Sodium%20Potassium%20Pump.mp4)
+
+
+**Question 1**
+True or false?: The Na+/K+ pump requires energy to work.
+**True**. The Na⁺/K⁺ pump uses energy from one ATP molecule to move 3 Na⁺ out of the neuron and 2 K⁺ in, against their electrochemical gradients.
+
+
+**Question 2**
+A mutation is identified that disrupts the function of the Na+/K+ pump. What do you expect will happen to a neuron that possesses this mutation? (Select all that apply.)
+
+- Both Na⁺ and K⁺ ion concentrations will be affected.
+- The resting potential of the neuron will change.
+- The neuron will no longer be able to function properly.
+
+When the pump is disrupted, Na⁺ tends to build up inside the neuron and intracellular K⁺ falls over time. As those gradients weaken, the resting potential becomes less negative, and the neuron loses its ability to signal normally.
+
+---
+
+**Conclusion**
+So far our main objective has been to understand how the resting potential is established. A defining feature of neurons is that they use electrical signalling so communicate and allow the nervous system to function. Neurons themselves have a voltage across their membranes, which is a difference in electrical potential that we measure from the inside with respect to the outside.
+
+These voltage differences are the result of the movement of ions. Neurons sit in a solution that contains particular concentrations of certain ions, and these same ions have particular concentrations inside the neurons themselves. Two separate forces guide the movement of ions across the membrane: diffusion and electrostatic force. Ions move through channels in the membrane, and, depending on the proteins in the neuronal membrane, different ions are able to pass through the membrane more or less easily. We call these different permeabilities.
+
+Using certain equations, we can calculate the electrical potential across a membrane. For the movement of a single ion, we can use the Nernst equation to determine the equilibrium potential under which diffusion and electrostatic force are balanced, and we can use the GHK equation to calculate the resting potential when many ions are involved. The maintenance of the resting potential is very important for neurons - there are pumps such as the sodium/potassium ATPase that consume immense amounts of energy to keep ions at particular concentrations, ensuring that the neurons are able to function properly.

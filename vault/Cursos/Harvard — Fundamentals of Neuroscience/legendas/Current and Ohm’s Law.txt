@@ -1,0 +1,51 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Voltemos ao neurônio.
+A bicamada lipídica, cujas caudas hidrofóbicas
+são como isolantes não condutores, atuam como um capacitor
+à medida que íons com cargas opostas se acumulam em ambos os lados da membrana.
+Assim, embora a membrana seja essencial para a vida elétrica do neurônio,
+suas propriedades são fundamentalmente limitadas pela velocidade com que
+o potencial da membrana pode mudar.
+Isso se tornará muito importante nas próximas seções
+quando começamos a falar sobre propagação de sinais.
+Há mais uma coisa importante a esclarecer antes de começarmos
+falando sobre sinalização com mais profundidade.
+Sabemos que a equação GHK é calculada
+de acordo com as permeabilidades relativas de vários íons.
+Há uma proporção relativa de permeabilidades de potássio, sódio,
+e cloreto em repouso.
+Se essas permeabilidades individuais mudassem,
+por exemplo, à medida que mais canais seletivos de íons são abertos ou fechados,
+a proporção mudaria e as cargas começariam a se mover.
+Essas cargas móveis são uma corrente e podem ser descritas usando a lei de Ohm.
+Compreender apenas o básico da lei de Ohm será útil para você.
+A lei de Ohm nos diz a relação entre resistência, corrente,
+e tensão.
+A lei de Ohm nos diz que a corrente é igual à tensão dividida pela resistência,
+onde V é a tensão; I é a corrente, medida em amperes;
+e R é a resistência, medida em ohms.
+Então, por que nos importamos?
+O conceito-chave a ser retirado da lei de Ohm
+é que a tensão é proporcional à corrente.
+À medida que a tensão aumenta, a corrente também aumenta
+se a resistência permanecer a mesma.
+Vejamos uma analogia física.
+A lei de Ohm faz sentido intuitivamente se você aplicar um exemplo hidráulico.
+Se tivermos uma bomba d'água que exerce pressão para empurrar a água ao redor de um circuito
+através de uma restrição, podemos examinar como cada uma dessas variáveis
+relacionar-se entre si.
+Se a resistência ao fluxo de água permanecer a mesma e a pressão da bomba
+aumenta, a taxa de fluxo também deve aumentar.
+Se a pressão permanecer a mesma e a resistência aumentar,
+dificultando o fluxo da água, a taxa de fluxo deve diminuir.
+Se a taxa de fluxo permanecesse a mesma enquanto a resistência ao fluxo diminuía,
+a pressão necessária da bomba diminuiria necessariamente.
+Falaremos mais sobre como alteramos a resistência e a corrente e a tensão
+e como isso se relaciona com a capacitância da membrana na próxima seção.
+Vamos reunir tudo o que sabemos e dar uma olhada no panorama geral.
+A membrana atua como um capacitor, mas lembre-se,
+a membrana é na verdade cilíndrica, então temos muitos capacitores em paralelo.
+Os canais agem como resistores, alterando a condutância e a permeabilidade
+aos íons e permitindo que a corrente vaze para fora da célula.
+Portanto, podemos pensar na resistência aqui ao longo da membrana em paralelo.
+Além disso, também temos resistência ao fluxo de corrente axialmente,
+ao longo do neurônio em série.

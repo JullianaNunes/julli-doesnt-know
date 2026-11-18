@@ -1,0 +1,54 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Esses canais iônicos seletivos são
+muito importantes porque permitem seletivamente que os íons fluam para baixo
+seus gradientes de concentração.
+Estes são os canais iônicos mais básicos.
+Nós os chamamos de canais de vazamento porque eles passivamente
+permitir a passagem de certos íons.
+Em um neurônio real, você tem muitos canais seletivos passivos de potássio
+e menos canais passivos de sódio e cloreto.
+Como a permeabilidade ao potássio é muito maior que a dos outros canais,
+o potássio domina o potencial de repouso.
+Mas qualquer íon que possa passar através da membrana, mesmo que seja um pouquinho,
+contribuirá para a membrana geral.
+Se você for particularmente astuto, perceberá que deixamos uma ponta solta.
+Anteriormente, mostramos como ter uma permeabilidade significativa ao sódio
+faria com que o potencial de repouso se desfizesse.
+Porque nesse cenário, tanto o potássio quanto o sódio
+podem viajar abaixo de seus gradientes de concentração
+sem nunca desenvolver um gradiente elétrico.
+Isto é como ter uma porta separada que permite
+os americanos entram na sala interna.
+Os marinheiros se misturam e o desequilíbrio de gênero nunca sai do controle.
+É uma espécie de programa de intercâmbio.
+Enquanto negociarmos marinheiros britânicos e americanos um por um,
+podemos manter as proporções de género em ordem.
+Como vimos, essa não é a realidade da situação.
+Os marinheiros britânicos, isto é, o potássio, podem mover-se facilmente.
+Enquanto os marinheiros americanos têm dificuldade em passar.
+Mas não é impossível.
+Imagine um mundo onde de vez em quando um americano consegue se esgueirar.
+Uma vez que ele está do outro lado, ele fica bastante feliz.
+Ele cumpriu sua missão de cobrir igualmente os territórios.
+Ou seja, ele está difundido em seu gradiente de concentração.
+E a proporção de gênero é melhor aqui.
+Ou seja, ele também desceu no gradiente elétrico.
+Dê um centímetro, caminhe um quilômetro.
+Isso não acontecerá imediatamente, mas com tempo suficiente,
+eventualmente, um número suficiente de americanos encontrará o caminho para a sala interna
+e todo o sistema estará em equilíbrio.
+Não podemos permitir isso.
+Precisamos tomar medidas para manter as coisas em ordem.
+Na natureza, a solução para manter este gradiente lógico
+é a bomba de sódio e potássio que move continuamente três íons de sódio para fora
+da célula.
+A cada dois íons de potássio ele bombeia para dentro da célula.
+Esta potência usa ATP, uma molécula transportadora de energia chave
+em biologia para conduzir sua função e manter
+um gradiente elétrico nos neurônios.
+O transporte de sódio para fora da célula e de potássio para dentro da célula
+é tão importante para a função neuronal que consome
+a 70% do ATP necessário para o funcionamento geral do cérebro.
+Isso é muita energia apenas para manter um gradiente elétrico.
+Para colocar isso em perspectiva, algo como um terço de tudo
+você come em um dia vai para alimentar esta bomba.
+[MÚSICA, TOCANDO]
