@@ -1,0 +1,37 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Até agora, falamos sobre a unidade fundamental de sinalização
+no sistema nervoso -
+o potencial de ação.
+Mas temos uma pergunta maior para responder.
+Como esses sinais vão do ponto A ao ponto B?
+Existem muitos tipos diferentes de vias de sinalização no corpo humano
+e na natureza.
+Muitos deles envolvem a movimentação de moléculas em torno de sinais.
+Em nossos próprios corpos, temos a difusão de moléculas sinalizadoras
+dentro e entre células individuais, transporte facilitado de moléculas
+através das membranas e dentro das células, e nós
+têm o transporte de hormônios por todo o corpo
+através do sistema circulatório.
+Árvores e plantas movem moléculas sinalizadoras
+através de grandes distâncias usando uma combinação de difusão,
+ação capilar e transpiração.
+E os organismos unicelulares reagem e se adaptam aos seus ambientes
+em grande parte através da ação de sinalização molecular baseada em difusão
+cascatas.
+No entanto, no sistema nervoso, os sinais
+que, em última análise, medeiam nossos sentidos e nossas ações e reações
+para o meio ambiente dependem de outro paradigma para ir daqui até lá -
+sinalização elétrica.
+Por que a natureza desenvolveu outro mecanismo de sinalização?
+Vamos tentar obter uma compreensão intuitiva
+do problema fisiológico que enfrentamos.
+Eu tenho uma fita métrica aqui medindo a distância da minha coluna
+para o meu braço, e aproxima-se da distância
+qual um sinal em um neurônio que controla uma fibra muscular que meu braço deve percorrer.
+É cerca de um metro.
+Digamos que eu queira pegar esta xícara de café.
+Se eu dependesse da difusão para transportar o sinal através desta distância,
+o sinal demoraria cerca de um ano para chegar.
+E nessa altura o meu café não só estaria frio,
+mas teria evaporado completamente.
+Então, por que usar um potencial de ação no sistema nervoso?
+Porque precisamos agir rápido.

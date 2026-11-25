@@ -1,0 +1,11 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Movemos o estimulador para o meio.
+Como você pode ver, dois potenciais de ação se propagam em ambas as direções.
+Por que isso acontece?
+A mudança potencial local induzida pelo nosso eletrodo estimulador
+faz com que a membrana adjacente em ambas as direções
+para experimentar uma mudança potencial.
+A propagação ocorre, portanto, em ambas as direções.
+Não há nada que impeça o ciclo de despolarização e ação
+disparo potencial.
+Então vemos que não há nada intrinsecamente
+direcional em torno do axônio que causa a propagação em apenas uma direção.

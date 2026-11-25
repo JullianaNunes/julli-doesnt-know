@@ -1,0 +1,28 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Queremos que a resistência axial seja a mais baixa possível.
+E queremos que a capacitância também seja a mais baixa possível.
+Por que isso faz sentido, dado o nosso entendimento
+das propriedades elétricas passivas da membrana?
+Existem alguns fatores que limitam a velocidade de propagação em nosso axônio.
+A natureza da reação em cadeia do potencial de ação
+acontece porque a corrente flui pelo axônio
+e desencadeia um potencial de ação na região adjacente.
+Outro fator limitante é a rapidez com que o potencial de membrana
+é capaz de mudar para desencadear o próximo potencial de ação.
+A abertura de canais de sódio dependentes de voltagem leva tempo.
+E na verdade é um processo bastante lento no esquema das coisas.
+Como vimos anteriormente, uma resistência axial mais alta encurta a constante de comprimento
+e assim limita o tamanho da bolha de despolarização
+associado a um potencial de ação.
+E isso limita o alcance de um potencial de ação que ocorre
+em um trecho específico da membrana.
+Enquanto isso, a capacitância amortece e atrasa a despolarização, aumentando ainda mais
+limitando até onde vai.
+Dado que a ativação do potencial de ação
+leva tanto tempo, se precisarmos de um potencial de ação para ir rápido,
+queremos iniciar a reação em cadeia em uma região tão distante
+O mais breve possível.
+Para fazer isso, podemos diminuir a resistência axial
+ou diminuir a capacitância da membrana.
+Acontece que a natureza utiliza cada uma dessas estratégias em diferentes contextos.
+Exploraremos essas duas estratégias nos próximos segmentos
+com exemplos reais da natureza.

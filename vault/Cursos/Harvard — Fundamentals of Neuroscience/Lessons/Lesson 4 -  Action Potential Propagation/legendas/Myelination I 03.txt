@@ -1,0 +1,29 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Você vê como o potencial de ação
+surge em busca de ar em cada uma das rupturas da mielina e recebe outro impulso?
+Este salto do potencial de ação de um nó
+para outro, um axônio mielinizado é conhecido como condução saltatória.
+A noção de condução saltatória às vezes é difícil para os alunos
+para conceituar.
+O potencial de ação salta de um nó para outro,
+mas não é como uma partícula que salta instantaneamente de um nó para outro.
+Em vez disso, porque a mielina aumenta muito
+a constante de comprimento na região do entrenó,
+o potencial de ação se espalha no espaço,
+o suficiente para chegar ao próximo nó de Ranvier
+onde o sinal pode ser regenerado.
+Este processo se repete em uma reação em cadeia,
+assim como acontece em um axônio amielínico, mas no axônio mielinizado,
+você pode cobrir uma distância muito mais rapidamente porque estamos
+contando com a transmissão rápida de corrente
+abaixo do axônio isolado para grandes vãos e apenas
+contando com o mecanismo de ação comparativamente lento
+geração potencial quando precisamos dela.
+Este maravilhoso feito de engenharia por natureza
+é o que permite aos humanos e outros vertebrados
+ter axônios relativamente finos conduzindo potenciais de ação muito
+rapidamente em longas distâncias.
+Adicionar mielina à superfície ocupa muito mais espaço
+eficiente do que ter axônios de maior diâmetro,
+enquanto ainda permite que os sinais viajem rapidamente.
+Vamos juntar tudo o que aprendemos sobre a mielina
+e ter uma corrida contra um axônio amielínico

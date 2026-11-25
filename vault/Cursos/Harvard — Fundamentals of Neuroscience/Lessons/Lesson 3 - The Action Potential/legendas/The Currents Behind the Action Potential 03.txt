@@ -1,0 +1,52 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Depois de inativar o canal de sódio,
+a tensão começa a voltar ao potencial de repouso porque
+do canal de vazamento de potássio e a ação da bomba de sódio e potássio.
+Mas isso não é rápido o suficiente se precisarmos enviar rapidamente outro potencial de ação.
+Se quisermos acelerar a fase de queda,
+queremos outro mecanismo, uma forma de aumentar a corrente de potássio
+para restaurar o potencial de repouso.
+Assim, introduzimos um player adicional, o canal de potássio dependente de voltagem.
+Este canal é o grande responsável pela fase de queda.
+Assim como, na fase ascendente, o sódio correu
+para dentro para se aproximar do seu potencial Nernst,
+agora o potássio corre para fora para restaurar o potencial da membrana
+mais próximo do potencial Nernst de potássio de 80 milivolts negativos.
+Esses canais de potássio dependentes de voltagem também são
+conhecidos como canais retificadores atrasados.
+Este nome descreve a cinética retardada relativa à ativação rápida
+dos canais de sódio dependentes de voltagem e o comportamento
+do canal na retificação da tensão da membrana de volta
+ao potencial de repouso.
+Podemos ver o atraso no gráfico de condutância do potássio em relação ao sódio
+gráfico de condutância.
+Esse atraso é essencial para viabilizar um potencial de ação.
+Se os canais de potássio dependentes de voltagem se abrissem ao mesmo tempo
+como os de sódio.
+Então você não teria nenhuma mudança líquida no potencial de membrana
+porque os íons simplesmente trocariam de lugar.
+Com esses canais adicionais de potássio abertos,
+na verdade, há uma condutância de potássio maior do que em repouso.
+É por isso que vemos uma queda abaixo do potencial de repouso normal
+após a fase de queda.
+Isso é chamado de hiperpolarização, também conhecida
+mais coloquialmente como o undershoot.
+O aumento da condutância de potássio dos canais abertos
+aproxima ainda mais a voltagem da membrana do potencial Nernst do potássio
+de cerca de 80 milivolts negativos.
+Devemos salientar aqui que, apesar destes grandes efeitos
+no potencial de membrana, as concentrações de íons ainda
+realmente não mudou muito.
+O número de íons que realmente se movem pode
+ser calculado de maneira semelhante ao valor de 1 em 100.000
+que determinamos na primeira lição.
+Então, se voltarmos às mesmas permeabilidades iônicas e concentrações de ferro,
+nosso potencial de repouso original é restaurado,
+conforme determinado pela equação GHK.
+Vamos juntar tudo o que aprendemos agora.
+Colocamos os canais de sódio e potássio dependentes de voltagem na membrana,
+e traçaremos as condutâncias para sódio e potássio,
+e traçaremos as correntes para sódio e potássio.
+À medida que você avança no potencial de ação,
+observe o estado de cada canal, cada íon
+atual em um determinado momento, e como isso afeta o potencial de ação geral
+forma.

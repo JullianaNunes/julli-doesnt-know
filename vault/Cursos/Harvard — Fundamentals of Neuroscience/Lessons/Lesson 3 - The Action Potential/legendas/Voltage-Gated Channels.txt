@@ -1,0 +1,45 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Nas lições anteriores, usamos uma analogia naval
+para íons entrando e saindo da célula de acordo com seus gradientes de concentração.
+Esse movimento foi mediado por canais de vazamento,
+ou segurança em nossa analogia com o marinheiro.
+Lembre-se de que em um neurônio temos muitos canais que permitem a passagem do potássio
+através facilmente, mas menos canais que permitem a passagem de sódio ou cloreto.
+O principal impulsionador do potencial de repouso é que a membrana é semipermeável.
+Íons de potássio - marinheiros britânicos em nossa analogia -
+são muito mais numerosos por dentro e flutuam facilmente
+através da membrana.
+Os íons de sódio-- os americanos em nossa analogia-- são mais abundantes fora,
+mas eles não podem se mover facilmente entre as duas salas.
+Mas vimos que mesmo um pequeno vazamento de íons sódio
+acabará por desvendar o potencial de repouso,
+já que tanto o potássio quanto o sódio serão capazes de descer alegremente
+seus gradientes de concentração, evitando o desenvolvimento de uma carga
+separação, pois podem trocar cargas positivas, mais ou menos, uma por uma.
+Este desvendamento do potencial de membrana
+é tão importante que nossos corpos gastam uma enorme quantidade de energia todos os dias
+apenas transportando aqueles retardatários de volta para o lugar de onde vieram, mantendo
+os gradientes de concentração.
+Mas aqui reside o principal truque da sinalização neuronal: e se, em vez disso,
+de apenas deixar entrar um fio de íons de sódio,
+e se tivéssemos uma maneira de abrir temporariamente as comportas?
+Que parte da membrana poderia nos permitir fazer isso?
+Os simples canais de vazamento que vimos até agora não serão suficientes.
+Possuem permeabilidade constante e apresentam resistência constante
+ao fluxo de íons.
+Eles fazem o que fazem e nada mais.
+Para continuar nossa analogia com o segurança, precisamos de um segurança mais dinâmico
+que pode mudar seu comportamento com base no que está acontecendo ao seu redor,
+permitindo um fluxo fácil às vezes e restringindo o fluxo outras vezes.
+Embutidos na membrana, temos um conjunto muito importante
+de canais que se enquadram nesse perfil.
+Eles são chamados de canais dependentes de voltagem.
+Esses canais mudam em resposta ao seu ambiente local, abrindo
+ou fechando a qualquer momento dependendo do potencial de membrana local.
+A um nível mecanicista, estes canais são máquinas moleculares complexas.
+feito de proteínas.
+À medida que a voltagem através da membrana muda,
+o empurrar e puxar das partes carregadas de sua estrutura
+muda a conformação da proteína, abrindo ou fechando
+o poro do canal.
+Esses canais são pedaços incríveis de um relógio molecular,
+apenas alguns nanômetros, bilionésimos de metro de diâmetro.

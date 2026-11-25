@@ -1,0 +1,19 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Agora que entendemos as características espaciais da ação
+potencial, é hora de começar a otimizar.
+A evolução é um otimizador implacável.
+Vamos explorar as vantagens e desvantagens envolvidas na otimização da velocidade de ação
+propagação potencial.
+Forneceremos dois parâmetros de membrana para controlar--
+resistência axial e capacitância da membrana -
+para que possamos explorar como esses parâmetros afetam a propagação do sinal
+velocidade.
+A Evolution pode controlar a resistência axial variando o diâmetro.
+ou calibre-- do axônio.
+Isto faz sentido intuitivamente, uma vez que axônios de maior diâmetro
+fornecer mais área de seção transversal para a corrente fluir.
+A capacitância depende da espessura da membrana,
+e as propriedades dielétricas da membrana.
+A evolução também pode controlar a espessura da membrana
+de uma forma especial que discutiremos mais tarde.
+Passe um ou dois minutos experimentando os botões
+para ver se você consegue fazer com que o potencial de ação se propague mais rapidamente.

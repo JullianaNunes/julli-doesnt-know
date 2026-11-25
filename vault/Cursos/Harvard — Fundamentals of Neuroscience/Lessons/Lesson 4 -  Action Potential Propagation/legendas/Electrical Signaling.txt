@@ -1,0 +1,48 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Porque não temos tempo
+seria necessário mover moléculas por longas distâncias para enviar sinais,
+em vez disso, os neurônios usam sinalização elétrica na forma de ação de propagação
+potenciais.
+Agora, embora os potenciais de ação sejam claramente um fenômeno elétrico,
+a propagação de um potencial de ação é
+bastante diferente da transmissão de um sinal
+através de um cabo telefônico ou um cabo Ethernet.
+Num fio, digamos, num dispositivo eletrônico ou num telefone antigo,
+os sinais são conduzidos pelo fio.
+Os fios e dispositivos elétricos são feitos de materiais de baixa resistência,
+como cobre.
+Menor resistência significa quedas de tensão mais baixas de uma extremidade à outra.
+Em distâncias curtas, esta queda de tensão não é grande coisa.
+Mas em distâncias maiores pode ser um obstáculo,
+exigindo grandes tensões para transmitir sinais.
+O sistema nervoso deve ser capaz de enviar sinais a distâncias razoavelmente grandes,
+e a natureza não pode se dar ao luxo de usar
+um material tão condutor quanto o cobre.
+A conectividade do citoplasma é cerca de 10 milhões de vezes menor
+que a do cobre.
+Num axônio, as perdas nas distâncias são ainda maiores
+por causa do vazamento de corrente para fora da célula,
+e efeitos capacitivos através da membrana.
+Então não podemos simplesmente disparar um potencial de ação
+com uma amplitude de cerca de 100 milivolts.
+O corpo celular pode esperar que ele se propague por todo o caminho
+ao final de um axônio de um metro de comprimento.
+Portanto, temos duas opções.
+Primeiro, poderíamos aumentar a amplitude do potencial de ação
+ser muito maior para que o sinal chegue lá apesar
+das perdas capacitivas resistivas.
+No entanto, em torno do potencial de repouso negativo de 70 milivolts,
+os neurônios já estão quase no ponto de ruptura.
+70 milivolts não é uma voltagem enorme, mas a membrana
+tem apenas alguns nanômetros de espessura.
+Isto significa que existe um enorme campo elétrico através da própria membrana.
+cerca de 10 milhões de volts por metro.
+Mesmo no seu potencial de repouso normal, a membrana
+não está longe de seu chamado colapso
+voltagem, a voltagem na qual a bicamada lipídica deixa de atuar como isolante.
+Portanto, aumentar o potencial da membrana não é uma opção.
+A outra opção é aquela que a natureza toma -
+ele deve regenerar repetidamente nosso sinal para fazê-lo descer pelo axônio.
+O resultado é uma situação em que, em vez de mover uma molécula pelo axônio
+ou movendo elétrons por um fio, em vez disso
+mover o estado de despolarização para baixo do axônio.
+[MÚSICA, TOCANDO]

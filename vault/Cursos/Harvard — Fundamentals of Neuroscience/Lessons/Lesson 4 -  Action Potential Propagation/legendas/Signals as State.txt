@@ -1,0 +1,32 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Se você examinar uma onda se movendo na água,
+algo está claramente se movendo de um lado para o outro.
+Mas o que é isso?
+Se você olhar para as moléculas de água na água, elas certamente estão se movendo,
+mas não há nenhum movimento líquido das moléculas de água
+do lado esquerdo para a direita.
+Na maior parte, as moléculas de água estão se movendo para cima e para baixo, perpendicularmente
+para a direção em que a onda está se propagando.
+Portanto, a água em si não se move da esquerda para a direita.
+O que se propaga pela água é o estado da onda.
+A propagação do potencial de ação funciona da mesma maneira.
+Assim como é possível transmitir uma onda através da água sem qualquer movimento líquido
+da água, é possível transmitir informações ao longo de um axônio
+propagando o estado de despolarização
+para baixo, tudo sem qualquer movimento líquido de quaisquer moléculas ou íons.
+Como o neurônio faz isso?
+[? ASSUNTO:?] Até agora, falamos sobre como
+o equilíbrio entre gradientes de concentração e gradientes elétricos
+produzem o potencial de repouso, que prepara a célula para a ação.
+Conversamos sobre como o potencial de ação causa uma rápida despolarização,
+produzindo um sinal.
+Agora vamos falar sobre como o sinal vai do ponto A ao ponto B. Fundamentalmente,
+o processo é uma reação em cadeia.
+Um potencial de ação em um pedaço de membrana
+despolariza a próxima região, que por sua vez dispara um potencial de ação.
+Isso, por sua vez, despolariza a próxima região,
+que também dispara um potencial de ação.
+O processo continua como uma reação em cadeia.
+[MÚSICA, TOCANDO]
+O sinal se propaga do corpo celular até seu alvo,
+que pode ser uma fibra muscular ou outro neurônio.
+[MÚSICA, TOCANDO]

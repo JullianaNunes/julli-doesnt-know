@@ -1,0 +1,15 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Você percebeu como a distância percorrida por suas possíveis mudanças ocorreu
+depende de ambos os valores de resistência?
+Acontece que podemos definir esta relação precisamente
+por algo chamado constante de comprimento, geralmente representada pela letra grega
+lambda.
+A constante de comprimento é a distância necessária para uma mudança potencial
+cair para cerca de 36% do seu valor inicial.
+A constante de comprimento depende da resistência da membrana
+e a resistência axial.
+É igual à raiz quadrada da resistência da membrana dividida
+pela resistência axial.
+A resistência da membrana tem unidades de ohm centímetros
+e a resistência axial tem unidades de ohms por centímetro.
+Portanto, verificamos que você obtém uma unidade de comprimento para a constante de comprimento.
+Vamos fazer algumas perguntas para ter certeza de que entendemos essa equação.

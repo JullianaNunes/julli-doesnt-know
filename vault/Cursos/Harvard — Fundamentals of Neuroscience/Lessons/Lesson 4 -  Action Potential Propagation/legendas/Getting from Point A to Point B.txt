@@ -1,0 +1,22 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Vamos tentar obter alguma intuição em primeira mão sobre como
+o potencial de ação se propaga.
+Vamos considerar um comprimento de axônio.
+Lembre-se de que um axônio é um processo fino que se estende
+do corpo celular neuronal.
+Os neurônios enviam seus sinais de saída pelo axônio.
+Neste diagrama, o corpo celular estaria desligado à esquerda da tela,
+e o axônio continua para pontos desconhecidos
+do lado direito da tela.
+Nós lhe daremos um osciloscópio e um eletrodo de gravação para medir sinais
+em algum ponto abaixo do axônio.
+Em alguns instantes você ativará o estimulador
+pressionando o pequeno botão de raio para acionar um potencial de ação.
+Mas antes de começarmos, vamos fazer uma previsão
+sobre o que você verá no osciloscópio
+quando você ativa o estimulador.
+Veremos, A, a forma característica do potencial de ação
+aparecendo quase imediatamente no osciloscópio, uma vez que os sinais elétricos
+viaja quase instantaneamente, B, a forma característica do potencial de ação
+mas aparecendo após um atraso no tempo, C, a ação característica
+forma potencial, mas invertida, ou D, o mesmo potencial de ação básico
+forma que se espalha mais no tempo.

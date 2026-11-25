@@ -1,0 +1,26 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Como você pode ver, em nossa simulação, a remoção da mielina
+interrompe o potencial de ação em seu caminho.
+Sem a mielina, a capacitância da membrana é muito maior,
+e a corrente também pode vazar através da membrana na medida em que
+que existem canais de vazamento na membrana anteriormente mielinizada.
+Tomados em conjunto, esses fatores drasticamente
+encurtar a constante de comprimento do axônio anteriormente mielinizado.
+E o sinal decai antes de chegar ao próximo nó
+para regenerar o sinal.
+Infelizmente, esta não é apenas uma preocupação acadêmica hipotética -
+uma variedade de doenças, conhecidas como doenças desmielinizantes,
+resultar exatamente nesse tipo de perda de mielina.
+Nosso modelo aqui fornece uma imagem funcional simplificada
+do que acontece com a propagação do sinal em um ambiente desmielinizante
+doenças, como a esclerose múltipla.
+Pacientes com doenças desmielinizantes perdem a capacidade
+para transmitir sinais através de seus axônios.
+O resultado é uma paralisia gradual e debilitante.
+É uma doença terrível e na qual os cientistas estão trabalhando duro
+compreender e erradicar.
+Os efeitos debilitantes dessas doenças
+espero dar-lhe algumas dicas sobre o quão importante
+a mielina é para o funcionamento normal do sistema nervoso.
+A natureza tem muitos truques na manga e o papel
+da mielina no apoio à condução rápida e saltatória
+é uma das características verdadeiramente notáveis ​​do sistema nervoso dos vertebrados.

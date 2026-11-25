@@ -1,0 +1,19 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Vamos tentar este também.
+Introduzimos um segundo eletrodo estimulador na outra extremidade do axônio.
+E nós preparamos tudo para que ambos estimulem simultaneamente quando
+você pressiona um dos botões do raio.
+Como você pode ver, os potenciais de ação se chocam e depois param.
+Por que isso acontece?
+Novamente, isso tem a ver com o período refratário absoluto após cada ação
+potencial.
+Na esteira do potencial de ação itinerante,
+a membrana é hiperpolarizada e canais de sódio dependentes de voltagem
+estão no estado inativado.
+Isto significa que, mesmo que o potencial de ação vindo na outra direção
+despolariza a membrana, os canais de sódio dependentes de voltagem
+não são capazes de reagir.
+Assim, os potenciais de ação colidem e param.
+Estas duas situações hipotéticas normalmente não acontecem em animais.
+Mas eles nos dão algumas dicas sobre como
+períodos refratários fazem com que o potencial de ação viaje em apenas um
+direção.

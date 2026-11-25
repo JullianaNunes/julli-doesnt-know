@@ -1,0 +1,38 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Quando aumentamos um pouco o potencial de membrana,
+acontece uma coisa curiosa.
+O aumento do potencial de membrana abre os canais de sódio dependentes de voltagem,
+que permite que o sódio flua para dentro da célula, o que
+aumenta o potencial da membrana, o que permite a entrada de ainda mais sódio.
+É um ciclo de feedback positivo.
+E em apenas algumas centenas de microssegundos, o potencial de membrana,
+que antes se mantinha estável em 70 milivolts negativos
+agora entrou em território positivo,
+invertendo quase completamente a polaridade.
+Mas então ocorre uma sequência de eventos ainda mais notável.
+Por um lado, os canais de sódio dependentes de voltagem simplesmente são desligados.
+Dizemos que os canais estão inativados.
+Acontece que isto é diferente do seu estado de repouso original, o estado fechado
+estado.
+Veja, esses canais têm outro mecanismo dependente de voltagem
+em sua estrutura que fecha o canal quando
+as tendências de tensão são positivas.
+Você pode pensar nisso como sendo uma bola na ponta de uma corrente que
+tapa a entrada do poro.
+Mesmo que o poro ainda esteja aberto, nada passa.
+Este mecanismo inativa temporariamente os canais por um período de tempo
+logo após a abertura dos canais.
+A dinâmica deste mecanismo é mais lenta.
+E o canal fica inativo por algum tempo.
+Agora, esta inactivação impede a entrada louca de sódio na célula,
+mas isso não nos leva de volta ao normal.
+Ainda estamos fixando o potencial da membrana em território positivo.
+Isso pode ser bom se precisarmos apenas enviar, digamos, um sinal, basicamente sempre.
+Mas, obviamente, precisamos ser capazes de enviar muitos sinais e rapidamente.
+Portanto, precisamos redefinir rapidamente a membrana.
+Para isso, a membrana tem--
+você adivinhou - mais um canal dependente de voltagem,
+este seletivo para potássio.
+Agora, num neurônio real, esses caras estiveram na membrana o tempo todo.
+E como os canais de sódio dependentes de voltagem,
+eles também abrem em resposta a potenciais de membrana mais positivos.
+Mas eles são um pouco mais lentos que os canais de sódio dependentes de voltagem.

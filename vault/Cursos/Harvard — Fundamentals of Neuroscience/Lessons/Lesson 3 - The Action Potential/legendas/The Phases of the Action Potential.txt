@@ -1,0 +1,22 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Vamos dar uma olhada em como esses canais dependentes de voltagem
+e a coreografia cuidadosa de sua abertura e encerramento
+pode dar origem às rápidas mudanças no potencial de membrana que vimos anteriormente.
+Nosso primeiro player é o canal de sódio dependente de voltagem.
+Os canais de sódio dependentes de voltagem são capazes de abrir e fechar muito rapidamente,
+e é mais provável que estejam abertos quando o potencial de membrana é
+mais positivo.
+Então eles geralmente estão fechados quando a cela está
+sentado em seu potencial de repouso de 70 milivolts negativos ou mais.
+Mas se aumentarmos a tensão algumas dezenas de milivolts, eles começam a abrir.
+É bastante sensível ao potencial de membrana.
+Uma pequena mudança faz com que ele passe muito mais tempo no estado aberto.
+Na vida real, há uma série de mecanismos que podem temporariamente cutucar
+o potencial de membrana mais positivo.
+Falaremos sobre isso em profundidade quando falarmos
+sobre sinapses, que são as conexões entre neurônios,
+e também quando falamos de vários órgãos sensoriais.
+Por enquanto, basta dizer que podemos estimular um neurônio transitoriamente
+e aumentando localmente o potencial de um pedaço de membrana um pouco mais alto.
+Por enquanto, temos apenas o complemento padrão de canais de vazamento
+e nosso novo amigo, o canal de sódio dependente de voltagem.
+Vamos adicionar um voltímetro para que possamos observar o potencial da membrana conforme ele muda.

@@ -730,7 +730,7 @@ There are a variety of different kinds of media that scientists use for differen
 
 The table below lists the ionic concentrations for these media. The intracellular column lists the concentrations inside a particular neuron. All concentrations below are in mM (millimolar).
 
-[Nernst_Potential_Problem_Solving_02](images/Nernst_Potential_Problem_Solving_02.png)
+[Nernst_Potential_Problem_Solving_03](images/Nernst_Potential_Problem_Solving_03.png)
 
 Based on this chart, what is the Nernst potential for K+ for the cell, bathed in DMEM at 37°C? **-87mV**
 

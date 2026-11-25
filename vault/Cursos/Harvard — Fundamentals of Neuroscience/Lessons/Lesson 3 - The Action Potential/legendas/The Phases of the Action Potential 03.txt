@@ -1,0 +1,30 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Permitindo o fluxo de potássio
+faz com que o potencial da membrana volte mais facilmente
+em direção ao seu potencial de repouso.
+O potencial de membrana cai até abaixo do potencial de repouso normal por um tempo
+porque agora tanto o vazamento quanto os canais de potássio dependentes de voltagem
+estão abertos.
+À medida que se fecham lentamente, a célula retorna gradualmente ao seu estado de repouso.
+Vamos tentar tudo isso mais uma vez.
+Mas desta vez, vamos lhe dar um eletrodo de gravação
+e um dispositivo chamado osciloscópio para que você
+pode monitorar o potencial da membrana em função do tempo.
+Basicamente, o osciloscópio apenas varre da esquerda para a direita,
+mostrando a tensão instantânea no eixo vertical.
+Ele termina quando você chega ao final da tela
+e começa novamente à esquerda.
+E aí está, a forma clássica do potencial de ação.
+Começamos com o potencial de repouso.
+Então algum estímulo aumenta transitoriamente o potencial de membrana
+até atingir um limite.
+Depois há uma fase ascendente, uma rápida despolarização da membrana impulsionada
+por canais de sódio dependentes de voltagem, seguido por uma fase de queda,
+uma rápida repolarização impulsionada pela inativação dos canais de sódio
+e a abertura de canais de potássio dependentes de voltagem,
+seguido por um undershoot de hiperpolarização,
+onde o potencial de membrana é mais negativo do que era em repouso, e então
+um retorno gradual ao potencial de repouso,
+à medida que os canais de potássio dependentes de voltagem se fecham.
+Voltaremos ao potencial de ação com maior profundidade
+para entender exatamente o que está acontecendo em cada uma dessas diferentes fases
+então é importante aqui que você entenda o básico.

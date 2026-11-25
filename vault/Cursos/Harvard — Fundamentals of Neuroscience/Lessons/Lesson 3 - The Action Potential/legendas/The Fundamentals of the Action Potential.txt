@@ -1,0 +1,81 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Até agora, discutimos as propriedades passivas
+da membrana neuronal.
+Vamos revisar um pouco o que aprendemos até agora.
+O potencial de membrana para um determinado pedaço de membrana
+é a diferença de potencial elétrico entre o interior e o exterior
+da célula, causada pelas concentrações relativas de íons carregados
+como potássio e sódio dentro e fora da célula.
+E por canais, que permitem o fluxo desses íons para baixo
+seus gradientes de concentração.
+O potencial de repouso fica no ponto de equilíbrio, onde
+difusão e forças elétricas são iguais
+e oposto para os íons carregados dentro e fora da célula.
+Sabemos que o fluido dentro e fora da célula é basicamente líquido
+eletro neutro e que apenas um número muito pequeno de íons-- como o potássio--
+mover-se através da membrana pode causar grandes mudanças
+no potencial através da membrana.
+Além do potencial de repouso, sabemos algumas coisas sobre o circuito passivo
+propriedades da membrana.
+Por exemplo, sabemos que a bicamada lipídica
+atua como um capacitor e suas propriedades fundamentalmente
+limitar a velocidade na qual o potencial da membrana pode mudar.
+Carregar e descarregar a bicamada não é imediato.
+Também podemos falar sobre a resistência da membrana--
+outro termo emprestado da eletrônica -
+que descreve o quanto a membrana resiste ao fluxo de corrente através dela.
+A membrana em si é um bom isolante e possui alta resistência,
+mas está cheio de canais iônicos que permitem íons e, portanto,
+atual, para passar.
+A resistência da membrana é governada pela facilidade com que os íons
+pode fluir através dos canais iônicos individuais
+e pela abundância desses canais.
+Então, por que tudo isso é importante?
+Todos esses mecanismos preparam o terreno para a sinalização neuronal,
+mas tudo o que falamos até agora é fundamentalmente passivo.
+Então, o que realmente nos permite alterar o potencial de membrana
+e enviar um sinal?
+Vamos começar nossa investigação sobre sinalização olhando
+em algo um pouco mais tangível -
+blaberus discoidalis-- uma barata sul-americana.
+Vamos dar uma olhada rápida em alguns neurônios vivos
+em uma configuração experimental da vida real.
+Até este ponto, não vimos realmente o que
+acontece in vivo, em uma criatura viva.
+Estamos usando um dispositivo chamado SpikerBox--
+uma peça de hardware de código aberto da equipe da Backyard Brains.
+Se você tiver um, encorajamos você a fazer a mesma experiência em casa.
+Agora, esta é uma barata juvenil que nós
+anestesiado em um pouco de água fria.
+Cortaremos a perna dele assim.
+Não se preocupe, ele ainda não é adulto, então sua perna vai crescer novamente.
+Inserimos os dois eletrodos em duas partes da perna--
+o fêmur e a coxa.
+E estamos medindo a diferença de potencial elétrico
+entre esses dois pontos.
+Este é o chão.
+E este está posicionado próximo a um grande feixe de fibras nervosas,
+ou axônios, que sobem pela perna desse garotinho.
+Porque nosso eletrodo está próximo daquele feixe de fibras
+e porque existem tantas fibras, vamos
+ser capaz de medir indiretamente o que está acontecendo no potencial de membrana
+destas fibras.
+Quando colocamos o cabo de som do SpikerBox em um telefone ou laptop,
+podemos ouvir muitos ruídos de estalo.
+Quando realmente olhamos para o sinal sonoro, podemos ver muito ruído
+e picos ocasionais, como este.
+Se tocarmos nos pelos da perna, mais espinhos
+e em sincronia com a nossa estimulação dos pelos das pernas--
+sinais.
+Então, o que estamos vendo aqui?
+Chamaremos esses sinais de potenciais de ação ou picos.
+Agora, tecnicamente, estes são potenciais de ação compostos
+porque estamos vendo a atividade de muitas células disparando ao mesmo tempo,
+mas a ideia básica é a mesma.
+Vemos uma enorme e rápida mudança transitória no potencial de membrana desses axônios.
+O que aprendemos até agora sobre as propriedades passivas
+da membrana neuronal não é suficiente para explicar
+o que estamos vendo aqui, então precisamos introduzir algumas máquinas adicionais
+para explicar o que está acontecendo.
+Vamos pensar no que poderia nos permitir alterar rapidamente o potencial de membrana
+para iniciar esta mudança no potencial de membrana
+e produzir um potencial de ação.

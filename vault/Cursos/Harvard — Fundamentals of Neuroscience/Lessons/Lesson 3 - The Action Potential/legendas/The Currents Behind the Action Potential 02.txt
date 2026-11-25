@@ -1,0 +1,10 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Canais de sódio dependentes de voltagem têm outra propriedade única,
+o mecanismo de inativação.
+Este mecanismo, que é comparado a uma bola e uma corrente, tapa o canal
+e impede o fluxo de íons.
+Observe que este é um estado distintamente diferente do estado fechado.
+No estado fechado, a broca do canal está fechada.
+No estado inativado, a bola e a corrente obstruem a entrada do poro.
+Estas são formas de operação independente para bloquear o fluxo de íons através do canal,
+então o canal pode realmente estar aberto, mas inativado,
+ou fechado, mas não inativado.

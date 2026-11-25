@@ -1,0 +1,26 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: A razão para isso é que ter menos resistência
+significa que a corrente pode fluir mais facilmente.
+Um fluxo de corrente mais rápido significa que a membrana atinge sua voltagem final
+mais rapidamente.
+Para ver como a resistência da membrana e a capacitância da membrana funcionam juntas
+para afetar a constante de tempo da membrana, vamos
+volte ao circuito equivalente da membrana.
+Este arranjo simples de circuito elétrico é chamado de RC ou capacitor resistor
+o circuito.
+Sem entrar na física, o circuito RC simples
+representando nosso pedaço de membrana tem uma constante de tempo
+esse é o produto da resistência da membrana
+e a capacitância da membrana.
+Se você estiver familiarizado com eletrônica, poderá reconhecer este RC específico
+arranjo como um filtro passa-baixa.
+Basicamente, permite baixas frequências, variações lentas,
+passar enquanto bloqueia mudanças rápidas e de alta frequência.
+Como você pode imaginar, o formato da frequência e o tempo dos sinais de um neurônio
+são todos determinados por essas propriedades passivas da membrana.
+Compreender bem essas propriedades passivas
+é fundamental para nossa próxima lição, onde falaremos sobre a membrana ativa
+propriedades, nomeadamente potenciais de acção.
+Os potenciais de ação são essenciais para sinalização rápida e de longa distância
+entre neurônios.
+Compreendê-los se baseia no conhecimento aqui
+e na lição potencial de repouso.

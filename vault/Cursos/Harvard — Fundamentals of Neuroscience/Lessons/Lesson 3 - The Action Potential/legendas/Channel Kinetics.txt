@@ -1,0 +1,49 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Você também deve estar se perguntando como a voltagem é controlada
+os canais de sódio e potássio dependentes de voltagem não abrem ao mesmo tempo.
+É mais provável que ambos estejam abertos quando o potencial de membrana é maior.
+Então, por que eles simplesmente não abrem de uma vez e se cancelam?
+A resposta é cinética.
+O termo cinética refere-se à dinâmica temporal probabilística
+de uma reação ou movimento molecular que vai de um estado para outro.
+Canais com cinética rápida são capazes de se mover rapidamente para frente e para trás
+entre estados, digamos, aberto e fechado ou ativo e inativo.
+Canais com cinética mais lenta movem-se mais lentamente.
+Podemos pensar nestes mecanismos mais lentos como sendo mais rígidos,
+em algum sentido.
+Lembre-se, todo esse movimento em escala molecular
+é impulsionado pelos empurrões e oscilações térmicas de que falamos anteriormente.
+Uma série de fatores pode causar uma reação ou conformação
+mudar mais rápido ou mais devagar.
+Peças que se encaixam melhor consomem mais energia
+ser sacudido por movimentos térmicos aleatórios.
+Em alguns casos, a estrutura de uma molécula
+pode apresentar interferência, dificultando
+para que um mecanismo semelhante a uma fechadura e uma chave se encaixem.
+Em outros casos, a rigidez de uma corda de separação
+pode governar a facilidade com que duas peças podem interagir.
+A cinética dos canais e a probabilidade das portas ou canais
+abrindo e fechando, altera a permeabilidade dos íons em momentos diferentes
+durante o potencial de ação.
+Se os canais de sódio e potássio tivessem cinética idêntica,
+então não haveria potencial de ação.
+A cinética desses canais controlados por voltagem
+também contribui para algo que chamamos de período refratário.
+Basicamente, um período de tempo em que não podemos ou não podemos facilmente
+estimular outro potencial de ação.
+Na verdade, existem dois tipos diferentes de períodos refratários -
+um período refratário absoluto e um relativo.
+O período refratário absoluto é impulsionado pela cinética de inativação
+dos canais de sódio dependentes de voltagem.
+Enquanto esses canais ficam presos no estado inativo,
+não podemos iniciar outro potencial de ação, não importa o quanto tentemos.
+O período refratário relativo ocorre no final do potencial de ação.
+Os canais de sódio dependentes de voltagem estão ativos novamente,
+mas os canais de potássio dependentes de voltagem ainda estão abertos.
+Com um estímulo grande o suficiente, podemos impulsionar outro potencial de ação para começar,
+mas é necessária uma entrada maior, pois a célula é
+começando abaixo do potencial de repouso.
+Esses períodos refratários não são um acidente ou uma falha.
+É uma parte importante da coreografia da ação
+potencial, que discutiremos mais na próxima seção,
+enquanto investigamos como os sinais--
+potenciais de ação - propagam-se pelo axônio.

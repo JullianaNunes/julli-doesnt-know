@@ -1,0 +1,23 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Vamos dar uma olhada no conceito
+de resistência em maior profundidade.
+Lembre-se de que a resistência, que normalmente é representada por este resistor
+símbolo em um circuito, descreve o quanto um condutor se opõe ao fluxo de carga
+para um determinado potencial elétrico.
+O fluxo de carga através de um condutor por unidade de tempo é chamado de corrente.
+É indicado pela letra I. Atual é simplesmente a mudança na carga ao longo do tempo.
+A relação que une corrente, resistência e tensão
+é chamada de lei de Ohm.
+A lei de Ohm afirma que a corrente entre dois pontos
+é igual à diferença de tensão entre esses mesmos dois pontos
+dividido pela resistência.
+Como todas as cargas móveis de uma célula são transportadas por íons em solução,
+a corrente em uma célula tem tudo a ver com o fluxo líquido de íons.
+Num neurônio, essas correntes iônicas fluem principalmente em duas direções -
+através da membrana e para baixo através do citoplasma.
+Por exemplo, descendo um axônio.
+Que é um processo longo e fino pelo qual os neurônios enviam sinais para outros neurônios.
+Isto implica que precisamos pensar em duas resistências diferentes.
+Resistência da membrana - fluxos opostos através da membrana.
+E resistência axial... opondo-se ao fluxo de corrente através do citoplasma.
+Em ambos os casos, pela lei de Ohm podemos ver que, para uma determinada tensão,
+aumentar a resistência implica uma diminuição recíproca na corrente.

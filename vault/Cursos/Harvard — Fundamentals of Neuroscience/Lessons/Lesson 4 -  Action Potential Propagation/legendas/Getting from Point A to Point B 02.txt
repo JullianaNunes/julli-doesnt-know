@@ -1,0 +1,39 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Você notou como houve um atraso entre o momento em que você estimulou
+o axônio e quando o potencial de ação apareceu no eletrodo de registro
+do outro lado do axônio?
+A forma do potencial de ação foi a mesma que vimos na seção anterior.
+Então B era a resposta certa.
+Agora, se você está acostumado a pensar em sinais elétricos conduzindo para baixo
+fios, isso pode parecer contra-intuitivo.
+Afinal, se alterarmos a tensão numa extremidade de um fio
+ele muda quase instantaneamente na outra extremidade do fio.
+Vamos pensar no que acontece em um axônio.
+Pode ser útil revisar as propriedades da membrana passiva da lição
+dois, já que iremos integrar nosso conhecimento sobre capacitância de membrana
+e resistência, bem como resistência axial
+todos juntos para compreender a velocidade de propagação do potencial de ação.
+Um potencial de ação não está limitado a um único ponto da membrana.
+Como vimos quando estudamos constantes de comprimento,
+um potencial em um ponto da membrana também
+influenciar o potencial de regiões vizinhas do neurônio.
+Assim, a polarização em um pedaço de membrana
+pode despolarizar a membrana próxima a ela, o suficiente para iniciar um potencial de ação
+ao lado dele e assim por diante.
+Então agora a natureza da reação em cadeia do potencial de ação
+deve começar a entrar em foco.
+Estimular um potencial de ação em um pedaço de membrana
+causa uma bolha de despolarização na membrana
+em ambos os lados da região estimulada.
+Como lembrete, esta bolha de despolarização
+abre canais de sódio dependentes de voltagem que são uma parte fundamental do potencial de ação.
+Até agora, vimos a forma característica da ação
+potencial plotado em um gráfico de tempo versus tensão.
+E se, em vez disso, plotássemos o potencial de membrana em função da posição
+ao longo do axônio?
+Como seria essa forma de onda?
+Vamos fazer uma previsão.
+O gráfico de posição versus tensão do potencial de ação
+parece mais com A, basicamente a mesma forma que o tempo versus tensão.
+B, semelhante a esse gráfico, mas virado de cabeça para baixo.
+C, semelhante a esse gráfico, mas virado da esquerda para a direita.
+Ou D, uma onda senoidal que abrange todo o comprimento do axônio.

@@ -1,0 +1,38 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Agora, se esses canais controlados por voltagem puderem ser abertos ou fechados,
+você deve estar se perguntando por que o potencial de ação não acontece em etapas.
+Por que não podemos ver cada canal abrindo ou fechando nesse traço de tensão?
+Mas lembre-se que quando temos um pedaço de membrana,
+existem milhares de canais abrindo e fechando.
+E não são maquininhas determinísticas abrindo e fechando
+em tensões precisas.
+Estamos trabalhando aqui na escala de moléculas individuais
+e quando as coisas são tão pequenas, tudo
+é sobre probabilidade e cinética.
+Tal como aconteceu com nossos íons em difusão anteriormente, quando estamos
+imaginar o mundo em escala molecular,
+precisamos imaginar tudo balançando e se acotovelando
+sob a influência constante do ruído térmico.
+O canal abre ou fecha quando essas flutuações aleatórias na energia
+permitir que ele mude de um estado para outro.
+Reações moleculares e mudanças conformacionais
+assim são geralmente mais estáveis ​​em um estado ou em outro.
+E a reação tende a dirigir-se para o estado de energia mais baixo.
+Mas pelo menos para reações reversíveis, tanto as reações diretas quanto as reversas
+ainda ocorrem às vezes.
+É tudo uma questão de probabilidade relativa.
+Então, quando dizemos que os canais são dependentes de voltagem, o que realmente queremos dizer é
+é que a probabilidade dos canais estarem abertos ou fechados
+é uma função da tensão.
+Nosso canal de sódio dependente de voltagem...
+por exemplo-- é mais estável e, em certo sentido, mais feliz no estado aberto,
+quando a tensão é maior.
+E fica mais feliz no estado fechado quando a tensão é mais negativa.
+Mas ainda pode ser aberto mesmo quando a tensão está baixa ou fechado mesmo quando
+a tensão é alta.
+É apenas menos provável.
+Portanto, o resultado é que nem todos os canais de um determinado tipo
+estão abertos ou fechados em um determinado instante.
+E calculando a média da ação de muitos canais probabilísticos
+em um pedaço de membrana dá origem à forma contínua
+do potencial de ação.
+[MÚSICA, TOCANDO]

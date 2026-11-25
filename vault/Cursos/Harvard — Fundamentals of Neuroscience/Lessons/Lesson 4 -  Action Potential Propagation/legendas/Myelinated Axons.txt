@@ -1,0 +1,53 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Vimos como um axônio grande e gordo pode
+levar a uma rápida transmissão única.
+É claro que, como em todas as coisas na vida, não existe carona grátis.
+Os axônios gordos proporcionam uma transmissão rápida, mas também ocupam muito espaço.
+Está tudo bem se você quiser uma autobahn axonal ocasional
+enviar um número limitado de sinais realmente importantes,
+mas não podemos nos dar ao luxo de ter muitas dessas coisas.
+Para lhe dar uma perspectiva, se um braço humano usasse axônios gigantes,
+só as fibras nervosas do braço exigiriam um diâmetro de mais de um metro,
+e isso seria simplesmente bobo.
+Felizmente, a natureza inventou um truque muito inteligente.
+Lembre-se de como dissemos que iniciar o potencial de ação,
+abrindo os canais de sódio dependentes de voltagem
+e tudo isso, foi realmente meio lento?
+Não seria ótimo se fizéssemos o mínimo em termos
+de geração de potencial de ação e, em vez disso, dependem mais
+em transmissão rápida semelhante a um fio?
+Eu sei, eu sei, eu sei.
+Passamos muito tempo explicando como o axônio não é realmente
+um fio muito bom.
+A resistência axial do axônio não é tão baixa quanto a do fio de cobre,
+e a capacitância da membrana limita severamente o quão longe
+e a rapidez com que os sinais viajam pelo núcleo do axônio.
+Se quisermos contar com uma transmissão semelhante a um fio através de um axônio,
+precisaremos fazer algo sobre isso.
+Então, como podemos mudar drasticamente a resistência e a capacitância do axônio
+sem torná-lo muito maior?
+Alguns organismos envolveram uma cobertura segmentada isolante
+do axônio chamado mielina.
+Esta propriedade isolante permite que a mielina sirva fisicamente como uma barreira
+ao vazamento de íons, aumentando assim substancialmente a resistência da membrana.
+E separando as duas superfícies carbonizadas da membrana
+com um isolante maior e melhor, também reduzimos a capacitância da membrana.
+Nós realmente não falamos sobre tipos de células
+no sistema nervoso, exceto neurônios,
+mas a mielina é produzida por células de suporte chamadas células gliais, também conhecidas
+como glia.
+Existem muitos tipos diferentes de glia, e os dois
+que produzem mielina para envolver os neurônios
+são chamados oligodendrócitos no sistema nervoso central
+e células de Schwann no sistema nervoso periférico.
+Além da água, a mielina é composta principalmente
+de lipídios, o que lhe confere sua característica aparência branca.
+É também isso que dá origem à cor branca da substância branca no cérebro.
+Você deve estar se perguntando se está cobrindo a membrana com isso
+substância eletricamente isolante, como os canais iônicos ainda funcionam?
+A chave para entender como a mielina ajuda na condução da ação
+potencial reside na sua segmentação.
+Os axônios mielinizados parecem um filé de salsichas
+com o espaçamento entre as seções de mielina
+contendo uma alta densidade de canais de sódio e potássio dependentes de voltagem.
+Isso permite que o potencial de ação salte de nó em nó.
+Essas áreas abertas são chamadas de nós de Ranvier.

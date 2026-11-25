@@ -1,0 +1,58 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Nada realmente muda quando alteramos a capacitância
+com potencial de membrana estático.
+Isso porque a capacitância só começa a exercer seus efeitos quando
+a voltagem da membrana muda com o tempo.
+Diminuir a capacitância da membrana tornou a membrana mais ágil
+e mais receptivos às mudanças.
+Aumentar a capacitância da membrana torna a membrana mais lenta.
+Formalizaremos isso em um minuto, mas primeiro,
+vamos explorar o que realmente determina a capacitância da membrana.
+Esta é uma questão um tanto avançada, exigindo algum conhecimento de física
+então não vamos questioná-lo sobre isso.
+Em um capacitor, um importante determinante da capacitância
+é a natureza do material dielétrico imprensado entre os condutores.
+Se tivermos um material com uma constante dielétrica mais alta...
+o que tem a ver com quão fácil é polarizar eletricamente o material--
+então a capacitância aumenta.
+Se tivermos um material com constante dielétrica menor,
+então a capacitância diminui.
+Se aumentarmos a separação física entre os dois condutores
+ao tornar o dielétrico mais espesso, a capacitância diminui.
+Se tornarmos o dielétrico mais fino aproximando os dois condutores,
+então a capacitância aumenta.
+Se quiséssemos que a membrana respondesse mais rapidamente,
+precisaríamos de um material dielétrico diferente
+ou precisamos de alguma forma tornar a membrana mais espessa.
+As células usam a bicamada lipídica gordurosa como dielétrico
+e é um dielétrico muito bom - considerando todas as coisas.
+Acontece que nos casos em que a redução da capacitância da membrana
+é especialmente importante, a natureza encontrou uma solução inteligente
+para criar uma membrana mais espessa.
+Alguns axônios usam um truque especial onde efetivamente
+envolva mais camadas de membrana ao redor do axônio em um processo chamado mielinização.
+Falaremos mais sobre mielina daqui a duas aulas,
+mas por enquanto, vale a pena reconhecer que a natureza
+tem truques para manipular quase todas as propriedades elétricas da membrana
+quando for necessário.
+Claro, vale a pena notar que nem sempre
+quer que a capacitância seja menor.
+Às vezes, queremos integrar sinais ao longo do tempo
+então é útil ter um potencial de membrana que muda mais lentamente
+que pode calcular a média dos sinais ao longo do tempo.
+Falaremos mais sobre essa integração temporal
+de sinais em uma lição futura, quando falarmos sobre sinapses.
+Vamos ver como podemos formalizar essa noção de capacidade de resposta
+da membrana.
+Assim como conseguimos definir uma constante de comprimento,
+também podemos definir uma constante de tempo.
+Em vez de quão longe, temos quanto tempo.
+A constante de tempo é quanto tempo leva para um pedaço de membrana
+cobrar até 63% do seu valor final em resposta
+a uma mudança gradual em sua tensão de entrada.
+Digamos que temos um axônio com uma membrana inicialmente
+a 0 milivolts com comprimento constante de 1 milímetro
+e uma constante de tempo de dois segundos.
+Se mudarmos abruptamente a voltagem da membrana
+para cerca de 100 milivolts no ponto A, o que
+é a tensão no ponto B a 1 milímetro de distância de A,
+dois segundos depois de fazermos a alteração?

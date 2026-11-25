@@ -1,0 +1,50 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: A mielina é um material extremamente importante no corpo humano.
+Então, vamos dedicar um momento para entender como isso funciona com mais detalhes.
+Como discutimos, embora os axônios gigantes permitam a propagação rápida do sinal,
+eles nem sempre são uma solução particularmente prática
+para o problema de aumentar a velocidade de condução.
+Axônios gigantes permitem propagação rápida do potencial de ação
+diminuindo a resistência axial, mas também
+disse anteriormente que poderíamos obter uma propagação mais rápida
+diminuindo a capacitância da membrana.
+E é exatamente isso que a mielina faz.
+Assumindo uma geometria de capacitor de placas paralelas para simplificar,
+vemos que a capacitância é proporcional à constante dielétrica
+do material isolante e a distância
+entre as superfícies condutoras.
+Na seção de propriedades da membrana passiva,
+mencionamos que a bicamada lipídica é na verdade
+um material dielétrico muito bom.
+Não há muito mais que possamos realisticamente
+fazer com as propriedades do material da membrana para diminuir sua capacitância.
+Mas podemos aumentar a sua espessura e, ao fazê-lo,
+aumentamos a separação entre os dois condutores.
+E como podemos ver na equação, aumentando esta distância
+reduz a capacitância.
+A natureza faz isso de maneira inteligente.
+Não aumenta fisicamente a espessura da membrana por si só.
+Em vez disso, uma célula de suporte envolve uma bainha
+de mielina ao redor e ao redor do axônio múltiplo
+vezes para tornar o dielétrico mais espesso.
+É como enrolar um rolo de fita isolante em um fio.
+Mesmo quando enrolado muitas vezes, ainda é muito menor
+do que os axônios gigantes necessários para induções rápidas
+em lulas e outros invertebrados.
+A estratificação da mielina altera o potencial da membrana de duas maneiras.
+Aumenta a resistência da membrana e
+diminui a capacitância da membrana.
+A resistência da membrana aumenta porque quaisquer canais de vazamento que
+teria anteriormente permitido o fluxo de íons através da membrana
+agora estão bloqueados pela mielina.
+A exclusão desses canais impede que a corrente flua através da membrana,
+e o resultado é um aumento da resistência da membrana.
+Isso resulta em uma constante de comprimento mais longa porque mais corrente
+é capaz de fluir pelo axônio com menos volume
+sendo desviado por caminhos improdutivos através da membrana.
+Como mais corrente flui pelo axônio, o potencial de membrana
+muda mais em distâncias maiores.
+Ao mesmo tempo, diminuindo a capacitância
+reduz a constante de tempo da membrana,
+acelerando mudanças no potencial de membrana.
+Isso permite mudanças no potencial de membrana
+ser transmitido mais rapidamente pelo axônio.

@@ -1,0 +1,17 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Se revestíssemos todo o axônio com ele,
+então não haveria mais lugar para colocar os canais dependentes de voltagem.
+O objetivo desses canais é permitir que os íons atravessem a membrana.
+É meio difícil de fazer quando tudo está encerrado.
+E embora o sinal possa viajar alguma distância,
+o sinal eventualmente decairia.
+E isso seria o fim de tudo.
+Lembre-se de que alguns axônios em nossos corpos têm até um metro de comprimento.
+A solução da natureza para este problema é fazer regularmente
+pequenas aberturas espaçadas na mielina.
+Estes são chamados de nós de Ranvier.
+E actuam efectivamente como pequenas estações retransmissoras onde a acção
+o potencial é aumentado novamente.
+Vamos adicionar um pouco de mielina ao nosso axônio.
+As lacunas são os nós.
+Pressione o botão do estimulador para ver como o potencial de ação viaja
+descendo pelo mielinizado até o axônio.

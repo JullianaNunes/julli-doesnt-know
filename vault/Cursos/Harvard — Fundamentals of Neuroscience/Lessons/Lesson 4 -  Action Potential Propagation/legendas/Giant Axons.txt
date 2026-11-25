@@ -1,0 +1,75 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Aumentar o diâmetro do axônio é uma das soluções
+que a natureza alcançou para este rápido potencial de ação.
+O axônio gigante da lula, que Hodgkin e Huxley primeiro
+usado para elucidar o funcionamento interno do potencial de ação,
+pode ter até um milímetro de diâmetro.
+Isso é enorme.
+Várias ordens de magnitude maiores que o maior nervo
+fibras do corpo humano.
+NARRADOR: Um eletrodo foi colocado primeiro dentro do axônio.
+por Hodgkin e Huxley em 1939 em Plymouth, e por Curtis e Cole
+em 1940 em Woods Hole.
+Hodgkin e Huxley primeiro fizeram uma célula de plástico,
+montou-o em uma plataforma que poderia ser elevada e abaixada com um elevador.
+Como mostra o professor, o axônio preso pela cânula foi então
+pendurado em um recipiente cheio de água do mar e conectado
+a um eletrodo externo.
+O eletrodo interno, que não está preso ao elevador,
+foi então colocado verticalmente acima do axônio com a ponta na cânula.
+Estava centralizado em relação à cânula
+e axônio, colocando um pequeno espelho ao lado do axônio, disposto
+de modo que uma segunda imagem, perpendicular à primeira,
+veio através do microscópio.
+Ao ajustar a posição da célula, tanto horizontal quanto verticalmente,
+a cânula e o axônio agora estão elevados sobre a ponta do eletrodo, que
+permanece sempre na linha de visão.
+Hodgkin e Huxley descobriram que quando o eletrodo entrou no axônio,
+um potencial negativo em relação à água do mar externa de cerca de sessenta e cinco
+milivolts foi detectado.
+Este era o potencial de repouso do axônio,
+e embora sua existência fosse suspeitada há muito tempo,
+esta foi a primeira vez que foi medido diretamente.
+No entanto, quando o axônio é simulado, o potencial de ação
+não caiu simplesmente para zero,
+mas tornou-se positivo em relação à água do mar externa,
+mostrado pela ultrapassagem do potencial de ação.
+Esta descoberta sugeriu que a membrana nervosa,
+que em repouso é principalmente permeável ao potássio,
+torna-se principalmente permeável a outro íon durante a excitação.
+Este outro íon é o sódio.
+Se a sua concentração na solução externa
+foi menor, o potencial de ação imediatamente
+tornou-se menor em uma quantidade dependente da concentração de sódio.
+Se, como estes experimentos sugerem, o potencial de ação
+dependia da passagem de íons através da membrana,
+era obviamente importante medir a corrente.
+Para fazer isso, é necessário manter o potencial interno num valor escolhido.
+Este é o propósito da técnica de fixação de tensão,
+originalmente desenvolvido por Cole na América e aplicado por Hodgkin e Huxley.
+ENTREVISTADOR: Claro, as lulas não são a única espécie
+que possuem os chamados axônios gigantes.
+Muitas espécies usam esse motivo.
+Por exemplo, para mediar reflexos de fuga.
+Vamos ver em primeira mão a propagação do potencial de ação por um axônio gigante.
+Mas primeiro, precisaremos de um voluntário.
+Lumbricus terrestris-- a minhoca comum.
+Vamos ver como é um potencial de ação em propagação na vida real.
+Primeiro, anestesiaremos nosso sujeito com um pouco de álcool.
+Em seguida, lave-os com um pouco de água para não exagerar.
+Ele não está sentindo nada agora.
+Depois colocaremos alguns eletrodos para podermos medir a ação
+potencial à medida que se propaga.
+Em muitas preparações experimentais, você precisará de algo um pouco mais refinado
+do que um alfinete de inseto para registrar sinais neuronais,
+mas o axônio gigante do verme é tão grande que podemos escapar impunes.
+Os potenciais elétricos devem ser medidos entre dois pontos,
+então precisaremos de um eletrodo terra ao qual
+para fazer referência aos nossos outros eletrodos.
+Não se preocupe com o verme, ele sobreviverá ileso ao processo.
+Agora, se eu estimular uma extremidade do verme, nós
+podemos ver e ouvir desde que conectamos um monitor de áudio
+o potencial de ação viajando pelo axônio gigante
+que desce pelas costas do verme.
+Se ampliarmos esses picos e medirmos o intervalo de tempo entre eles,
+chegamos à velocidade de propagação do potencial de ação.
+[MÚSICA, TOCANDO]

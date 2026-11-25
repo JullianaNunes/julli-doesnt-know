@@ -1,0 +1,19 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Até esta lição, estivemos
+falando sobre pequenas manchas de membrana e o potencial de membrana
+foi considerado uniforme em cada lado da membrana.
+Na maior parte, essa é uma representação muito boa de um neurônio em repouso.
+Mas em um neurônio que não está em repouso, o potencial de membrana
+não será constante em todos os lugares da membrana.
+Vamos passar as próximas aulas conversando
+sobre como os neurônios alteram o potencial da membrana para enviar sinais.
+Mas antes de falarmos sobre as propriedades ativas das membranas neuronais,
+vamos explorar como as propriedades passivas da membrana neuronal
+comportar-se com maior profundidade.
+Em particular, vamos explorar como as mudanças em uma parte da membrana
+afetar o resto da membrana.
+Por exemplo, o que aconteceria se mudássemos o potencial de membrana
+em apenas um ponto da membrana?
+Porque cada pedaço de membrana é eletricamente
+conectado a outras manchas de membrana,
+mudando o potencial em um pedaço da membrana
+afetará também as partes vizinhas da membrana.

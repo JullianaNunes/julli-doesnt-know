@@ -1,0 +1,52 @@
+<img src="https://prod-edx-ai-translations-assets.s3.amazonaws.com/google-translate.png" alt="Traduzido pelo logotipo do Google"><br><br>[GERADO AUTOMATICAMENTE ]<br>David Cox: Nesta seção, examinaremos com mais detalhes
+as diferentes correntes subjacentes ao potencial de acção.
+Aqui está nosso potencial de ação novamente.
+Temos a despolarização inicial, que nos leva ao limiar.
+Há um rápido aumento na tensão chamado fase ascendente, seguido por um aumento mais lento
+diminuição chamada fase de queda.
+Finalmente, chegamos de volta ao potencial de repouso e, de fato,
+subestime-o ligeiramente.
+Todo o potencial de ação dura apenas alguns milissegundos.
+Canais iônicos dependentes de voltagem são críticos para a formação da ação
+potencial, então vamos examiná-los com mais detalhes.
+Começaremos novamente com a membrana celular.
+Para que possamos perturbar a cela, vamos
+para colocar um eletrodo estimulador dentro da célula.
+Também lhe daremos um eletrodo de gravação.
+É importante saber o que o estimulador realmente faz.
+Ele injeta cargas na célula aplicando uma pequena corrente,
+mas é o potencial de membrana que realmente
+altera a condutância dos canais iônicos dependentes de voltagem
+que falamos anteriormente.
+O potencial de membrana não é imediatamente
+mudança em resposta a uma nova corrente através da membrana
+por causa da capacitância da membrana, um tópico que abordamos na lição anterior.
+Vamos ver como isso realmente se parece.
+Nossa corrente variável é uma onda quadrada.
+Se olharmos para o eletrodo de registro,
+têm uma mudança retardada no potencial de membrana.
+Agora vamos apresentar o sódio dependente de voltagem
+canal em nossa membrana.
+Em repouso, a maioria dos canais está no estado fechado,
+como este mostrado aqui.
+Lembre-se de que o canal de sódio dependente de voltagem
+tem maior probabilidade de estar aberto quando o potencial de membrana é
+mais positivo.
+Estamos mostrando apenas um canal aqui na membrana,
+mas a mudança contínua na condutância
+vem do efeito de milhares de canais juntos.
+Este gráfico aqui mostra a condutância geral do sódio
+na membrana em função do tempo.
+À medida que usamos o eletrodo estimulador para despolarizar a membrana,
+mais canais abertos.
+Mais canais abertos significam maior condutividade de sódio e, conseqüentemente,
+uma maior corrente de sódio.
+Quando atingimos o limite, o que normalmente ocorre em algum lugar
+em torno de 55 milivolts negativos, há um aumento dramático
+na condutância do sódio.
+Por enquanto, vamos pensar nisso como um ponto sem volta.
+Um potencial de ação será disparado assim que ultrapassarmos alguma tensão limite.
+Este aumento na condutância do sódio causa uma rápida despolarização
+da membrana, à medida que o sódio desce pelo seu gradiente de concentração
+para dentro da célula.
+Isso causa a fase ascendente do potencial de ação.
